@@ -4,7 +4,7 @@ export default
     "WHITEPAPER": "Download whitepaper",
     "WHITELIST": "Add to whitelist",
     "JOIN": "Join",
-    "WALLET": "Download wallet",
+    "WALLET": "Download aswallet",
     "SEND": "Send"
   },
   "NAVBAR": {
