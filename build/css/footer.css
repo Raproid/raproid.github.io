@@ -1,0 +1,9 @@
+.footer {
+  padding: 30px 150px;
+  background: #313e48;
+  font-size: 13px;
+  color: #dbdbdb; }
+  .footer__networks {
+    padding-top: 25px; }
+    .footer__networks a {
+      margin-right: 5px; }

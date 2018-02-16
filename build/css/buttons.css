@@ -1,0 +1,23 @@
+.button {
+  padding: 15px;
+  display: inline-block;
+  border-radius: 4px;
+  min-width: 160px;
+  text-align: center;
+  border: none;
+  cursor: pointer;
+  -webkit-transition: all 0.2s ease 0s;
+  transition: all 0.2s ease 0s; }
+  .button--blue {
+    background: #00ADD9;
+    color: #fff; }
+    .button--blue:hover {
+      background: #1494b4; }
+  .button--white {
+    background-color: #fff;
+    color: #303845; }
+    .button--white:hover {
+      background: lightgray; }
+  .button--shadow {
+    -webkit-box-shadow: 0px 15px 20px rgba(12, 25, 59, 0.25);
+    box-shadow: 0px 15px 20px rgba(12, 25, 59, 0.25); }

@@ -1,0 +1,8 @@
+.navbar {
+  padding: 10px 54px; }
+  .navbar__lang img {
+    margin-right: 5px; }
+
+@media (max-width: 992px) {
+  .navbar {
+    padding: 10px 10px; } }
