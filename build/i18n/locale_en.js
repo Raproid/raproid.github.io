@@ -9,13 +9,13 @@ export default
   },
   "NAVBAR": {
     "MENU": {
-      "HOME": "Home",
-      "MINING": "Mining",
-      "TEAM": "Team",
-      "PARTNERS": "Partners",
-      "ROAD_MAP": "Road Map",
-      "CAREERS": "Careers",
-      "BLOG": "Blog"
+      "HOME": "HOME",
+      "MINING": "MINING",
+      "TEAM": "TEAM",
+      "PARTNERS": "PARTNERS",
+      "ROAD_MAP": "ROARDMAP",
+      "CAREERS": "CAREERS",
+      "BLOG": "BLOG"
     }
   },
   "TOP_BANNER": {
