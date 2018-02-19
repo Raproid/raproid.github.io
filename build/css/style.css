@@ -1,11 +1,18 @@
-@font-face {
-  font-family: open-sans;
-  src: url("../fonts/opensans.woff"); }
-
+@import url(awesome.css);
 body {
-  font-family: open-sans;
+  font-family: 'Open Sans', sans-serif;
   font-size: 16px;
   color: #4a4a4a; }
+
+.container {
+  max-width: 1400px;
+  padding-top: 87px; }
+
+.container-fluid {
+  padding-top: 87px; }
+
+.max-w {
+  max-width: 1200px; }
 
 .title {
   font-size: 36px;
@@ -58,9 +65,11 @@ body {
     .features__carousel .table tr:nth-child(2n) {
       background: #f2f2f2; }
   .features__carousel .carousel-item {
-    height: 260px; }
+    min-height: 275px; }
     .features__carousel .carousel-item__row {
       height: auto; }
+      .features__carousel .carousel-item__row--top {
+        margin-top: -55px; }
   .features__carousel__title {
     margin-bottom: 35px;
     color: #4f4f4f;
@@ -68,30 +77,33 @@ body {
     padding-left: 40px; }
   .features__carousel img {
     margin-right: 60px;
-    width: 180px;
-    height: 100%; }
+    width: auto;
+    height: auto;
+    max-height: 160px; }
     .features__carousel img.wide {
-      width: 240px; }
+      width: 280px; }
 
 .subscribe {
   padding-top: 70px;
   background: #f0f5f2; }
+  .subscribe .title {
+    margin-bottom: 0; }
   .subscribe form {
-    padding: 100px 0; }
+    padding: 0 0 60px; }
     .subscribe form input {
       width: 500px;
-      max-width: 96vw; }
+      max-width: 90vw; }
     .subscribe form .button {
       width: 130px; }
 
 .business {
   padding: 50px 0; }
   .business .title {
-    margin-bottom: 120px; }
+    margin-bottom: 120px !important; }
   .business .author-photo {
     margin-right: 20px; }
   .business__carousel {
-    margin-bottom: 100px; }
+    margin-bottom: 30px; }
     .business__carousel .carousel-item {
       height: 350px; }
       .business__carousel .carousel-item__row {
@@ -107,10 +119,10 @@ body {
       padding-right: 10px; }
     .business__carousel img {
       height: auto; }
-  .business .rus_title {
-    height: 48px; }
-    .business .rus_title + li {
-      width: 170px; }
+    .business__carousel .carousel-indicators > div {
+      cursor: pointer; }
+  .business .rus_title + li {
+    width: 120px; }
 
 .mining {
   padding: 60px 0 90px;
@@ -120,9 +132,11 @@ body {
     -webkit-box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.15);
     box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.15);
     border-radius: 15px;
-    padding: 100px 50px 50px;
+    padding: 100px 50px 80px 120px;
     margin-top: 34px;
-    position: relative; }
+    position: relative;
+    max-width: 1200px;
+    margin: 34px auto 0; }
     .mining__block__img-block {
       margin-bottom: 30px;
       height: 200px; }
@@ -136,14 +150,16 @@ body {
     .mining__block__text {
       padding-right: 50px; }
     .mining__block__steps {
-      position: absolute;
-      top: 28px;
-      left: 35px;
+      position: relative;
+      width: 100%;
+      left: -5%;
+      text-align: center;
+      top: -60px;
       color: #4f4f4f;
       font-size: 16px; }
 
 .phone-mining {
-  padding: 70px 0 100px;
+  padding: 70px 0 0;
   position: relative; }
   .phone-mining .title {
     margin-bottom: 30px; }
@@ -151,13 +167,12 @@ body {
     width: 215px;
     margin-top: 20px; }
   .phone-mining img {
-    position: absolute;
     display: block;
-    top: -80px;
-    width: 90%; }
+    width: 90%;
+    max-width: 600px; }
 
 .roadmap {
-  padding: 48px 0 100px;
+  padding: 48px 0 40px;
   background: #f7faf8; }
   .roadmap img {
     margin-bottom: 60px;
@@ -172,23 +187,60 @@ body {
       margin-bottom: 20px; }
 
 .feedback {
-  padding: 50px 0 100px;
+  padding: 50px 0 60px;
   background: #f2f5f3; }
   .feedback .title {
     margin-bottom: 70px; }
   .feedback .button {
     margin-top: 50px; }
 
+.mvp {
+  padding: 60px 0 80px; }
+  .mvp .title {
+    margin-bottom: 60px; }
+
+.review__carousel .carousel-item__row {
+  text-align: center; }
+
+.review__carousel img {
+  margin-bottom: 20px;
+  width: 130px; }
+
 @media (max-width: 768px) {
   .banner {
     padding: 20px;
     padding-bottom: 190px; }
+  .container-fluid {
+    padding-top: 0; }
+  .phone-mining {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+    -ms-flex-direction: column-reverse;
+    flex-direction: column-reverse; }
+    .phone-mining img {
+      position: static;
+      width: 100%;
+      margin: 0 auto; }
+  .review__carousel .carousel-item__row {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column; }
+  .roadmap__imgs {
+    padding: 20px; }
+    .roadmap__imgs img {
+      width: 100%;
+      height: 100%;
+      max-width: 400px;
+      margin-bottom: 0; }
   .features__block img {
     width: 100%; }
+  .features__carousel__title {
+    padding-left: 0;
+    text-align: center; }
   .features__carousel > div {
     padding: 0; }
   .features__carousel .carousel-item {
-    padding: 65px 10px 10px;
     height: auto; }
     .features__carousel .carousel-item__row {
       -webkit-box-orient: vertical;
@@ -200,16 +252,25 @@ body {
       align-items: center; }
       .features__carousel .carousel-item__row img {
         margin: 0 0 20px; }
+    .features__carousel .carousel-item__text {
+      padding: 0 15px; }
   .mining__block {
     padding: 40px 10px 10px; }
+    .mining__block__steps {
+      top: 0;
+      left: 0; }
     .mining__block__text {
       width: 100%;
       margin: 0;
-      padding: 0; }
+      padding: 0 15px;
+      margin-bottom: 30px; }
     .mining__block__img {
       margin: 0 auto; }
+    .mining__block__img-block {
+      margin-bottom: 0; }
+  .business .title {
+    margin-bottom: 100px !important; }
   .business__carousel .carousel-item {
-    padding: 65px 10px 10px;
     height: auto; }
     .business__carousel .carousel-item__row {
       -webkit-box-orient: vertical;
@@ -222,11 +283,26 @@ body {
   .business__carousel__title {
     margin-bottom: 20px; }
   .business__carousel__text {
-    padding: 0;
+    padding: 0 15px;
     overflow-y: visible; }
   .business__carousel img {
     margin: 0 auto 20px;
     display: block; }
+  .business .carousel-indicators {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin: 10px;
+    top: -110px; }
+    .business .carousel-indicators > div {
+      margin-bottom: 10px; }
+  .business .carousel-inner {
+    margin-top: -110px; }
   .subscribe form {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -245,4 +321,47 @@ body {
     -ms-flex-direction: column;
     flex-direction: column; }
     .footer > div {
-      width: 100%; } }
+      width: 100%; }
+  .phone-mining {
+    padding-bottom: 0; }
+    .phone-mining .title {
+      text-align: center; }
+    .phone-mining .reverse {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: reverse;
+      -ms-flex-direction: column-reverse;
+      flex-direction: column-reverse; }
+      .phone-mining .reverse > div:first-child {
+        padding-left: 20px; }
+    .phone-mining .buttom {
+      margin-bottom: 20px; }
+  .container {
+    padding-top: 0;
+    width: 100%;
+    max-width: 100%; }
+  .title {
+    margin-bottom: 30px !important; }
+  .mvp .carousel-item {
+    padding: 20px 20px 40px; } }
+
+@media (min-width: 427px) {
+  .business__carousel .carousel-inner {
+    margin-top: -35px; } }
+
+@media (max-width: 998px) {
+  .phone-mining .reverse {
+    -webkit-box-flex: 0;
+    -ms-flex: none;
+    flex: none;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex; }
+    .phone-mining .reverse > div {
+      width: 100%;
+      -webkit-box-flex: 0;
+      -ms-flex: none;
+      flex: none;
+      max-width: 100%; } }

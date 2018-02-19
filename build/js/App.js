@@ -7,13 +7,17 @@ var app = new Vue({
       ru: "null",
       en: "asasas"
     },
-    curLang: "en"
+    curLang: "en",
+    menuIsShown: false
   },
   created: function created() {
     this.getEn();
     this.getRu();
   },
   methods: {
+    toggleMenu: function toggleMenu() {
+      this.menuIsShown = !this.menuIsShown;
+    },
     getEn: function getEn() {
       var _this = this;
 

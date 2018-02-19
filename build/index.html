@@ -5,60 +5,126 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <!-- <link rel="stylesheet" href="css/bootstrap-reboot.min.css"> -->
-  <!-- <link rel="stylesheet" href="css/bootstrap-grid.min.css"> -->
   <link rel="stylesheet" href="css/bootstrap.min.css">
   <link rel="stylesheet" href="css/index.css">
   <script src="js/vue.min.js"></script>
+  <base target="_blank">
   <title>Document</title>
 </head>
 
 <body>
   <div id="app">
 
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03"
-        aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <a class="navbar-brand" href="#">
-        <img src="img/header/enecuum-logo.svg" alt="">
-      </a>
+    <div class="header">
 
-      <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03"
+          aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <a class="navbar-brand" href="#">
+          <img src="img/header/enecuum-logo.svg" alt="">
+        </a>
+        <div @click="toggleMenu()" class="burger">
+          <img src="img/header/burger.png" alt="">
+        </div>
+
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+          <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+            <li class="nav-item active">
+              <a class="nav-link" target="_self" href="#">{{lang[curLang].NAVBAR.MENU.HOME}}</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" target="_self" href="#">{{lang[curLang].NAVBAR.MENU.TEAM}}</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" target="_self" href="#">{{lang[curLang].NAVBAR.MENU.CAREERS}}</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="https://medium.com/@EnecuumBlockchain">{{lang[curLang].NAVBAR.MENU.BLOG}}</a>
+            </li>
+          </ul>
+          <div class="form-inline my-2 my-lg-0">
+            <!-- <a class="nav-link" href="">{{lang[curLang].NAVBAR.MENU.LOGIN}}</a> -->
+            <div class="navbar__lang">
+              <img @click="changeLang('ru')" v-if="curLang != 'ru'" src="img/header/ru.png" alt="">
+              <img v-if="curLang == 'ru'" src="img/header/ru-active.png" alt="">
+              <img @click="changeLang('en')" v-if="curLang != 'en'" src="img/header/en.svg" alt="">
+              <img v-if="curLang == 'en'" src="img/header/en-active.svg" alt="">
+            </div>
+          </div>
+        </div>
+      </nav>
+
+
+      <div class="navbar navbar--nav-menu">
         <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
           <li class="nav-item active">
-            <a class="nav-link" href="#">{{lang[curLang].NAVBAR.MENU.HOME}}</a>
+            <a class="nav-link" target="_self" href="#features">{{lang[curLang].NAVBAR.SUBMENU.FEATURES}}</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#mining">{{lang[curLang].NAVBAR.MENU.MINING}}</a>
+            <a class="nav-link" target="_self" href="#business">{{lang[curLang].NAVBAR.SUBMENU.BUSINESS_CASES}}</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" target="_self" href="#mining">{{lang[curLang].NAVBAR.SUBMENU.MINING}}</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" target="_self" href="#roadmap">{{lang[curLang].NAVBAR.SUBMENU.ROAD_MAP}}</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" target="_self" href="#feedback">{{lang[curLang].NAVBAR.SUBMENU.CONTACT}}</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div :class="{show: menuIsShown}" class="right-block">
+      <div class="mobile-menu__menu">
+        <div @click="toggleMenu()" class="burger">
+          <img src="img/header/burger.png" alt="">
+        </div>
+        <ul>
+          <li class="nav-item active">
+            <a class="nav-link" href="#">{{lang[curLang].NAVBAR.MENU.HOME}}</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#">{{lang[curLang].NAVBAR.MENU.TEAM}}</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">{{lang[curLang].NAVBAR.MENU.PARTNERS}}</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#roadmap">{{lang[curLang].NAVBAR.MENU.ROAD_MAP}}</a>
-          </li>
-          <li class="nav-item">
             <a class="nav-link" href="#">{{lang[curLang].NAVBAR.MENU.CAREERS}}</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="https://medium.com/@EnecuumBlockchain">{{lang[curLang].NAVBAR.MENU.BLOG}}</a>
+            <a class="nav-link" target="_blank" href="https://medium.com/@EnecuumBlockchain">{{lang[curLang].NAVBAR.MENU.BLOG}}</a>
+          </li>
+          <div class="navbar__lang">
+            <img @click="changeLang('ru')" v-if="curLang != 'ru'" src="img/header/ru.png" alt="">
+            <img v-if="curLang == 'ru'" src="img/header/ru-active.png" alt="">
+            <img @click="changeLang('en')" v-if="curLang != 'en'" src="img/header/en.svg" alt="">
+            <img v-if="curLang == 'en'" src="img/header/en-active.svg" alt="">
+          </div>
+        </ul>
+      </div>
+      <div class="nav-block">
+        <ul>
+          <li class="nav-item active">
+            <a @click="toggleMenu()" class="nav-link" href="#features">{{lang[curLang].NAVBAR.SUBMENU.FEATURES}}</a>
+          </li>
+          <li class="nav-item">
+            <a @click="toggleMenu()" class="nav-link" href="#business">{{lang[curLang].NAVBAR.SUBMENU.BUSINESS_CASES}}</a>
+          </li>
+          <li class="nav-item">
+            <a @click="toggleMenu()" class="nav-link" href="#mining">{{lang[curLang].NAVBAR.SUBMENU.MINING}}</a>
+          </li>
+          <li class="nav-item">
+            <a @click="toggleMenu()" class="nav-link" href="#roadmap">{{lang[curLang].NAVBAR.SUBMENU.ROAD_MAP}}</a>
+          </li>
+          <li class="nav-item">
+            <a @click="toggleMenu()" class="nav-link" href="#feedback">{{lang[curLang].NAVBAR.SUBMENU.CONTACT}}</a>
           </li>
         </ul>
-        <div class="form-inline my-2 my-lg-0">
-          <div class="navbar__lang">
-            <img @click="changeLang('ru')" v-if="curLang != 'ru'" src="img/header/rus.png" alt="">
-            <img v-if="curLang == 'ru'" src="img/header/rus-active.png" alt="">
-            <img @click="changeLang('en')" v-if="curLang != 'en'" src="img/header/en.png" alt="">
-            <img v-if="curLang == 'en'" src="img/header/en-active.png" alt="">
-          </div>
-        </div>
       </div>
-    </nav>
+    </div>
+    <div @click="toggleMenu()" :class="{show: menuIsShown}" class="mobile-menu">
+    </div>
 
     <div class="container-fluid">
       <div class="row banner">
@@ -74,50 +140,30 @@
           <div class="button button--blue button--shadow">
             {{lang[curLang].BUTTONS.WHITEPAPER}}
           </div>
-          <div class="button button--white button--shadow">
+          <a href="#subscribe" class="button button--white button--shadow">
             {{lang[curLang].BUTTONS.WHITELIST}}
-          </div>
+          </a>
         </div>
       </div>
-      <div class="row justify-content-center features">
+
+      <div id="features" class="row justify-content-center features">
         <div class="features__block">
-          <img v-if="curLang === 'ru'" src="img/features/features--ru.png" alt="">
-          <img v-if="curLang === 'en'" src="img/features/features--en.png" alt="">
+          <img v-if="curLang === 'ru'" src="img/features/features--ru.svg" alt="">
+          <img v-if="curLang === 'en'" src="img/features/features--en.svg" alt="">
         </div>
       </div>
       <div class="row justify-content-center features__carousel">
-        <div class="col-md-8">
+        <div class="max-w col-md-9">
           <div id="carousel-features" data-interval="false" class="carousel slide" data-ride="carousel">
             <div class="carousel-inner">
               <div class="carousel-item active">
                 <div class="features__carousel__title">
-                  {{lang[curLang].FEATURES.SLIDER_1.TITLE}}
+                  {{lang[curLang].FEATURES.SLIDER_3.TITLE}}
                 </div>
-                <div class="carousel-item__row">
-                  <img src="img/features/slider-img1.png" alt="">
-                  <div class="carousel-item__text">
-                    <b>{{lang[curLang].FEATURES.SLIDER_1.SUB_TITLE}}</b>
-                    <br> {{lang[curLang].FEATURES.SLIDER_1.TEXT}}
-                  </div>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <div class="features__carousel__title">
-                  {{lang[curLang].FEATURES.SLIDER_2.TITLE}}
-                </div>
-                <div class="carousel-item__row align-items-center">
-                  <img src="img/features/free.png" alt="">
-                  <div class="carousel-item__text">
-                    <b>{{lang[curLang].FEATURES.SLIDER_2.SUB_TITLE}}</b>
-                    <br> {{lang[curLang].FEATURES.SLIDER_2.TEXT}}
-                  </div>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <div class="carousel-item__row align-items-center">
+                <div class="carousel-item__row carousel-item__row--top">
                   <img src="img/features/speed.png" alt="">
                   <div class="carousel-item__text">
-                    <b>{{lang[curLang].FEATURES.SLIDER_3.TITLE}}</b>
+                    <b>{{lang[curLang].FEATURES.SLIDER_3.SUB_TITLE}}</b>
                     <br> {{lang[curLang].FEATURES.SLIDER_3.TEXT}}
                     <br>
                     <table class="table">
@@ -159,7 +205,46 @@
                 </div>
               </div>
               <div class="carousel-item">
-                <div class="carousel-item__row align-items-center">
+                <div class="features__carousel__title">
+                  {{lang[curLang].FEATURES.SLIDER_1.TITLE}}
+                </div>
+                <div class="carousel-item__row">
+                  <img src="img/features/slider-img1.png" alt="">
+                  <div class="carousel-item__text">
+                    <b>{{lang[curLang].FEATURES.SLIDER_1.SUB_TITLE}}</b>
+                    <br> {{lang[curLang].FEATURES.SLIDER_1.TEXT}}
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="features__carousel__title">
+                  {{lang[curLang].FEATURES.SLIDER_2.TITLE}}
+                </div>
+                <div class="carousel-item__row">
+                  <img src="img/features/free.png" alt="">
+                  <div class="carousel-item__text">
+                    <b>{{lang[curLang].FEATURES.SLIDER_2.SUB_TITLE}}</b>
+                    <br> {{lang[curLang].FEATURES.SLIDER_2.TEXT}}
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="features__carousel__title">
+                  {{lang[curLang].FEATURES.SLIDER_5.TITLE}}
+                </div>
+                <div class="carousel-item__row">
+                  <img class="wide" src="img/features/cloud.png" alt="">
+                  <div class="carousel-item__text">
+                    <b>{{lang[curLang].FEATURES.SLIDER_5.SUB_TITLE}}</b>
+                    <br> {{lang[curLang].FEATURES.SLIDER_5.TEXT}}
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="features__carousel__title">
+                  {{lang[curLang].FEATURES.SLIDER_4.TITLE}}
+                </div>
+                <div class="carousel-item__row">
                   <img src="img/features/hammer.png" alt="">
                   <div class="carousel-item__text">
                     <b>{{lang[curLang].FEATURES.SLIDER_4.SUB_TITLE}}</b>
@@ -168,28 +253,26 @@
                 </div>
               </div>
               <div class="carousel-item">
-                <div class="carousel-item__row align-items-center">
-                  <img class="wide" src="img/features/cloud.png" alt="">
-                  <div class="carousel-item__text">
-                    <b>{{lang[curLang].FEATURES.SLIDER_5.TITLE}}</b>
-                    <br> {{lang[curLang].FEATURES.SLIDER_5.TEXT}}
-                  </div>
+                <div class="features__carousel__title">
+                  {{lang[curLang].FEATURES.SLIDER_6.TITLE}}
                 </div>
-              </div>
-              <div class="carousel-item">
-                <div class="carousel-item__row align-items-center">
+                <div class="carousel-item__row">
                   <img src="img/features/scheme.png" alt="">
                   <div class="carousel-item__text">
-                    <b>{{lang[curLang].FEATURES.SLIDER_6.TITLE}}</b>
-                    <br> {{lang[curLang].FEATURES.SLIDER_7.TEXT}}
+                    <b>{{lang[curLang].FEATURES.SLIDER_6.SUB_TITLE}}</b>
+                    <br> {{lang[curLang].FEATURES.SLIDER_6.TEXT}}
                   </div>
                 </div>
               </div>
               <div class="carousel-item">
-                <div class="carousel-item__row align-items-center">
+                <div class="features__carousel__title">
+                  {{lang[curLang].FEATURES.SLIDER_7.TITLE}}
+                </div>
+                <div class="carousel-item__row">
                   <img class="wide" src="img/features/cheme2.png" alt="">
                   <div class="carousel-item__text">
-                    {{lang[curLang].FEATURES.SLIDER_7.TEXT}}
+                    <b>{{lang[curLang].FEATURES.SLIDER_7.SUB_TITLE}}</b>
+                    <br> {{lang[curLang].FEATURES.SLIDER_7.TEXT}}
                   </div>
                 </div>
               </div>
@@ -205,19 +288,13 @@
           </div>
         </div>
       </div>
-      <div class="row subscribe justify-content-center">
+      <div id="subscribe" class="row subscribe justify-content-center">
         <div class="col-md-8">
           <h2 class="title">
             {{lang[curLang].SUBSCRIBE.TITLE}}
           </h2>
-          <h3 class="title title--sub">
-            {{lang[curLang].SUBSCRIBE.SUB_TITLE.TOP}}
-          </h3>
-          <h3 class="title title--sub">
-            {{lang[curLang].SUBSCRIBE.SUB_TITLE.BOTTOM}}
-          </h3>
         </div>
-        <div class="row justify-content-center col-md-8">
+        <div class="row justify-content-center col-md-12">
           <form action="">
             <input type="email" placeholder="E-mail">
             <button class="button button--blue" type="submit">
@@ -227,51 +304,53 @@
         </div>
       </div>
 
-      <div class="row business justify-content-center">
-        <div class="col-md-8">
+      <div id="business" class="row business justify-content-center">
+        <div class="col-12">
           <div class="title">
             {{lang[curLang].BUSINESS.TITLE}}
           </div>
         </div>
-        <div class="col-md-8">
+        <div class="max-w col-12">
           <div id="carousel-business" data-interval="false" class="business__carousel carousel slide" data-ride="carousel">
-            <ol class="d-none d-md-flex carousel-indicators">
-              <div>
-                <div :class="{rus_title: curLang === 'ru'}">
-                  {{lang[curLang].BUSINESS.BAR.ICO}}
+            <div class="col-12">
+              <ol class="carousel-indicators">
+                <div>
+                  <div data-target="#carousel-business" data-slide-to="0" :class="{rus_title: curLang === 'ru'}">
+                    {{lang[curLang].BUSINESS.BAR.ICO}}
+                  </div>
+                  <li data-target="#carousel-business" data-slide-to="0" class="active">
+                  </li>
                 </div>
-                <li data-target="#carousel-business" data-slide-to="0" class="active">
-                </li>
-              </div>
-              <div>
-                <div :class="{rus_title: curLang === 'ru'}">
-                  {{lang[curLang].BUSINESS.BAR.BANKING}}
+                <div>
+                  <div data-target="#carousel-business" data-slide-to="1" :class="{rus_title: curLang === 'ru'}">
+                    {{lang[curLang].BUSINESS.BAR.BANKING}}
+                  </div>
+                  <li data-target="#carousel-business" data-slide-to="1">
+                  </li>
                 </div>
-                <li data-target="#carousel-business" data-slide-to="1">
-                </li>
-              </div>
-              <div>
-                <div :class="{rus_title: curLang === 'ru'}">
-                  {{lang[curLang].BUSINESS.BAR.STORAGE}}
+                <div>
+                  <div data-target="#carousel-business" data-slide-to="2" :class="{rus_title: curLang === 'ru'}">
+                    {{lang[curLang].BUSINESS.BAR.STORAGE}}
+                  </div>
+                  <li data-target="#carousel-business" data-slide-to="2">
+                  </li>
                 </div>
-                <li data-target="#carousel-business" data-slide-to="2">
-                </li>
-              </div>
-              <div>
-                <div :class="{rus_title: curLang === 'ru'}">
-                  {{lang[curLang].BUSINESS.BAR.COMPUTATIONS}}
+                <div>
+                  <div data-target="#carousel-business" data-slide-to="3" :class="{rus_title: curLang === 'ru'}">
+                    {{lang[curLang].BUSINESS.BAR.COMPUTATIONS}}
+                  </div>
+                  <li data-target="#carousel-business" data-slide-to="3">
+                  </li>
                 </div>
-                <li data-target="#carousel-business" data-slide-to="3">
-                </li>
-              </div>
-              <div>
-                <div :class="{rus_title: curLang === 'ru'}">
-                  {{lang[curLang].BUSINESS.BAR.MICROPAYMENTS}}
+                <div>
+                  <div data-target="#carousel-business" data-slide-to="4" :class="{rus_title: curLang === 'ru'}">
+                    {{lang[curLang].BUSINESS.BAR.MICROPAYMENTS}}
+                  </div>
+                  <li data-target="#carousel-business" data-slide-to="4">
+                  </li>
                 </div>
-                <li data-target="#carousel-business" data-slide-to="4">
-                </li>
-              </div>
-            </ol>
+              </ol>
+            </div>
             <div class="carousel-inner">
               <div class="carousel-item active">
                 <div class="carousel-item__row">
@@ -294,7 +373,7 @@
               <div class="carousel-item">
                 <div class="carousel-item__row">
                   <div>
-                    <div class="business__carousel__title business__carousel__title--left">
+                    <div class="business__carousel__title">
                       {{lang[curLang].BUSINESS.SLIDER_2.TITLE}}
                     </div>
                     <img src="img/business/bank.png" alt="">
@@ -377,67 +456,20 @@
             </a>
           </div>
         </div>
-        <!-- <div class="col-md-6">
-          <div id="carousel-review" class="review__carousel carousel slide" data-ride="carousel">
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <div class="carousel-item__row">
-                  <div>
-                    <img class="author-photo" src="img/business/author.png" alt="">
-                  </div>
-                  <div class="review__carousel__text">
-                    <p class="review-sign">
-                      <img src="img/business/sign.svg" alt="">
-                    </p>
-                    <p>
-                      {{lang[curLang].BUSINESS.REVIEW_1.TEXT}}
-                    </p>
-                    <p>
-                      <b>{{lang[curLang].BUSINESS.REVIEW_1.AUTHOR}}</b>
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <div class="carousel-item__row">
-                  <div>
-                    <img class="author-photo" src="img/business/author.png" alt="">
-                  </div>
-                  <div class="review__carousel__text">
-                    <p class="review-sign">
-                      <img src="img/business/sign.svg" alt="">
-                    </p>
-                    <p>
-                      {{lang[curLang].BUSINESS.REVIEW_1.TEXT}}
-                    </p>
-                    <p>
-                      <b>{{lang[curLang].BUSINESS.REVIEW_1.AUTHOR}}</b>
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <a class="carousel-control-prev" href="#carousel-review" role="button" data-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="sr-only">Previous</span>
-            </a>
-            <a class="carousel-control-next" href="#carousel-review" role="button" data-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="sr-only">Next</span>
-            </a>
-          </div>
-        </div> -->
       </div>
+
       <div id="mining" class="row mining justify-content-center">
-        <div class="col-md-8">
+        <div class="col-12">
           <div class="title">
             {{lang[curLang].MINING.TITLE}}
           </div>
+        </div>
+        <div class="col-12">
           <div class="title title--mini">
             {{lang[curLang].MINING.SUB_TITLE}}
           </div>
         </div>
-        <div class="col-md-9">
+        <div class="max-w col-md-11 col-lg-9">
           <div class="mining__block">
             <div class="mining__block__steps">
               {{lang[curLang].MINING.STEPS}}
@@ -477,22 +509,83 @@
         </div>
       </div>
 
-      <div class="row phone-mining">
-        <div class="col-md-2"></div>
-        <div class="col-md-4">
-          <div class="title title--left">
-            {{lang[curLang].PHONE_MINING.TITLE}}
+      <div class="row phone-mining justify-content-center">
+        <div class="max-w col-md-10">
+          <div class="row reverse">
+            <div class="col-md-6">
+              <div class="title title--left">
+                {{lang[curLang].PHONE_MINING.TITLE}}
+              </div>
+              <div>
+                {{lang[curLang].PHONE_MINING.TEXT}}
+              </div>
+              <button class="button button--blue">
+                {{lang[curLang].BUTTONS.WALLET}}
+              </button>
+            </div>
+            <div class="col">
+              <img v-if="curLang === 'ru'" src="img/phone_mining/phone--ru.png" alt="">
+              <img v-if="curLang === 'en'" src="img/phone_mining/phone--en.png" alt="">
+            </div>
           </div>
-          <div>
-            {{lang[curLang].PHONE_MINING.TEXT}}
-          </div>
-          <button class="button button--blue">
-            {{lang[curLang].BUTTONS.WALLET}}
-          </button>
         </div>
-        <div class="col-md-6">
-          <img v-if="curLang === 'ru'" class="d-none d-md-block" src="img/phone_mining/phone--ru.png" alt="">
-          <img v-if="curLang === 'en'" class="d-none d-md-block" src="img/phone_mining/phone--en.png" alt="">
+      </div>
+
+      <div class="row mvp justify-content-center">
+        <div class="col-12">
+          <div class="title">
+            MVP
+          </div>
+        </div>
+        <div class="max-w col-md-8">
+          <div id="carousel-review" data-interval="false" class="review__carousel carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <div class="carousel-item__row">
+                  <div>
+                    <img class="author-photo" src="img/business/author.png" alt="">
+                  </div>
+                  <div class="review__carousel__text">
+                    <p class="review-sign">
+                        <b>{{lang[curLang].BUSINESS.REVIEW_1.TITLE}}</b>
+                    </p>
+                    <p>
+                      {{lang[curLang].BUSINESS.REVIEW_1.TEXT}}
+                    </p>
+                    <p>
+                      {{lang[curLang].BUSINESS.REVIEW_1.AUTHOR}}
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="carousel-item__row">
+                  <div>
+                    <img class="author-photo" src="img/business/author.png" alt="">
+                  </div>
+                  <div class="review__carousel__text">
+                    <p class="review-sign">
+                      <img class="d-none d-md-block" src="img/business/sign.svg" alt="">
+                    </p>
+                    <p>
+                      {{lang[curLang].BUSINESS.REVIEW_1.TEXT}}
+                    </p>
+                    <p>
+                      <b>{{lang[curLang].BUSINESS.REVIEW_1.AUTHOR}}</b>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <a class="carousel-control-prev" href="#carousel-review" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carousel-review" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
         </div>
       </div>
 
@@ -502,111 +595,23 @@
             {{lang[curLang].ROADMAP.TITLE}}
           </div>
         </div>
-        <div class="roadmap__block col-md-9">
+        <div class="roadmap__block max-w col-md-9">
           <div class="roadmap__imgs row justify-content-center">
-            <img class="" src="img/roadmap/roadmap.png" alt="">
-            <img class="d-none" src="img/roadmap/roadmap-mob.png" alt="">
-          </div>
-          <div class="d-none roadmap__text row">
-            <div class="col-md-3">
-              <div>
-                <b>
-                  {{lang[curLang].ROADMAP.DATE_1.DATE}}
-                </b>
-              </div>
-              <div>
-                {{lang[curLang].ROADMAP.DATE_1.TEXT}}
-              </div>
-            </div>
-            <div class="col-md-2">
-              <div class="roadmap__text__item row">
-                <div class="col-12">
-                  <b>
-                    {{lang[curLang].ROADMAP.DATE_2.DATE}}
-                  </b>
-                </div>
-                <div class="col-12">
-                  {{lang[curLang].ROADMAP.DATE_2.TEXT}}
-                </div>
-              </div>
-              <div class="row">
-                <div class="col-12">
-                  <b>
-                    {{lang[curLang].ROADMAP.DATE_3.DATE}}
-                  </b>
-                </div>
-                <div class="col-12">
-                  {{lang[curLang].ROADMAP.DATE_3.TEXT}}
-                </div>
-              </div>
-            </div>
-            <div class="col-md-2">
-              <div class="roadmap__text__item row">
-                <div class="col-12">
-                  <b>
-                    {{lang[curLang].ROADMAP.DATE_4.DATE}}
-                  </b>
-                </div>
-                <div class="col-12">
-                  {{lang[curLang].ROADMAP.DATE_4.TEXT}}
-                </div>
-              </div>
-              <div class="row">
-                <div class="col-12">
-                  <b>
-                    {{lang[curLang].ROADMAP.DATE_5.DATE}}
-                  </b>
-                </div>
-                <div class="col-12">
-                  {{lang[curLang].ROADMAP.DATE_5.TEXT}}
-                </div>
-              </div>
-            </div>
-            <div class="col-md-3">
-              <div class="roadmap__text__item row">
-                <div class="col-12">
-                  <b>
-                    {{lang[curLang].ROADMAP.DATE_6.DATE}}
-                  </b>
-                </div>
-                <div class="col-12">
-                  {{lang[curLang].ROADMAP.DATE_6.TEXT}}
-                </div>
-              </div>
-              <div class="row">
-                <div class="col-12">
-                  <b>
-                    {{lang[curLang].ROADMAP.DATE_7.DATE}}
-                  </b>
-                </div>
-                <div class="col-12">
-                  {{lang[curLang].ROADMAP.DATE_7.TEXT}}
-                </div>
-              </div>
-            </div>
-            <div class="col-md-2">
-              <div class="roadmap__text__item row">
-                <div class="col-12">
-                  <b>
-                    {{lang[curLang].ROADMAP.DATE_8.DATE}}
-                  </b>
-                </div>
-                <div class="col-12">
-                  {{lang[curLang].ROADMAP.DATE_8.TEXT}}
-                </div>
-              </div>
-            </div>
+            <img v-if="curLang === 'ru'" class="d-none d-md-block" src="img/roadmap/Roadmap_desk_ru.svg" alt="">
+            <img v-if="curLang === 'en'" class="d-none d-md-block" src="img/roadmap/Roadmap_desk.svg" alt="">
+            <img v-if="curLang === 'ru'" class="d-md-none" src="img/roadmap/Road_mob_ru.svg" alt="">
+            <img v-if="curLang === 'en'" class="d-md-none" src="img/roadmap/Road_mob_en.svg" alt="">
           </div>
         </div>
       </div>
 
-      <div class="row justify-content-center feedback">
+      <div id="feedback" class="row justify-content-center feedback">
         <div class="col-12">
           <div class="title">
             {{lang[curLang].FEEDBACK.TITLE}}
           </div>
         </div>
-        <div class="col-md-8">
+        <div class="max-w col-md-8">
           <form action="">
             <div class="row">
               <div class="col-md-6">
@@ -618,16 +623,14 @@
             </div>
             <div class="row">
               <div class="col-md-6">
-                <div class="select-wrapper">
-                  <select class="input-round" name="" id="">
-                    <option value="" disabled selected>{{lang[curLang].FEEDBACK.TOPIC}}</option>
-                    <option value="">{{lang[curLang].FEEDBACK.TOPICS.HR}}</option>
-                    <option value="">{{lang[curLang].FEEDBACK.TOPICS.PR}}</option>
-                    <option value="">{{lang[curLang].FEEDBACK.TOPICS.OFFERS}}</option>
-                    <option value="">{{lang[curLang].FEEDBACK.TOPICS.PROPOSE}}</option>
-                    <option value="">{{lang[curLang].FEEDBACK.TOPICS.SUPPORT}}</option>
-                  </select>
-                </div>
+                <select class="input-round" name="" id="">
+                  <option value="" disabled selected>{{lang[curLang].FEEDBACK.TOPIC}}</option>
+                  <option value="">{{lang[curLang].FEEDBACK.TOPICS.HR}}</option>
+                  <option value="">{{lang[curLang].FEEDBACK.TOPICS.PR}}</option>
+                  <option value="">{{lang[curLang].FEEDBACK.TOPICS.OFFERS}}</option>
+                  <option value="">{{lang[curLang].FEEDBACK.TOPICS.PROPOSE}}</option>
+                  <option value="">{{lang[curLang].FEEDBACK.TOPICS.SUPPORT}}</option>
+                </select>
               </div>
               <div class="col-md-6">
                 <input :placeholder="lang[curLang].FEEDBACK.MESSAGE" class="input-round" type="email">
@@ -651,7 +654,9 @@
             {{lang[curLang].FOOTER.ADDRESS.LINE_2}}
           </div>
           <div>
-            {{lang[curLang].FOOTER.ADDRESS.LINE_3}}
+            <a href="mailto:" :href="'mailto:' + lang[curLang].FOOTER.ADDRESS.LINE_3">
+              {{lang[curLang].FOOTER.ADDRESS.LINE_3}}
+            </a>
           </div>
         </div>
         <div class="footer__networks">
@@ -673,9 +678,6 @@
           <a href="https://t.me/Enecuum_EN">
             <img src="img/footer/tm.svg" alt="">
           </a>
-          <a href="https://im.enecuum.com/">
-            <img src="img/footer/talk.svg" alt="">
-          </a>
           <a href="https://bitcointalk.org/index.php?topic=2939909.0;topicseen">
             <img src="img/footer/bt.svg" alt="">
           </a>
@@ -686,10 +688,9 @@
   </div>
 
   <script src="js/axios.min.js"></script>
-  <script src="js/jq.js"></script>
-  <script src="js/popper.js"></script>
-  <script src="js/bootstrap.min.js"></script>
   <script src="js/App.js"></script>
+  <script src="js/jq.js"></script>
+  <script src="js/bootstrap.min.js"></script>
 </body>
 
 </html>
