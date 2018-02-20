@@ -29,7 +29,7 @@
     }
   },
   "TOP_BANNER": {
-    "TITLE": " Blockchain of Tomorrow",
+    "TITLE": "Blockchain of Tomorrow",
     "TEXT":
       "Enecuum is an innovating decentralized platform for integrating blockchain into business processes"
   },
@@ -62,7 +62,7 @@
       "TITLE": "Security",
       "SUB_TITLE": "Private Branches",
       "TEXT":
-        "Enecuum jettons to create dedicated branches where circulation of ENQ coins, the main system cryptocurrency, is not intended. A jetton is both an access key to the corresponding branch and a decryption key for the transactions in this branch, and can be freely transferred between the users of the system. The key purpose of jetton branches is to facilitate creation of a blockchain-based flexible environment for easy interaction between businesses and their customers."
+        "Enecuum jettons allow to create dedicated branches where circulation of ENQ coins, the main system cryptocurrency, is not intended. A jetton is both an access key to the corresponding branch and a decryption key for the transactions in this branch, and can be freely transferred between the users of the system. The key purpose of jetton branches is to facilitate creation of a blockchain-based flexible environment for easy interaction between businesses and their customers."
     },
     "SLIDER_6": {
       "TITLE": "Security",

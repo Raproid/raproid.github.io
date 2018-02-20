@@ -30,7 +30,7 @@ export default
     }
   },
   "TOP_BANNER": {
-    "TITLE": " Blockchain of Tomorrow",
+    "TITLE": "Blockchain of Tomorrow",
     "TEXT":
       "Enecuum is an innovating decentralized platform for integrating blockchain into business processes"
   },
