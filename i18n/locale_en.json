@@ -29,7 +29,7 @@
     }
   },
   "TOP_BANNER": {
-    "TITLE": "Blockchain of Tomorrow",
+    "TITLE": " Blockchain of Tomorrow",
     "TEXT":
       "Enecuum is an innovating decentralized platform for integrating blockchain into business processes"
   },
@@ -62,7 +62,7 @@
       "TITLE": "Security",
       "SUB_TITLE": "Private Branches",
       "TEXT":
-        "Enecuum jettons allow to create dedicated branches where circulation of ENQ coins, the main system cryptocurrency, is not intended. A jetton is both an access key to the corresponding branch and a decryption key for the transactions in this branch, and can be freely transferred between the users of the system. The key purpose of jetton branches is to facilitate creation of a blockchain-based flexible environment for easy interaction between businesses and their customers."
+        "Enecuum jettons to create dedicated branches where circulation of ENQ coins, the main system cryptocurrency, is not intended. A jetton is both an access key to the corresponding branch and a decryption key for the transactions in this branch, and can be freely transferred between the users of the system. The key purpose of jetton branches is to facilitate creation of a blockchain-based flexible environment for easy interaction between businesses and their customers."
     },
     "SLIDER_6": {
       "TITLE": "Security",
@@ -187,7 +187,7 @@
     },
     "DATE_4": {
       "DATE": "q1 2018",
-      "TEXT": "Implement the system protocol, RPS API, wallets."
+      "TEXT": "Implement the system protocol, RPC, API, wallets."
     },
     "DATE_5": {
       "DATE": "q2 2018",
@@ -274,7 +274,7 @@
       "NAME": "Ilya Gruzdev",
       "POSITION": "Software Developer",
       "DESCRIPTION":
-        "A geek and mathematician. He studied in Saint Petersburg National Research University of Information Technologies, Mechanics and Optics (ITMO). His main interests are Computer Science, theoretical physics, functional programming languages and its use in practice as professionaly as it's done by DSL developers.""
+        "A geek and mathematician. He studied in Saint Petersburg National Research University of Information Technologies, Mechanics and Optics (ITMO). His main interests are Computer Science, theoretical physics, functional programming languages and its use in practice, and DSL development."
     },
     "PERSON_8": {
       "NAME": "Dmitry Pavlyuk",
@@ -286,7 +286,7 @@
       "NAME": "Boris Yartsev",
       "POSITION": "Software Developer",
       "DESCRIPTION":
-        "Boris has 12 year experience in Java, in the field of online gambling solutions, but has recently discovered the joy of the functional programming. He graduated from the Saint Petersburg National Research University of Information Technologies, Mechanics and Optics (ITMO) and later successfully taught a course on distributed systems for three years. His aim is to become a world class specialist in the blockchain technology and cryptocurrencies."
+        "Boris has 12 year experience in Java, in the field of online gambling solutions, but has recently discovered the joy of the functional programming. He graduated from the Saint Petersburg National Research University of Information Technologies, Mechanics and Optics (ITMO), where later he successfully taught a course on distributed systems for three years. His aim is to become a world class specialist in the blockchain technology and cryptocurrencies."
     },
     "PERSON_10": {
       "NAME": "Artem Kravchenko",
