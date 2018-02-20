@@ -187,7 +187,7 @@
     },
     "DATE_4": {
       "DATE": "q1 2018",
-      "TEXT": "Implement the system protocol, RPC, API, wallets."
+      "TEXT": "Implement the system protocol, RPS API, wallets."
     },
     "DATE_5": {
       "DATE": "q2 2018",
@@ -274,7 +274,7 @@
       "NAME": "Ilya Gruzdev",
       "POSITION": "Software Developer",
       "DESCRIPTION":
-        "A geek and mathematician. He studied in Saint Petersburg National Research University of Information Technologies, Mechanics and Optics (ITMO). His main interests are Computer Science, theoretical physics, functional programming languages and its use in practice, and DSL development."
+        "A geek and mathematician. He studied in Saint Petersburg National Research University of Information Technologies, Mechanics and Optics (ITMO). His main interests are Computer Science, theoretical physics, functional programming languages and its use in practice as professionaly as it's done by DSL developers.""
     },
     "PERSON_8": {
       "NAME": "Dmitry Pavlyuk",
@@ -286,7 +286,7 @@
       "NAME": "Boris Yartsev",
       "POSITION": "Software Developer",
       "DESCRIPTION":
-        "Boris has 12 year experience in Java, in the field of online gambling solutions, but has recently discovered the joy of the functional programming. He graduated from the Saint Petersburg National Research University of Information Technologies, Mechanics and Optics (ITMO), where later he successfully taught a course on distributed systems for three years. His aim is to become a world class specialist in the blockchain technology and cryptocurrencies."
+        "Boris has 12 year experience in Java, in the field of online gambling solutions, but has recently discovered the joy of the functional programming. He graduated from the Saint Petersburg National Research University of Information Technologies, Mechanics and Optics (ITMO) and later successfully taught a course on distributed systems for three years. His aim is to become a world class specialist in the blockchain technology and cryptocurrencies."
     },
     "PERSON_10": {
       "NAME": "Artem Kravchenko",
