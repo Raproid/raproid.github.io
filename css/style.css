@@ -49,8 +49,7 @@ body {
 
 .features__carousel {
   position: relative;
-  margin-top: -160px;
-  margin-bottom: 100px; }
+  margin-top: -160px; }
   .features__carousel .table {
     font-size: 13px;
     width: auto;
@@ -99,7 +98,7 @@ body {
 .business {
   padding: 50px 0; }
   .business .title {
-    margin-bottom: 120px !important; }
+    margin-bottom: 20px !important; }
   .business .author-photo {
     margin-right: 20px; }
   .business__carousel {
@@ -195,7 +194,7 @@ body {
     margin-top: 50px; }
 
 .mvp {
-  padding: 60px 0 80px; }
+  padding: 60px 0 40px; }
   .mvp .title {
     margin-bottom: 60px; }
 
@@ -268,8 +267,6 @@ body {
       margin: 0 auto; }
     .mining__block__img-block {
       margin-bottom: 0; }
-  .business .title {
-    margin-bottom: 100px !important; }
   .business__carousel .carousel-item {
     height: auto; }
     .business__carousel .carousel-item__row {

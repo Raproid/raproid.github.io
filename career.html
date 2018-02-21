@@ -34,14 +34,14 @@
         <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
           <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
             <li class="nav-item active">
-              <a class="nav-link" target="_self" href="index.html">{{lang[curLang].NAVBAR.MENU.HOME}}</a>
+              <a class="nav-link" href="#">{{lang[curLang].NAVBAR.MENU.HOME}}</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" target="_self" href="team.html">{{lang[curLang].NAVBAR.MENU.TEAM}}</a>
+              <a class="nav-link" href="#">{{lang[curLang].NAVBAR.MENU.TEAM}}</a>
             </li>
-            <!--<li class="nav-item">
-              <a class="nav-link" target="_self" href="#">{{lang[curLang].NAVBAR.MENU.CAREERS}}</a>
-            </li>-->
+            <li class="nav-item">
+              <a class="nav-link" href="#">{{lang[curLang].NAVBAR.MENU.CAREERS}}</a>
+            </li>
             <li class="nav-item">
               <a class="nav-link" href="https://medium.com/@EnecuumBlockchain">{{lang[curLang].NAVBAR.MENU.BLOG}}</a>
             </li>
@@ -101,8 +101,7 @@
         <div class="col-md-12">
           <div class="row">
             <div class="col-md-8">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolo re magna aliqua.
-              Ut enim ad minim veniam, quis nostrud exercitation ullam co laboris nisi ut aliquip exeac ommodo consequat.
+              {{lang[curLang].CAREERS.TEXT}}
             </div>
           </div>
         </div>
@@ -120,11 +119,11 @@
               {{lang[curLang].CAREERS.PROJECT_MANAGER.TITLE}}
             </div>
           </div>
-          <div class="row vacancies__item" :class="{active: jobs[2] === 1}" @click="openJob(2)">
+          <!-- <div class="row vacancies__item" :class="{active: jobs[2] === 1}" @click="openJob(2)">
             <div class="col-md-12 vacancies__name">
               {{lang[curLang].CAREERS.MEDIA_MANAGER.TITLE}}
             </div>
-          </div>
+          </div> -->
         </div>
         <div v-if="jobs[0] === 1" class="vacancies__full col-md-8" id="support-manager">
           <div class="vacancies__full__desc">
@@ -200,9 +199,6 @@
               </li>
               <li>
                 {{lang[curLang].CAREERS.SUPPORT_MANAGER.CONDITIONS.LINE_4}}
-              </li>
-              <li>
-                {{lang[curLang].CAREERS.SUPPORT_MANAGER.CONDITIONS.LINE_5}}
               </li>
             </ul>
           </div>
@@ -289,13 +285,29 @@
               </li>
             </ul>
           </div>
+          <div class="vacancies__full__list">
+            <b>
+              {{lang[curLang].CAREERS.PROJECT_MANAGER.KEY_SKILLS.TITLE}}
+            </b>
+            <ul>
+              <li>
+                {{lang[curLang].CAREERS.PROJECT_MANAGER.KEY_SKILLS.LINE_1}}
+              </li>
+              <li>
+                {{lang[curLang].CAREERS.PROJECT_MANAGER.KEY_SKILLS.LINE_2}}
+              </li>
+              <li>
+                {{lang[curLang].CAREERS.PROJECT_MANAGER.KEY_SKILLS.LINE_3}}
+              </li>
+            </ul>
+          </div>
           <div class="row">
             <button class="button button--blue">
               {{lang[curLang].BUTTONS.APPLY}}
             </button>
           </div>
         </div>
-        <div v-if="jobs[2] === 1" class="vacancies__full col-md-8" id="media-manager">
+        <!-- <div v-if="jobs[2] === 1" class="vacancies__full col-md-8" id="media-manager">
           <div class="vacancies__full__price">
             {{lang[curLang].CAREERS.MEDIA_MANAGER.PRICE}}
           </div>
@@ -392,7 +404,7 @@
               {{lang[curLang].BUTTONS.APPLY}}
             </button>
           </div>
-        </div>
+        </div> -->
       </div>
 
       <div id="form" class="row">

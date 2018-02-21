@@ -7,6 +7,9 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" href="css/bootstrap.min.css">
   <link rel="stylesheet" href="css/index.css">
+  <link rel="stylesheet" href="css/owl.carousel.min.css">
+  <link rel="stylesheet" href="css/owl.theme.default.min.css">
+  <script src="js/jq.js"></script>
   <script src="js/vue.min.js"></script>
   <base target="_blank">
   <title>Document</title>
@@ -32,14 +35,14 @@
         <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
           <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
             <li class="nav-item active">
-              <a class="nav-link" target="_self" href="index.html">{{lang[curLang].NAVBAR.MENU.HOME}}</a>
+              <a class="nav-link" target="_self" href="#">{{lang[curLang].NAVBAR.MENU.HOME}}</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" target="_self" href="team.html">{{lang[curLang].NAVBAR.MENU.TEAM}}</a>
+              <a class="nav-link" target="_self" href="#">{{lang[curLang].NAVBAR.MENU.TEAM}}</a>
             </li>
-            <!--<li class="nav-item">
+            <li class="nav-item">
               <a class="nav-link" target="_self" href="#">{{lang[curLang].NAVBAR.MENU.CAREERS}}</a>
-            </li>-->
+            </li>
             <li class="nav-item">
               <a class="nav-link" href="https://medium.com/@EnecuumBlockchain">{{lang[curLang].NAVBAR.MENU.BLOG}}</a>
             </li>
@@ -153,134 +156,130 @@
         </div>
       </div>
       <div class="row justify-content-center features__carousel">
-        <div class="max-w col-md-9">
-          <div id="carousel-features" data-interval="false" class="carousel slide" data-ride="carousel">
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <div class="features__carousel__title">
-                  {{lang[curLang].FEATURES.SLIDER_3.TITLE}}
-                </div>
-                <div class="carousel-item__row carousel-item__row--top">
-                  <img src="img/features/speed.png" alt="">
-                  <div class="carousel-item__text">
-                    <b>{{lang[curLang].FEATURES.SLIDER_3.SUB_TITLE}}</b>
-                    <br> {{lang[curLang].FEATURES.SLIDER_3.TEXT}}
-                    <br>
-                    <table class="table">
-                      <thead>
-                        <tr>
-                          <th scope="col"></th>
-                          <th scope="col">Rate/Latency</th>
-                        </tr>
-                      </thead>
-                      <tbody>
-                        <tr>
-                          <td>Enecuum</td>
-                          <td>1M Tps / 15 sec</td>
-                        </tr>
-                        <tr>
-                          <td>Ethereum</td>
-                          <td>20 Tps / 5-30Min</td>
-                        </tr>
-                        <tr>
-                          <td>CARDANO</td>
-                          <td>~10-20 Tps / Unknown</td>
-                        </tr>
-                        <tr>
-                          <td>IOTA</td>
-                          <td>800 Tps / Unknown
-                          </td>
-                        </tr>
-                        <tr>
-                          <td>Electronium</td>
-                          <td>1700 Tps / Unknown</td>
-                        </tr>
-                      </tbody>
-                    </table>
-                  </div>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <div class="features__carousel__title">
-                  {{lang[curLang].FEATURES.SLIDER_1.TITLE}}
-                </div>
-                <div class="carousel-item__row">
-                  <img src="img/features/slider-img1.png" alt="">
-                  <div class="carousel-item__text">
-                    <b>{{lang[curLang].FEATURES.SLIDER_1.SUB_TITLE}}</b>
-                    <br> {{lang[curLang].FEATURES.SLIDER_1.TEXT}}
-                  </div>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <div class="features__carousel__title">
-                  {{lang[curLang].FEATURES.SLIDER_2.TITLE}}
-                </div>
-                <div class="carousel-item__row">
-                  <img src="img/features/free.png" alt="">
-                  <div class="carousel-item__text">
-                    <b>{{lang[curLang].FEATURES.SLIDER_2.SUB_TITLE}}</b>
-                    <br> {{lang[curLang].FEATURES.SLIDER_2.TEXT}}
-                  </div>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <div class="features__carousel__title">
-                  {{lang[curLang].FEATURES.SLIDER_5.TITLE}}
-                </div>
-                <div class="carousel-item__row">
-                  <img class="wide" src="img/features/cloud.png" alt="">
-                  <div class="carousel-item__text">
-                    <b>{{lang[curLang].FEATURES.SLIDER_5.SUB_TITLE}}</b>
-                    <br> {{lang[curLang].FEATURES.SLIDER_5.TEXT}}
-                  </div>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <div class="features__carousel__title">
-                  {{lang[curLang].FEATURES.SLIDER_4.TITLE}}
-                </div>
-                <div class="carousel-item__row">
-                  <img src="img/features/hammer.png" alt="">
-                  <div class="carousel-item__text">
-                    <b>{{lang[curLang].FEATURES.SLIDER_4.SUB_TITLE}}</b>
-                    <br> {{lang[curLang].FEATURES.SLIDER_4.TEXT}}
-                  </div>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <div class="features__carousel__title">
-                  {{lang[curLang].FEATURES.SLIDER_6.TITLE}}
-                </div>
-                <div class="carousel-item__row">
-                  <img src="img/features/scheme.png" alt="">
-                  <div class="carousel-item__text">
-                    <b>{{lang[curLang].FEATURES.SLIDER_6.SUB_TITLE}}</b>
-                    <br> {{lang[curLang].FEATURES.SLIDER_6.TEXT}}
-                  </div>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <div class="features__carousel__title">
-                  {{lang[curLang].FEATURES.SLIDER_7.TITLE}}
-                </div>
-                <div class="carousel-item__row">
-                  <img class="wide" src="img/features/cheme2.png" alt="">
-                  <div class="carousel-item__text">
-                    <b>{{lang[curLang].FEATURES.SLIDER_7.SUB_TITLE}}</b>
-                    <br> {{lang[curLang].FEATURES.SLIDER_7.TEXT}}
-                  </div>
-                </div>
+        <div class="arrows">
+          <img id="features-left" src="img/common/sleder-arrow.svg" alt="" class="arrows__item arrows__item--prev">
+          <img id="features-right" src="img/common/sleder-arrow.svg" alt="" class="arrows__item arrows__item--next">
+        </div>
+        <div id="carousel-features" class="owl-carousel">
+          <div class="owl-carousel__item owl-carousel__item--feature">
+            <div class="features__carousel__title">
+              {{lang[curLang].FEATURES.SLIDER_3.TITLE}}
+            </div>
+            <div class="carousel-item__row carousel-item__row--top">
+              <img src="img/features/speed.png" alt="">
+              <div class="carousel-item__text">
+                <b>{{lang[curLang].FEATURES.SLIDER_3.SUB_TITLE}}</b>
+                <br> {{lang[curLang].FEATURES.SLIDER_3.TEXT}}
+                <br>
+                <table class="table">
+                  <thead>
+                    <tr>
+                      <th scope="col"></th>
+                      <th scope="col">Rate/Latency</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>Enecuum</td>
+                      <td>1M Tps / 15 sec</td>
+                    </tr>
+                    <tr>
+                      <td>Ethereum</td>
+                      <td>20 Tps / 5-30Min</td>
+                    </tr>
+                    <tr>
+                      <td>ICON</td>
+                      <td>Unknown</td>
+                    </tr>
+                    <tr>
+                      <td>CARDANO</td>
+                      <td>~10-20 Tps / Unknown</td>
+                    </tr>
+                    <tr>
+                      <td>IOTA</td>
+                      <td>800 Tps / Unknown
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>Electronium</td>
+                      <td>1700 Tps / Unknown</td>
+                    </tr>
+                  </tbody>
+                </table>
               </div>
             </div>
-            <a class="carousel-control-prev" href="#carousel-features" role="button" data-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="sr-only">Previous</span>
-            </a>
-            <a class="carousel-control-next" href="#carousel-features" role="button" data-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="sr-only">Next</span>
-            </a>
+          </div>
+          <div class="owl-carousel__item owl-carousel__item--feature">
+            <div class="features__carousel__title">
+              {{lang[curLang].FEATURES.SLIDER_1.TITLE}}
+            </div>
+            <div class="carousel-item__row">
+              <img src="img/features/slider-img1.png" alt="">
+              <div class="carousel-item__text">
+                <b>{{lang[curLang].FEATURES.SLIDER_1.SUB_TITLE}}</b>
+                <br> {{lang[curLang].FEATURES.SLIDER_1.TEXT}}
+              </div>
+            </div>
+          </div>
+          <div class="owl-carousel__item owl-carousel__item--feature">
+            <div class="features__carousel__title">
+              {{lang[curLang].FEATURES.SLIDER_2.TITLE}}
+            </div>
+            <div class="carousel-item__row">
+              <img src="img/features/free.png" alt="">
+              <div class="carousel-item__text">
+                <b>{{lang[curLang].FEATURES.SLIDER_2.SUB_TITLE}}</b>
+                <br> {{lang[curLang].FEATURES.SLIDER_2.TEXT}}
+              </div>
+            </div>
+          </div>
+          <div class="owl-carousel__item owl-carousel__item--feature">
+            <div class="features__carousel__title">
+              {{lang[curLang].FEATURES.SLIDER_5.TITLE}}
+            </div>
+            <div class="carousel-item__row">
+              <img class="wide" src="img/features/cloud.png" alt="">
+              <div class="carousel-item__text">
+                <b>{{lang[curLang].FEATURES.SLIDER_5.SUB_TITLE}}</b>
+                <br> {{lang[curLang].FEATURES.SLIDER_5.TEXT}}
+              </div>
+            </div>
+          </div>
+          <div class="owl-carousel__item owl-carousel__item--feature">
+            <div class="features__carousel__title">
+              {{lang[curLang].FEATURES.SLIDER_4.TITLE}}
+            </div>
+            <div class="carousel-item__row">
+              <img src="img/features/hammer.png" alt="">
+              <div class="carousel-item__text">
+                <b>{{lang[curLang].FEATURES.SLIDER_4.SUB_TITLE}}</b>
+                <br> {{lang[curLang].FEATURES.SLIDER_4.TEXT}}
+              </div>
+            </div>
+          </div>
+          <div class="owl-carousel__item owl-carousel__item--feature">
+            <div class="features__carousel__title">
+              {{lang[curLang].FEATURES.SLIDER_6.TITLE}}
+            </div>
+            <div class="carousel-item__row">
+              <img src="img/features/scheme.png" alt="">
+              <div class="carousel-item__text">
+                <b>{{lang[curLang].FEATURES.SLIDER_6.SUB_TITLE}}</b>
+                <br> {{lang[curLang].FEATURES.SLIDER_6.TEXT}}
+              </div>
+            </div>
+          </div>
+          <div class="owl-carousel__item owl-carousel__item--feature">
+            <div class="features__carousel__title">
+              {{lang[curLang].FEATURES.SLIDER_7.TITLE}}
+            </div>
+            <div class="carousel-item__row">
+              <img class="wide" src="img/features/cheme2.png" alt="">
+              <div class="carousel-item__text">
+                <b>{{lang[curLang].FEATURES.SLIDER_7.SUB_TITLE}}</b>
+                <br> {{lang[curLang].FEATURES.SLIDER_7.TEXT}}
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -307,48 +306,51 @@
           </div>
         </div>
         <div class="max-w col-12">
-          <div id="carousel-business" data-interval="false" class="business__carousel carousel slide" data-ride="carousel">
-            <div class="col-12">
-              <ol class="carousel-indicators">
-                <div>
-                  <div data-target="#carousel-business" data-slide-to="0" :class="{rus_title: curLang === 'ru'}">
-                    {{lang[curLang].BUSINESS.BAR.ICO}}
-                  </div>
-                  <li data-target="#carousel-business" data-slide-to="0" class="active">
-                  </li>
-                </div>
-                <div>
-                  <div data-target="#carousel-business" data-slide-to="1" :class="{rus_title: curLang === 'ru'}">
-                    {{lang[curLang].BUSINESS.BAR.BANKING}}
-                  </div>
-                  <li data-target="#carousel-business" data-slide-to="1">
-                  </li>
-                </div>
-                <div>
-                  <div data-target="#carousel-business" data-slide-to="2" :class="{rus_title: curLang === 'ru'}">
-                    {{lang[curLang].BUSINESS.BAR.STORAGE}}
-                  </div>
-                  <li data-target="#carousel-business" data-slide-to="2">
-                  </li>
-                </div>
-                <div>
-                  <div data-target="#carousel-business" data-slide-to="3" :class="{rus_title: curLang === 'ru'}">
-                    {{lang[curLang].BUSINESS.BAR.COMPUTATIONS}}
-                  </div>
-                  <li data-target="#carousel-business" data-slide-to="3">
-                  </li>
-                </div>
-                <div>
-                  <div data-target="#carousel-business" data-slide-to="4" :class="{rus_title: curLang === 'ru'}">
-                    {{lang[curLang].BUSINESS.BAR.MICROPAYMENTS}}
-                  </div>
-                  <li data-target="#carousel-business" data-slide-to="4">
-                  </li>
-                </div>
-              </ol>
+
+          <div class="row justify-content-center businnes__carousel">
+            <div class="arrows">
+              <img id="business-left" src="img/common/sleder-arrow.svg" alt="" class="arrows__item arrows__item--prev">
+              <img id="business-right" src="img/common/sleder-arrow.svg" alt="" class="arrows__item arrows__item--next">
             </div>
-            <div class="carousel-inner">
-              <div class="carousel-item active">
+            <ol class="carousel-indicators">
+              <div id="business1">
+                <div>
+                  {{lang[curLang].BUSINESS.BAR.ICO}}
+                </div>
+                <li class="active">
+                </li>
+              </div>
+              <div id="business2">
+                <div>
+                  {{lang[curLang].BUSINESS.BAR.BANKING}}
+                </div>
+                <li>
+                </li>
+              </div>
+              <div id="business3">
+                <div>
+                  {{lang[curLang].BUSINESS.BAR.STORAGE}}
+                </div>
+                <li>
+                </li>
+              </div>
+              <div id="business4">
+                <div>
+                  {{lang[curLang].BUSINESS.BAR.COMPUTATIONS}}
+                </div>
+                <li>
+                </li>
+              </div>
+              <div id="business5">
+                <div>
+                  {{lang[curLang].BUSINESS.BAR.MICROPAYMENTS}}
+                </div>
+                <li>
+                </li>
+              </div>
+            </ol>
+            <div id="carousel-business" class="owl-carousel">
+              <div class="owl-carousel__item owl-carousel__item--business">
                 <div class="carousel-item__row">
                   <div>
                     <div class="business__carousel__title">
@@ -366,7 +368,7 @@
                   </div>
                 </div>
               </div>
-              <div class="carousel-item">
+              <div class="owl-carousel__item owl-carousel__item--business">
                 <div class="carousel-item__row">
                   <div>
                     <div class="business__carousel__title">
@@ -387,7 +389,7 @@
                   </div>
                 </div>
               </div>
-              <div class="carousel-item">
+              <div class="owl-carousel__item owl-carousel__item--business">
                 <div class="carousel-item__row">
                   <div>
                     <div class="business__carousel__title">
@@ -402,7 +404,7 @@
                   </div>
                 </div>
               </div>
-              <div class="carousel-item">
+              <div class="owl-carousel__item owl-carousel__item--business">
                 <div class="carousel-item__row">
                   <div>
                     <div class="business__carousel__title">
@@ -420,7 +422,7 @@
                   </div>
                 </div>
               </div>
-              <div class="carousel-item">
+              <div class="owl-carousel__item owl-carousel__item--business">
                 <div class="carousel-item__row">
                   <div>
                     <div class="business__carousel__title">
@@ -442,14 +444,6 @@
                 </div>
               </div>
             </div>
-            <a class="carousel-control-prev" href="#carousel-business" role="button" data-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="sr-only">Previous</span>
-            </a>
-            <a class="carousel-control-next" href="#carousel-business" role="button" data-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="sr-only">Next</span>
-            </a>
           </div>
         </div>
       </div>
@@ -533,17 +527,22 @@
             MVP
           </div>
         </div>
-        <div class="max-w col-md-8">
-          <div id="carousel-review" data-interval="false" class="review__carousel carousel slide" data-ride="carousel">
-            <div class="carousel-inner">
-              <div class="carousel-item active">
+        <div class="col-12">
+
+          <div class="justify-content-center review__carousel">
+            <div class="arrows">
+              <img id="review-left" src="img/common/sleder-arrow.svg" alt="" class="arrows__item arrows__item--prev">
+              <img id="review-right" src="img/common/sleder-arrow.svg" alt="" class="arrows__item arrows__item--next">
+            </div>
+            <div id="carousel-review" class="owl-carousel">
+              <div class="owl-carousel__item owl-carousel__item--review">
                 <div class="carousel-item__row">
                   <div>
                     <img class="author-photo" src="img/business/author.png" alt="">
                   </div>
                   <div class="review__carousel__text">
                     <p class="review-sign">
-                        <b>{{lang[curLang].BUSINESS.REVIEW_1.TITLE}}</b>
+                      <b>{{lang[curLang].BUSINESS.REVIEW_1.TITLE}}</b>
                     </p>
                     <p>
                       {{lang[curLang].BUSINESS.REVIEW_1.TEXT}}
@@ -554,33 +553,25 @@
                   </div>
                 </div>
               </div>
-              <div class="carousel-item">
+              <div class="owl-carousel__item owl-carousel__item--review">
                 <div class="carousel-item__row">
                   <div>
                     <img class="author-photo" src="img/business/author.png" alt="">
                   </div>
                   <div class="review__carousel__text">
                     <p class="review-sign">
-                      <img class="d-none d-md-block" src="img/business/sign.svg" alt="">
+                      <b>{{lang[curLang].BUSINESS.REVIEW_1.TITLE}}</b>
                     </p>
                     <p>
                       {{lang[curLang].BUSINESS.REVIEW_1.TEXT}}
                     </p>
                     <p>
-                      <b>{{lang[curLang].BUSINESS.REVIEW_1.AUTHOR}}</b>
+                      {{lang[curLang].BUSINESS.REVIEW_1.AUTHOR}}
                     </p>
                   </div>
                 </div>
               </div>
             </div>
-            <a class="carousel-control-prev" href="#carousel-review" role="button" data-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="sr-only">Previous</span>
-            </a>
-            <a class="carousel-control-next" href="#carousel-review" role="button" data-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="sr-only">Next</span>
-            </a>
           </div>
         </div>
       </div>
@@ -685,8 +676,9 @@
 
   <script src="js/axios.min.js"></script>
   <script src="js/App.js"></script>
-  <script src="js/jq.js"></script>
   <script src="js/bootstrap.min.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
+  <script src="js/slider.js"></script>
 </body>
 
 </html>
