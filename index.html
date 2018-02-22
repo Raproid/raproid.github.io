@@ -50,8 +50,8 @@
           <div class="form-inline my-2 my-lg-0">
             <!-- <a class="nav-link" href="">{{lang[curLang].NAVBAR.MENU.LOGIN}}</a> -->
             <div class="navbar__lang">
-              <img @click="changeLang('ru')" v-if="curLang != 'ru'" src="img/header/ru.png" alt="">
-              <img v-if="curLang == 'ru'" src="img/header/ru-active.png" alt="">
+            <!--  <img @click="changeLang('ru')" v-if="curLang != 'ru'" src="img/header/ru.png" alt="">
+              <img v-if="curLang == 'ru'" src="img/header/ru-active.png" alt="">-->
               <img @click="changeLang('en')" v-if="curLang != 'en'" src="img/header/en.svg" alt="">
               <img v-if="curLang == 'en'" src="img/header/en-active.svg" alt="">
             </div>
@@ -99,8 +99,8 @@
             <a class="nav-link" target="_blank" href="https://medium.com/@EnecuumBlockchain">{{lang[curLang].NAVBAR.MENU.BLOG}}</a>
           </li>
           <div class="navbar__lang">
-            <img @click="changeLang('ru')" v-if="curLang != 'ru'" src="img/header/ru.png" alt="">
-            <img v-if="curLang == 'ru'" src="img/header/ru-active.png" alt="">
+            <!--<img @click="changeLang('ru')" v-if="curLang != 'ru'" src="img/header/ru.png" alt="">
+            <img v-if="curLang == 'ru'" src="img/header/ru-active.png" alt="">-->
             <img @click="changeLang('en')" v-if="curLang != 'en'" src="img/header/en.svg" alt="">
             <img v-if="curLang == 'en'" src="img/header/en-active.svg" alt="">
           </div>
@@ -679,7 +679,7 @@
             {{lang[curLang].FOOTER.ADDRESS.LINE_2}}
           </div>
           <div>
-            {{lang[curLang].FOOTER.ADDRESS.COPYRIGHT}} · <a href="docs/privacy.pdf">{{lang[curLang].FOOTER.ADDRESS.PRIVACY}}</a> · <a href="docs/terms.pdf">{{lang[curLang].FOOTER.ADDRESS.TERMS}}</a> · <a href="mailto:" :href="'mailto:' + lang[curLang].FOOTER.ADDRESS.LINE_3">{{lang[curLang].FOOTER.ADDRESS.MAILUS}}</a>
+            {{lang[curLang].FOOTER.ADDRESS.COPYRIGHT}} · <a href="docs/Privacy.pdf">{{lang[curLang].FOOTER.ADDRESS.PRIVACY}}</a> · <a href="docs/Terms.pdf">{{lang[curLang].FOOTER.ADDRESS.TERMS}}</a> · <a href="mailto:" :href="'mailto:' + lang[curLang].FOOTER.ADDRESS.LINE_3">{{lang[curLang].FOOTER.ADDRESS.MAILUS}}</a>
           </div>
         </div>
         <div class="footer__networks">
