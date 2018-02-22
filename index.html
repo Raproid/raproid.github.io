@@ -35,14 +35,14 @@
         <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
           <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
             <li class="nav-item active">
-              <a class="nav-link" target="_self" href="#">{{lang[curLang].NAVBAR.MENU.HOME}}</a>
+              <a class="nav-link" target="_self" href="index.html">{{lang[curLang].NAVBAR.MENU.HOME}}</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" target="_self" href="#">{{lang[curLang].NAVBAR.MENU.TEAM}}</a>
+              <a class="nav-link" target="_self" href="team.html">{{lang[curLang].NAVBAR.MENU.TEAM}}</a>
             </li>
-            <li class="nav-item">
+            <!--  <li class="nav-item">
               <a class="nav-link" target="_self" href="#">{{lang[curLang].NAVBAR.MENU.CAREERS}}</a>
-            </li>
+            </li>-->
             <li class="nav-item">
               <a class="nav-link" href="https://medium.com/@EnecuumBlockchain">{{lang[curLang].NAVBAR.MENU.BLOG}}</a>
             </li>
@@ -92,9 +92,9 @@
           <li class="nav-item">
             <a class="nav-link" href="#">{{lang[curLang].NAVBAR.MENU.TEAM}}</a>
           </li>
-          <li class="nav-item">
+    <!--<li class="nav-item">
             <a class="nav-link" href="#">{{lang[curLang].NAVBAR.MENU.CAREERS}}</a>
-          </li>
+          </li>-->
           <li class="nav-item">
             <a class="nav-link" target="_blank" href="https://medium.com/@EnecuumBlockchain">{{lang[curLang].NAVBAR.MENU.BLOG}}</a>
           </li>
@@ -174,18 +174,18 @@
                 <table class="table">
                   <thead>
                     <tr>
-                      <th scope="col"></th>
-                      <th scope="col">Rate/Latency</th>
+                      <th scope="col">Project</th>
+                      <th scope="col">Rate</th>
                     </tr>
                   </thead>
                   <tbody>
                     <tr>
                       <td>Enecuum</td>
-                      <td>1M Tps / 15 sec</td>
+                      <td>1M TPS</td>
                     </tr>
                     <tr>
                       <td>Ethereum</td>
-                      <td>20 Tps / 5-30Min</td>
+                      <td>20 TPS</td>
                     </tr>
                     <tr>
                       <td>ICON</td>
@@ -193,16 +193,16 @@
                     </tr>
                     <tr>
                       <td>CARDANO</td>
-                      <td>~10-20 Tps / Unknown</td>
+                      <td>~10-20 TPS</td>
                     </tr>
                     <tr>
                       <td>IOTA</td>
-                      <td>800 Tps / Unknown
+                      <td>800 TPS
                       </td>
                     </tr>
                     <tr>
                       <td>Electronium</td>
-                      <td>1700 Tps / Unknown</td>
+                      <td>1700 TPS</td>
                     </tr>
                   </tbody>
                 </table>
@@ -291,7 +291,7 @@
         </div>
         <div class="row justify-content-center col-md-12">
           <form action="">
-            <input type="email" placeholder="E-mail">
+            <input type="email" placeholder="Email">
             <button class="button button--blue" type="submit">
               {{lang[curLang].BUTTONS.JOIN}}
             </button>
@@ -306,7 +306,6 @@
           </div>
         </div>
         <div class="max-w col-12">
-
           <div class="row justify-content-center businnes__carousel">
             <div class="arrows">
               <img id="business-left" src="img/common/sleder-arrow.svg" alt="" class="arrows__item arrows__item--prev">
@@ -365,6 +364,9 @@
                     <p>
                       {{lang[curLang].BUSINESS.SLIDER_1.TEXT.BLOCK_2}}
                     </p>
+                    <p>
+                      {{lang[curLang].BUSINESS.SLIDER_1.TEXT.BLOCK_3}}
+                    </p>
                   </div>
                 </div>
               </div>
@@ -378,13 +380,13 @@
                   </div>
                   <div class="business__carousel__text">
                     <p>
-                      {{lang[curLang].BUSINESS.SLIDER_2.TEXT.BLOCK_1}}
+                      {{lang[curLang].BUSINESS.SLIDER_3.TEXT.BLOCK_1}}
                     </p>
                     <p>
-                      {{lang[curLang].BUSINESS.SLIDER_2.TEXT.BLOCK_2}}
+                      {{lang[curLang].BUSINESS.SLIDER_3.TEXT.BLOCK_2}}
                     </p>
                     <p>
-                      {{lang[curLang].BUSINESS.SLIDER_2.TEXT.BLOCK_3}}
+                      {{lang[curLang].BUSINESS.SLIDER_3.TEXT.BLOCK_3}}
                     </p>
                   </div>
                 </div>
@@ -400,6 +402,12 @@
                   <div class="business__carousel__text">
                     <p>
                       {{lang[curLang].BUSINESS.SLIDER_3.TEXT.BLOCK_1}}
+                    </p>
+                    <p>
+                      {{lang[curLang].BUSINESS.SLIDER_3.TEXT.BLOCK_2}}
+                    </p>
+                    <p>
+                      {{lang[curLang].BUSINESS.SLIDER_3.TEXT.BLOCK_3}}
                     </p>
                   </div>
                 </div>
@@ -418,6 +426,9 @@
                     </p>
                     <p>
                       {{lang[curLang].BUSINESS.SLIDER_4.TEXT.BLOCK_2}}
+                    </p>
+                    <p>
+                      {{lang[curLang].BUSINESS.SLIDER_4.TEXT.BLOCK_3}}
                     </p>
                   </div>
                 </div>
@@ -462,7 +473,7 @@
         <div class="max-w col-md-11 col-lg-9">
           <div class="mining__block">
             <div class="mining__block__steps">
-              {{lang[curLang].MINING.STEPS}}
+              <b>{{lang[curLang].MINING.STEPS}}</b>
             </div>
             <div class="row">
               <div class="col-md-4">
@@ -472,7 +483,17 @@
                 </div>
                 <div class="mining__block__text row">
                   <b>{{lang[curLang].MINING.ITEM_1.TITLE}}</b>
-                  <br> {{lang[curLang].MINING.ITEM_1.TEXT}}
+                  <br>
+                  <br>
+                  <p>
+                    {{lang[curLang].MINING.ITEM_1.TEXT.BLOCK_1}}
+                  </p>
+                  <p>
+                    {{lang[curLang].MINING.ITEM_1.TEXT.BLOCK_2}}
+                  </p> 
+                  <p>
+                    {{lang[curLang].MINING.ITEM_1.TEXT.BLOCK_3}}
+                  </p> 
                 </div>
               </div>
               <div class="col-md-4">
@@ -482,7 +503,17 @@
                 </div>
                 <div class="mining__block__text row">
                   <b>{{lang[curLang].MINING.ITEM_2.TITLE}}</b>
-                  <br> {{lang[curLang].MINING.ITEM_2.TEXT}}
+                  <br>
+                  <br>
+                  <p>
+                    {{lang[curLang].MINING.ITEM_2.TEXT.BLOCK_1}}
+                  </p>
+                  <p>
+                    {{lang[curLang].MINING.ITEM_2.TEXT.BLOCK_2}}
+                  </p> 
+                  <p>
+                    {{lang[curLang].MINING.ITEM_2.TEXT.BLOCK_3}}
+                  </p> 
                 </div>
               </div>
               <div class="col-md-4">
@@ -491,7 +522,14 @@
                 </div>
                 <div class="mining__block__text row">
                   <b>{{lang[curLang].MINING.ITEM_3.TITLE}}</b>
-                  <br> {{lang[curLang].MINING.ITEM_3.TEXT}}
+                  <br>
+                  <br>
+                  <p>
+                    {{lang[curLang].MINING.ITEM_3.TEXT.BLOCK_1}}
+                  </p>
+                  <p>
+                    {{lang[curLang].MINING.ITEM_3.TEXT.BLOCK_2}}
+                  </p> 
                 </div>
               </div>
             </div>
@@ -548,7 +586,7 @@
                       {{lang[curLang].BUSINESS.REVIEW_1.TEXT}}
                     </p>
                     <p>
-                      {{lang[curLang].BUSINESS.REVIEW_1.AUTHOR}}
+                      <i>{{lang[curLang].BUSINESS.REVIEW_1.AUTHOR}}</i>
                     </p>
                   </div>
                 </div>
@@ -566,7 +604,7 @@
                       {{lang[curLang].BUSINESS.REVIEW_1.TEXT}}
                     </p>
                     <p>
-                      {{lang[curLang].BUSINESS.REVIEW_1.AUTHOR}}
+                    <i>{{lang[curLang].BUSINESS.REVIEW_1.AUTHOR}}</i>
                     </p>
                   </div>
                 </div>
@@ -641,9 +679,7 @@
             {{lang[curLang].FOOTER.ADDRESS.LINE_2}}
           </div>
           <div>
-            <a href="mailto:" :href="'mailto:' + lang[curLang].FOOTER.ADDRESS.LINE_3">
-              {{lang[curLang].FOOTER.ADDRESS.LINE_3}}
-            </a>
+            {{lang[curLang].FOOTER.ADDRESS.COPYRIGHT}} · <a href="docs/privacy.pdf">{{lang[curLang].FOOTER.ADDRESS.PRIVACY}}</a> · <a href="docs/terms.pdf">{{lang[curLang].FOOTER.ADDRESS.TERMS}}</a> · <a href="mailto:" :href="'mailto:' + lang[curLang].FOOTER.ADDRESS.LINE_3">{{lang[curLang].FOOTER.ADDRESS.MAILUS}}</a>
           </div>
         </div>
         <div class="footer__networks">

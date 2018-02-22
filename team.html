@@ -24,7 +24,7 @@
           aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <a class="navbar-brand" href="#">
+        <a target="_self" class="navbar-brand" href="index.html">
           <img src="img/header/enecuum-logo.svg" alt="">
         </a>
         <div @click="toggleMenu()" class="burger">
@@ -34,14 +34,14 @@
         <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
           <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
             <li class="nav-item active">
-              <a class="nav-link" href="#">{{lang[curLang].NAVBAR.MENU.HOME}}</a>
+              <a class="nav-link" target="_self" href="index.html">{{lang[curLang].NAVBAR.MENU.HOME}}</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">{{lang[curLang].NAVBAR.MENU.TEAM}}</a>
+              <a class="nav-link" target="_self" href="team.html">{{lang[curLang].NAVBAR.MENU.TEAM}}</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">{{lang[curLang].NAVBAR.MENU.PARTNERS}}</a>
-            </li>
+            <!--<li class="nav-item">
+              <a class="nav-link" target="_self" href="#">{{lang[curLang].NAVBAR.MENU.CAREERS}}</a>
+            </li>-->
             <li class="nav-item">
               <a class="nav-link" href="https://medium.com/@EnecuumBlockchain">{{lang[curLang].NAVBAR.MENU.BLOG}}</a>
             </li>
@@ -65,14 +65,14 @@
         </div>
         <ul>
           <li class="nav-item active">
-            <a class="nav-link" href="#">{{lang[curLang].NAVBAR.MENU.HOME}}</a>
+            <a class="nav-link" href="index.htm">{{lang[curLang].NAVBAR.MENU.HOME}}</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">{{lang[curLang].NAVBAR.MENU.TEAM}}</a>
+            <a class="nav-link" href="team.html">{{lang[curLang].NAVBAR.MENU.TEAM}}</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">{{lang[curLang].NAVBAR.MENU.CAREERS}}</a>
-          </li>
+          <!--<li class="nav-item">
+                <a class="nav-link" href="#">{{lang[curLang].NAVBAR.MENU.CAREERS}}</a>
+              </li>-->
           <li class="nav-item">
             <a class="nav-link" target="_blank" href="https://medium.com/@EnecuumBlockchain">{{lang[curLang].NAVBAR.MENU.BLOG}}</a>
           </li>
@@ -577,19 +577,7 @@
       <div class="justify-content-center row">
         <div class="col-md-8">
           <div class="row founders justify-content-center">
-            <div class="col-md-4">
-              <div class="founder-item">
-                <img src="/img/team/avatars/urszula.png" class="founder-item_avatar">
-                <div class="founder-item_name">{{lang[curLang].TEAM_PAGE.PERSON_20.NAME}}</div>
-                <div class="founder-item_position">{{lang[curLang].TEAM_PAGE.PERSON_20.POSITION}}</div>
-                <div class="founder-item_contacts__links">
-                  <a href="https://www.linkedin.com/in/urszula-mccormack-6303a987/" target="_blank">
-                    <i class="icon-linkedin-with-circle"></i>
-                  </a>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-4">
+                 <div class="col-md-4">
               <div class="founder-item">
                 <img src="/img/team/avatars/ismail.png" class="founder-item_avatar">
                 <div class="founder-item_name">{{lang[curLang].TEAM_PAGE.PERSON_21.NAME}}</div>
@@ -599,6 +587,15 @@
                     <i class="icon-linkedin-with-circle"></i>
                   </a>
                 </div>
+                <div class="founder-item_contacts__description" v-toggler>
+                    <span class="founder-item_contacts__description_link">
+                      <i class="link-arrow icon-keyboard_arrow_down"></i>
+                      {{lang[curLang].TEAM_PAGE.SEE_MORE}}
+                    </span>
+                    <div class="founder-item_contacts__description_text">
+                      {{lang[curLang].TEAM_PAGE.PERSON_21.DESCRIPTION}}
+                    </div>
+                  </div>
               </div>
             </div>
           </div>
@@ -649,7 +646,7 @@
             {{lang[curLang].FOOTER.ADDRESS.LINE_2}}
           </div>
           <div>
-            {{lang[curLang].FOOTER.ADDRESS.LINE_3}}
+            {{lang[curLang].FOOTER.ADDRESS.COPYRIGHT}} · <a href="docs/privacy.pdf">{{lang[curLang].FOOTER.ADDRESS.PRIVACY}}</a> · <a href="docs/terms.pdf">{{lang[curLang].FOOTER.ADDRESS.TERMS}}</a> · <a href="mailto:" :href="'mailto:' + lang[curLang].FOOTER.ADDRESS.LINE_3">{{lang[curLang].FOOTER.ADDRESS.MAILUS}}</a>
           </div>
         </div>
         <div class="footer__networks">

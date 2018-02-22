@@ -3,7 +3,7 @@
     "WHITEPAPER": "Download whitepaper",
     "WHITELIST": "Add to whitelist",
     "JOIN": "Join",
-    "WALLET": "Download wallet",
+    "WALLET": "Wallet coming soon",
     "SEND": "Send",
     "JOIN_TEAM": "Join the team",
     "VACANCIES": "View vacansies",
@@ -16,216 +16,244 @@
       "PARTNERS": "Partners",
       "CAREERS": "Careers",
       "BLOG": "Blog",
-      "LOGIN": "Login"
+      "LOGIN": "Log in"
     },
     "SUBMENU": {
       "FEATURES": "Features",
       "WHITELIST": "Whitelist",
       "BUSINESS_CASES": "Business cases",
       "MINING": "Mining",
-      "PHONE_MINIG": "Phone Mining",
-      "ROAD_MAP": "Road map",
+      "PHONE_MINIG": "Phone mining",
+      "ROAD_MAP": "Roadmap",
       "CONTACT": "Contact"
     }
   },
   "TOP_BANNER": {
-    "TITLE": " Blockchain of tomorrow",
+    "TITLE": " Blockchain of Tomorrow",
     "TEXT":
-      "Enecuum is an innovating decentralized platform for integrating blockchain into business processes."
+      "Enecuum is an innovating decentralized platform for integrating blockchain into business processes"
   },
   "FEATURES": {
     "SLIDER_1": {
-      "TITLE": "Scalability",
-      "SUB_TITLE": "Directed acyclic hypergraph",
+      "TITLE": "HyperDAG",
+      "SUB_TITLE": "Directed Acyclic Hypergraph",
       "TEXT":
-        "New method of transaction record that provides an opportunity to create on the basis of the system a separate chain of blocks the rules of which can be tailored to solve any business problems including the ability to quickly and cheaply handle a large number of transactions."
+        "New transaction recording method supporting creation of separate branches in the system, with a custom ruleset tailored to solve any business problem, including the problem of quick and cheap handling a large number of transactions. These branches made of chains of blocks each containing a number of homogenous transactions."
     },
     "SLIDER_2": {
       "TITLE": "Scalability",
-      "SUB_TITLE": "Free transactions",
+      "SUB_TITLE": "Free Transactions",
       "TEXT":
-        "High throughput gives allow use instant transactions with zero commission. To date, the architecture of the Enecuum blockchain already allows to create macroblocks of unlimited sizes, which is a unique solution allowing to scale the speed of the protocol thanks to a constant growth of the network size"
+        "Instant transactions with zero fees. Our architecture already supports macroblocks of unlimited size - a unique solution allowing our system protocol to scale in parallel with the growing overall computational power of the network."
     },
     "SLIDER_3": {
       "TITLE": "Speed",
-      "SUB_TITLE": "Instant transactions.",
+      "SUB_TITLE": "High Speed",
       "TEXT":
-        "High throughput gives allow use instant transactions up to 1 million tps."
+        "High throughput allowing for up to 1 million transaction per second."
     },
     "SLIDER_4": {
       "TITLE": "Security",
-      "SUB_TITLE": "Hybrid consensus algorithm",
+      "SUB_TITLE": "Hybrid Consensus Algorithm",
       "TEXT":
-        "Using three types of mining: PoW + PoA* + PoS makes impossibility of hacking. *first realtime implementation of PoA"
+        "Implementation of PoW + PoA (first case of real life implementation) + PoS algorithms increases the level of security and makes the system 3 times more resistant to hacking."
     },
     "SLIDER_5": {
       "TITLE": "Security",
-      "SUB_TITLE": "Privacy branches.",
+      "SUB_TITLE": "Private Branches",
       "TEXT":
-        "Chip coin branches allow Enecuum users to implement transactions in a private mode minimizing risks of real identities disclosure. A chip coin is a key to encrypt transactions, so that only its holders are able to see operations carried in the corresponding chip coin branch."
+        "Enecuum jettons to create dedicated branches where circulation of ENQ coins, the main system cryptocurrency, is not intended. A jetton is both an access key to the corresponding branch and a decryption key for the transactions in this branch, and can be freely transferred between the users of the system. The key purpose of jetton branches is to facilitate creation of a blockchain-based flexible environment for easy interaction between businesses and their customers."
     },
     "SLIDER_6": {
       "TITLE": "Security",
-      "SUB_TITLE": "Flexible Smart contracts.",
-      "TEXT":
-        "SHARNELL + JS Smart contracts language A high level of Enecuum’s smart contracts is ensured by the business-oriented linear logic, called SHARNELL. Also, we use JavaScript language You have opportunity to perform your own ICO and produce your tokens."
+      "SUB_TITLE": "Flexible Smart Contracts",
+       "TEXT": "SHARNELL linear logic + JS as the smart contract language. High level of Enecuum’s smart contracts security is ensured by the business-oriented linear logic called SHARNELL. They are written in JavaScript and are easy and cheap to implement for a web developer. A reliable and secure means to perform your own ICO and issue your own tokens."
     },
     "SLIDER_7": {
       "TITLE": "Security",
-      "SUB_TITLE": "On-chain voting",
-      "TEXT": "On-chain voting + test branch for upgrading system"
+      "SUB_TITLE": "On-chain Voting",
+      "TEXT": "On-chain voting + test branch for a safe upgrade of the system. Support of various branches allows to create private branches with custom rulesets adapted to a particular business case."
     }
   },
   "SUBSCRIBE": {
     "TITLE": "Whitelist",
     "SUB_TITLE": {
       "TOP": "Token sale starts soon.",
-      "BOTTOM": "Subscribe our news."
+      "BOTTOM": "Subscribe to us."
     }
   },
   "BUSINESS": {
-    "TITLE": "Business cases",
+    "TITLE": "Business Cases",
     "BAR": {
-      "ICO": "Ico platform",
+      "ICO": "ICO Platform",
       "BANKING": "Banking",
-      "STORAGE": "Storage",
-      "COMPUTATIONS": "Computations",
+      "STORAGE": "Computations",
+      "COMPUTATIONS": "Storage",
       "MICROPAYMENTS": "Micropayments"
     },
     "SLIDER_1": {
-      "TITLE": "Ico platform",
+      "TITLE": "ICO Platform",
       "TEXT": {
         "BLOCK_1":
-          "The high capacity of the Enecuum blockchain allows start-ups to raise funds of any scale without the risk of network hang-up, as a result all investors can be sure that they will participate in ICO and will quickly get their tokens. Since smart contracts in the Enecuum will be implemented with JavaScript any web programmer can figure out how to write them, which will lead to a significant reduction of costs of their creation. In addition, the use of linear logic will eliminate vulnerabilities in contracts and will reduce the risks of their hacking.",
+          "High throughput of the Enecuum blockchain enables startups to raise funds at any scale, without the risk of a network hang-up. This way all the investors can be sure they can participate in the ICO and quickly receive their tokens.",
         "BLOCK_2":
-          "The use of the ‘cancellation model’ will allow to implement complex crowd sales with step-by-step funding and paybacks to investors at any stage. System-specific notation of tokens, similar to ERC-20 notation,  will simplify the tokens’ created on the Enecuum blockchain entering the stock-exchange after the ICO."
+          "Smart contracts in Enecuum are implemented in JavaScript and are easy to write for a web developer. It significantly decreases the learning curve and cost of their creation. Linear logic at their base helps eliminate potential vulnerabilities in smart contracts and minimizes the risks of hacking.",        
+        "BLOCK_3":
+          "“Cancellation model” allows to implement complex crowdsales with step-by-step raising and return of the funds to the investors, at any stage of the process. System-specific notation of tokens, similar to the ERC-20 notation, simplifies their entry to a cryptocurrency exchange service after the ICO."
       }
     },
     "SLIDER_2": {
-      "TITLE": "Banking Sector",
+      "TITLE": "Banking, Corporate & Insurance",
       "TEXT": {
         "BLOCK_1":
-          "Utilizing jettons and marks banks and government agencies will be able to reliably control the targeted financing of credit and budget funds while various companies can conduct secure payments among themselves without the fear of disclosure of commercial secrets. For example Bank A issues its jetton and releases USD, EUR tokens under it. By having an agreement with Bank B on settlement payments via these tokens bank A transfers to Bank B its jetton. Now no one except for banks A and B can read transactions with these tokens.",
+          "Using Enecuum’s jettons and marks, banks and government agencies are able to reliably control targeted spending of received credit and budget funds, and companies are able to conduct secure payments between themselves with no fear of sensitive information or trade secrets disclosure.",
         "BLOCK_2":
-          "Another example - Bank A owns a database of customers who service their businesses there. Different marks are assigned to these customers tagging  their businesses (construction company, industrial supplier equipment and others). In this case the bank can issue tokens in a special-purpose loan for a business to build a new production facility marking tokens with a corresponding tag. As a result the company that received these tokens will be able to pay them only to certain organizations having spent them according to the purpose of the issued loan.",
+          "For instance, Bank A creates its own jetton and issues USD and EUR tokens on its basis. Having made an agreement with Bank B on substituting real USD and EUR with these tokens in conducted operations, Bank A transfers to Bank B this jetton as the encryption key. Now no one except for Bank A and Bank B can decrypt transactions containing these tokens.",
         "BLOCK_3":
-          "In addition, the ability to add annotation to transactions allows to start an insurance service based on the blockchain that would take into account client’s history. So it will be possible to store user ratings directly in the blockchain and determine their insurance coverage by conducting automatic settlements in smart contracts."
+          "As another example, Bank A that has a database of the customers with businesses serviced in it assigns different marks to these customers based on the nature of their business (construction company, industrial equipment supplier, etc). Now the bank can issue a business a directed loan in tokens having a specific mark, for this business to build a new production facility. The business can only use these tokens to pay certain predefined organizations, spending them according to the purpose of the issued loan."
       }
     },
     "SLIDER_3": {
-      "TITLE": "Computations",
+      "TITLE": "Distributed Computations",
       "TEXT": {
         "BLOCK_1":
-          "The capacity of executing heavy smart contracts in dedicated zones allows to perform complex computations that require high capacity without putting pressure on and overloadingp the main Enecuum branches (any JS libraries, neural networks, scientific calculations, graphics rendering and so on). Payment for such smart contracts will be through the ENQ and the rate will be set by the market rate, like the price of transaction in the Ethereum blockchain. At the moment of order creation the customer sets the price herself and then miners decide whether it is beneficial for them to provide their computing capacities. In the case that performers of the transaction agree to terms the smart contract freeze the customer's funds for payment before the task is complete and valid results are provided, after which funds are automatically transferred to miners."
-      }
+          "System ability to run “heavy” smart contracts in dedicated branches allows users to perform complex calculations that require high computational power without increasing workload on the main Enecuum branches (useful for neural network training, scientific calculations, rendering computer graphics, JS libraries and so on).",
+        "BLOCK_2":
+          "Payment for using such “heavy” smart contracts is performed in ENQ coins at a flexible rate, similar to the transaction price concept in the Ethereum blockchain. Creating a request to perform the calculations, the customer sets the price and miners decide whether it is beneficial for them to provide their computational power for the task.",
+        "BLOCK_3":
+        "In case miners agree to the terms, the customer’s funds are reserved by the smart contract for future payment. When the task is completed and valid results are provided, the funds are released and automatically transferred to the miners."
+        }
     },
     "SLIDER_4": {
-      "TITLE": "Storage",
+      "TITLE": "Decentralized Storage",
       "TEXT": {
         "BLOCK_1":
-          "The application of the sharding technology and being able to change the parameter of duplication of transactions allow effective use of users' disk space on their drives. For example, if 4 users provide 10 GB of space each then with the  parameters  of duplication and sharding set at 50% the effective storage capacity for files will be 20 GB. Extrapolating these patterns to the entire network the size of  the ‘global decentralized disk’ will grow proportionally preserving the availability of data and a sufficiently high speed of accessing them. As a result, it will allow to implement on the Enceuum blockchain such services as decentralized hostings, cloud data storage services  and CDN.",
+          "Effective use of disk space on user’s devices achieved through sharding and change of the transaction duplication parameters.",
         "BLOCK_2":
-          "In addition, the application of smart contracts and jettons for encryption on the top of data branch will make it possible to create complex paid services  of access to decentralized (and non-modifiable) content which can be paid for by tokens."
+          "For example, if 4 users provide 5 GB of space each and the duplication and sharding parameters set to 50%, the effective storage capacity for files is 10 GB. Extrapolating these pattern to the entire network, the size of the “global decentralized disk” will grow proportionally preserving availability of the data and a sufficiently high speed of access. That means users can build on top of the Enecuum blockchain such services as decentralized hostings, cloud data storage services and content delivery networks.",  
+        "BLOCK_3":
+          "Applying SHARNELL Smart Contracts, and jettons as encryption keys on top of such data branches, users can create complex paid access services with decentralized and immutable content paid for in tokens."
       }
     },
     "SLIDER_5": {
-      "TITLE": "Micropayments",
+      "TITLE": "Micropayments, Fintech & IoT",
       "TEXT": {
         "BLOCK_1":
-          "In the basic scenario of development  commission fee for ordinary transfers between users in the system is equal to zero. Of course, with the increasing number of users and the emergence of applications based on the Enecuum blockchain the load on the system will increase but the ability to create separate branches with their own consensus rules and the existence of a free emission fund which stimulates miners’ activity will allow to create conditions for the operation of micro-transaction services.",
-        "BLOCK_2":
-          "If such service does not become centralized the commission for its operation will not be taken at all. If such service starts implementing a lot of microtransactions from one wallet the commission will appear but only a small amount will be levied. For example, in the case of a service issuing  microcredits which makes 10,000,000 transactions per day all its transactions can be easily recorded in several large macroblocks of 10 MB per each. Commission will be calculated as per the whole block and per one transaction it will be extremely low.",
+          "Support of separate branches with their own consensus rulesets that stimulates miners’ activity creates conditions beneficial for implementation of micro-transaction services.",
+        "BLOCK_2": 
+          "Zero transaction fee for a decentralized micro-transaction service. Extremely low fee per transaction in case of a centralization when a service makes a lot of micro-transactions from a single wallet. For example, 10,000,000 transactions a day can be easily recorded in several large macroblocks of ~120 MB each. The fee will be calculated per block, and will be very low per transaction.",
         "BLOCK_3":
-          "As a result, the Enecuum blockchain functionality can also be applied in the Internet of things. An implementation of a simple client for PoA mining on various devices connected to the network will allow to cover expenses of their transactions. Besides, the Enecuum network protocol provides high availability of such devices by establishing a mesh network between them."
+        "This is a perfect case for an Internet of Things-based service. A simple PoA mining client running on various devices will be able to completely cover their carried transaction fees. A mesh network, supported by the Enecuum protocol, between these devices provides a high availability."
       }
     },
     "REVIEW_1": {
-      "TITLE": "Last news",
+      "TITLE": "Our First MVP",
       "TEXT":
-        "We have launched first MVP. Many cool features is available now.",
-      "AUTHOR": "April 1, 2018"
+        "We have just launched our first MVP. We're working hard to deliver many new features soon.",
+      "AUTHOR": "Enecuum Team, February 20, 2018"
     }
   },
   "MINING": {
     "TITLE": "Mining",
-    "SUB_TITLE": "Hybrid consensus algorithm",
-    "STEPS": "3 steps of mining PoW + PoA + PoS",
+    "SUB_TITLE": "Hybrid Consensus Algorithm",
+    "STEPS": "3 Mining Stages",
     "ITEM_1": {
       "TITLE": "Proof of Work",
-      "TEXT":
-        "In the first one miners connected to the PoW network analyze HyperDAG and collect transactions for block assembly. After a block that satisfies current requirements for hash complexity is found it is not yet considered valid but is transmitted across the network for confirmation by PoA miners."
-    },
+      "TEXT": {
+        "BLOCK_1":
+        "Proof of Work at Enecuum is based on an improved version of the Bitcoin-NG protocol modified for effective mining of many block of different types in parallel. It ensures a high of scalability the system.",
+        "BLOCK_2":
+        "A custom version of the Cryptonight protocol (Keccak + AES + X11) defends the system against centralization caused by ASIC devices.",
+        "BLOCK_3":
+        "PoW miners calculate the block hash and hold their macroblocks open for PoA miners to fill it with microblocks containing transations."
+        }
+      },
     "ITEM_2": {
       "TITLE": "Proof of Activity",
       "TEXT":
-        "Then PoA miners united in teams of several participants check the received hash and, depending on which transactions are included in the block, attach it to one of the system’s branches."
+      {
+        "BLOCK_1":
+          "Proof of Activity at Eneecum is applied at two different stages.",
+        "BLOCK_2":
+          " First, PoA miners reach consensus to form teams of 64 participants. Second, every team validates a chain of 62 microblocks with 40 transaction each and publish them into the network - to the blocks opened by the PoW miners.", 
+        "BLOCK_3":
+        "PoA mining at Enecuum requires a wide and steady Internet connection, but low computational power and can be performed on mobile devices."
+      }    
     },
     "ITEM_3": {
       "TITLE": "Proof of Stake",
-      "TEXT":
-        "The PoS  miners’s role will consist of a continuous re-checking validity of transactions in the system and the resulting balances of wallets."
+      "TEXT": {
+        "BLOCK_1":
+        "PoS miners continuously re-check balances of all wallets in the system.",
+        "BLOCK_2":
+        "Reward is received in the form of an interest. The system defines the minimum and maximum balance thresholds outside of which a miners is not able to gain any interest, and the interest grows as the miner’s balance grows towards the maximum."
+      }
     }
   },
   "PHONE_MINING": {
     "TITLE": "Phone Mining",
     "TEXT":
-      "You can use your phone for PoA mining because checking the block hash for correctness does not require large computational capability. Most simple mining without loss of energy and memory. Install our wallet and start right now!"
+      "Using your phone for PoA mining, you approve transactions and validate blocks. The reward for PoA mining is equal to the reward received by PoW miners, with no required high computational power. Most simple mining without loss of energy and memory."
   },
   "ROADMAP": {
     "TITLE": "Roadmap",
     "DATE_1": {
       "DATE": "2015",
       "TEXT":
-        "Launch of the project. Analysis of the architecture of various known blockchains. Studies of ways to solve existing problems."
+        "Launch the project. Perform strategic planning. Analyse the architecture of various known blockchains. Search for existing problems and ways to solve them."
     },
     "DATE_2": {
       "DATE": "2017",
-      "TEXT": "Forming a team of developers to create a new architecture."
+      "TEXT": "Form a team of developers to create a new architecture."
     },
     "DATE_3": {
       "DATE": "dec 2017",
-      "TEXT": "Launch of the test net."
+      "TEXT": "Launch the test net."
     },
     "DATE_4": {
       "DATE": "q1 2018",
-      "TEXT": "Implementation of the basic protocol. RPS API, Wallets."
+      "TEXT": "Implement the system protocol, RPC, API, wallets."
     },
     "DATE_5": {
       "DATE": "q2 2018",
-      "TEXT": "Release of VM and editor of smart contracts."
+      "TEXT": "Release VM and Petri Net editor for smart contracts."
     },
     "DATE_6": {
       "DATE": "q3 2018",
-      "TEXT": "Implementation of smart contracts SHARNELL."
+      "TEXT": "Fully implement SHARNELL Smart Contracts."
     },
     "DATE_7": {
       "DATE": "q4 2018",
       "TEXT":
-        "Creation of a gateway for the automatic transfer of smart contracts from other systems to Enecuum."
+        "Create a gateway for an automatic transfer of smart contracts from other systems to Enecuum."
     },
     "DATE_8": {
       "DATE": "2019",
-      "TEXT": "Continuous improvement of the protocol."
+      "TEXT": "Continuously improve the protocol."
     }
   },
   "FEEDBACK": {
-    "TITLE": "Feedback",
+    "TITLE": "Contact Us",
     "NAME": "Full name",
     "TOPIC": "Topic",
     "MESSAGE": "Message",
     "TOPICS": {
       "HR": "HR",
       "PR": "PR",
-      "OFFERS": "Partnership offers",
+      "OFFERS": "Partnership offer",
       "PROPOSE": "Propose a project",
-      "SUPPORT": "Support"
+      "SUPPORT": "Ask for support"
     }
   },
   "FOOTER": {
     "ADDRESS": {
       "LINE_1": "Enecuum Limited",
-      "LINE_2": "21/F,48 Connaught Road Central, Hong Kong",
-      "LINE_3": "hello@enecuum.com"
+      "LINE_2": "Address: 21/F, 48 Connaught Road Central, Hong Kong",
+      "LINE_3": "hello@enecuum.com",
+      "MAILUS": "Email Us",
+      "COPYRIGHT": "© 2018 Enecuum, Ltd.",
+      "PRIVACY": "Privacy Policy",
+      "TERMS": "Terms & Conditions"
     }
   },
   "TEAM_PAGE": {
@@ -239,131 +267,131 @@
       "NAME": "Anton Nikonorov",
       "POSITION": "CTO",
       "DESCRIPTION":
-        "Experienced Chief Executive Officer with a demonstrated history of working in the Information Technology & Services industry. Skilled in Oracle Database, C++, Agile Methodologies, SCADA, and Apache Cordova. Strong entrepreneurship professional with a Engineer's degree focused in Electrical science from Polytechnic college."
+        "Experienced Chief Executive Officer with a demonstrated history of experience in the Information Technology & Services industry. Skilled in Oracle DB, C++, Agile Methodologies, SCADA and Apache Cordova. A strong entrepreneur and a professional with an Engineer's degree in Electrical Egineering from the St. Petersburg Polytechnic University."
     },
     "PERSON_2": {
       "NAME": "Mikhail Sayfullin",
       "POSITION": "CEO",
       "DESCRIPTION":
-        "Entrepreneur since 2002. He founded and developed a marketing agency, whose clients were the largest international corporations. Since 2014 has been successfully working in the IT field - launching a popular marketplace in the entertainment sector. One of the founders of the company ENECUUM - is responsible for strategic management since 2017."
+        "Entrepreneur since 2002. Founded and developed a marketing agency that successfully delivered high quality services to the largest international corporations. Since 2014, Michail has been successfully working in the IT field launching a popular marketplace in the entertainment sector. One of the founders of the Enecuum Limited and its strategic manager since 2017."
     },
     "PERSON_3": {
       "NAME": "Ivan V. Ivanov",
-      "POSITION": "Director, Member of the board, Hong Kong",
+      "POSITION": "Director, Board member, Hong Kong",
       "DESCRIPTION":
-        "Founder UPSTUDY GROUP, Co-Founder EE24.COM, Managing director YUKUMA GROUP, CEO AM Digital. With more then 13 years experience of business development and management of High-Tech, IT and web companies, strong enterpreneur skills and huge international business network, Ivan is proud to be a member of Enecuum team to make the project successfull."
+        "Founder of the UPSTUDY GROUP, co-Founder of EE24.COM, managing director of the YUKUMA GROUP, CEO at AM Digital. A prominent professional with more than 13 years experience of business development and management in High Tech, IT and Web projects. With his strong entrepreneurial skills and multiple international business connections, Ivan is proud to be one the board members at Enecuum and helps make the project an international success."
     },
     "PERSON_4": {
       "NAME": "Darya Melnikova",
-      "POSITION": "Developer",
+      "POSITION": "Software Developer",
       "DESCRIPTION":
-        "Haskell/C++ software engineer. Daria is a Master student in Computer Science interested in mathematical logic and functional programming. Daria has an Advanced Training Diploma of StP Academic University and degree in law. After a few years of work in law Daria has decided that programs are much more fun than acts and contracts."
+        "A Haskell/C++ software developer, Daria is getting her Master's degree in Computer Science & Software Engineering. Her passion is mathematical logic and functional programming. Daria also has an Advanced Training Diploma from the Saint Petersburg Academic University and a law degree. After a few years of building a career in law, Daria discovered that software development is much more fun, than acts and contracts, and was into it ever since."
     },
     "PERSON_5": {
       "NAME": "Oleg Maksimov",
-      "POSITION": "Developer",
+      "POSITION": "Software Developer",
       "DESCRIPTION":
-        "Android/iOS developer with 5 years background. Previously had experience with video games creation and web frontend programming. Participated in the creation of such products as \"My Perekrestok\", \"Zdravcity\", \"Fsrar\", \"CMS-Magazine\" android & iOS apps. Also participated in the creation of \"Jelly Jumpers\", \"Dead ahead\" and \"Zerotram\" mobile games. Participated in these open source projects: Yandexmapkit-android, Requery, MultiSlider, Urho3D, ZeroMQ. Graduated from the Ulyanovsk State Univercity in 2009."
+        "A skillful Android/iOS developer with 5 years field background. Oleg graduated from the Ulyanovsk State Univercity in 2009. He was involved in video gaming industry and Web Dev (Frontend). Oleg participated in the creation process of such products as Android & iOS apps for \"My Perekrestok\", \"Zdravcity\", \"Fsrar\", \"CMS-Magazine\". He also contributed to the development of \"Jelly Jumpers\", \"Dead ahead\" and \"Zerotram\" mobile games and open-source software: Yandexmapkit-android, Requery, MultiSlider, Urho3D, ZeroMQ."
     },
     "PERSON_6": {
       "NAME": "Kseniya Pozdnyakova",
-      "POSITION": "Developer",
+      "POSITION": "Software Developer",
       "DESCRIPTION":
-        "Ksenia is a Haskell developer, her favourite programming language. \"Haskell is so natural for someone who really loves math\". She has a strong background in Applied Mathematics from the Ural Federal University. Ksenia dreams of changing the world. That is why she chose to be developer. \"You can invent something and scale it for the humankind. You can improve life drastically not only for one person, but for the whole society. That is my passion.\""
+        "Ksenia is a Haskell developer, her favourite programming language. \"Haskell is so natural for someone who really loves math\". She has a strong background in Applied Mathematics received at the Ural Federal University. She dreams of changing the world. That is why she chose to be a developer. \"You can invent something and scale it for the whole humankind. You can improve life drastically not only for a single person, but for the whole society. That is my passion,\" says Ksenis."
     },
     "PERSON_7": {
       "NAME": "Ilya Gruzdev",
-      "POSITION": "Developer",
+      "POSITION": "Software Developer",
       "DESCRIPTION":
-        "Programmer and mathematician. He studied in Saint Petersburg National Research University of Information Technologies, Mechanics and Optics. His main interests are in computer science, theoretical physics, functional programming languages and its usage in practice, as well as dsl development."
+        "A geek and mathematician. He studied in Saint Petersburg National Research University of Information Technologies, Mechanics and Optics (ITMO). His main interests are Computer Science, theoretical physics, functional programming languages and its use in practice, and DSL development."
     },
     "PERSON_8": {
       "NAME": "Dmitry Pavlyuk",
-      "POSITION": "Developer",
+      "POSITION": "Software Developer",
       "DESCRIPTION":
-        "Programmer-mathematician, specializes in functional programming languages. He studied in faculty of Computational Mathematics and Cybernetics of Lomonosov Moscow State University. Dmitriy Pavlyuk has half a year work experience. He had work experience in development of VPN-client."
+        "A developer-mathematician, Dmitry specializes in functional programming languages. He studied at the Computational Mathematics and Cybernetics faculty of the Lomonosov Moscow State University. He has a hands-on work experience in VPN-client development."
     },
     "PERSON_9": {
       "NAME": "Boris Yartsev",
-      "POSITION": "Developer",
+      "POSITION": "Software Developer",
       "DESCRIPTION":
-        "Boris is a developer. He has 12 year experience in Java in field of online gambling software, but recently discovered the joys of functional programming. He graduated from SPb ITMO, and taught distributed systems course for three years there. His aim is to become a world class specialist in blockchain technology and cryptocurrencies."
+        "Boris has 12 year experience in Java, in the field of online gambling solutions, but has recently discovered the joy of the functional programming. He graduated from the Saint Petersburg National Research University of Information Technologies, Mechanics and Optics (ITMO), where later he successfully taught a course on distributed systems for three years. His aim is to become a world class specialist in the blockchain technology and cryptocurrencies."
     },
     "PERSON_10": {
       "NAME": "Artem Kravchenko",
-      "POSITION": "Developer",
+      "POSITION": "DevOps",
       "DESCRIPTION":
-        "DevOops. Techno guru. Interested in automatization, AI, coding. Now proving himself on blockchain projects. His work is his hobby. Solving problems and business cases."
+        "DevOps. Techno guru. Interested in automatization, AI, software development. Now proving his high skill in blockchain projects. His work is his hobby. He's very good at solving any business problems."
     },
     "PERSON_11": {
       "NAME": "Mikhail Subbotin",
-      "POSITION": "Developer",
+      "POSITION": "Software Developer",
       "DESCRIPTION":
-        "Mikhail is a developer. He has six years experience in Java, but he prefers Haskell which he founds to be very elegant. He is the third year student of Applied Mathematics in Bauman MSTU, but it's not his first degree. His aim is to achieve PhD in Mathematics."
+        "Mikhail has six years experience in Java, but he prefers Haskell, which he finds to be very elegant. He is a third year student of Applied Mathematics at the Bauman Moscow State Technical University, but this is not his first degree. His aim is to achieve a PhD in math."
     },
     "PERSON_12": {
       "NAME": "Vladislav Svolskiy",
-      "POSITION": "Cyber security specialist",
+      "POSITION": "Cyber Security Specialist",
       "DESCRIPTION":
-        "GeekHack is a young, ambitious cyber security specialist working in designing secure systems as well as the methods and means of ensuring information and computer security. He is engaged in the development and implementation of cyber security processes as well as auditing the cyber security of company's products and of its infrastructure as a whole."
+        "GeekHack is a young, ambitious cyber security specialist taking pride in designing elegant and secure systems, and devising methods and means of ensuring a strong information security culture. He likes to be actively engaged in the development and implementation of cyber security in the project as well as auditing the level of security of each product in the company and the company infrastructure on the whole."
     },
     "PERSON_13": {
       "NAME": "Milya Musina",
       "POSITION": "CMO",
       "DESCRIPTION":
-        "Crypto geek and marketer. When she was a schoolar she have launched her own art festival with 3000 audience using only guerrilla marketing. It was her first marketing project. Many years later she started promote cryptocurrency exchange and came to our friendly ICO."
+        "Crypto geek and marketer. Even at school Milya managed to launch her own art festival with a 3000 people audience using only guerrilla marketing. It was her first marketing project and an immediate success. Many years later, she got interested in cryptocurrencies and started promoting cryptocurrency exchange, all that leading her to our friendly company."
     },
     "PERSON_14": {
       "NAME": "Denis Lisetskiy",
       "POSITION": "PR",
       "DESCRIPTION":
-        "Crypto futurist and community developer. He joined the team after working in biotechnology, cooperated with state companies of Russia and Nicaragua."
+        "A crypto futurist and community developer, Denis joined the team after a hands-on work experience in biotechnology, where he cooperated with Russian and Nicaraguan state companies."
     },
     "PERSON_15": {
       "NAME": "Igor Sawczuk",
       "POSITION": "Content Team Lead, Copywriter",
       "DESCRIPTION":
-        "Have been employed in IT sphere for more than 15 years now. During the recent 4 years have officially been working on blockchain scene. Worked on a number of ICO-accelerators and the launch of several large ICO-projects. In addition to that actively writing on the topic of Information Technologies. According to ozon.ru one of his books depicting cultural sphere of IT became best-seller of 2016 in Russia."
+        "Igor has been employed in the IT field for more than 15 years. During the recent 4 years, he has officially been working on the blockchain market. He was involved in a number of ICO-accelerators and the launch of several large ICO-projects. In addition to that, he is an active writer on the subject of Information Technologies. According to ozon.ru, one of his books depicting the culture of IT became a best-seller of 2016 in Russia."
     },
     "PERSON_16": {
       "NAME": "Oleg Karakoz",
       "POSITION": "Technical Writer",
       "DESCRIPTION":
-        "Oleg is a Technical Writer. He has knowledge of several European languages and likes English for its universal application and professional versatility. He received a B.A. in Linguistics but is interested in CS and learns Java."
+        "Oleg is a Technical Writer with a passion for new concepts. He has knowledge of several European languages and likes English for its universal application and professional versatility. He received a B.A. in Linguistics, but is now interested in CS and is learning Java."
     },
     "PERSON_17": {
       "NAME": "Julia Ilinykh",
       "POSITION": "HR Manager",
       "DESCRIPTION":
-        "Julia is HR Manager. She has more than 15 years experience in personnel. Her main target is to help people and Company deliver their best result by right placement, development and creation of positive working climate inside the team"
+        "Julia has more than 15 years experience in human resources management. Her aim is to help people and the Company deliver their best by setting a perfect office design, developing a good team spirit and creating a climat for positive changes."
     },
     "PERSON_18": {
-      "NAME": "Juliya Mayer",
+      "NAME": "Julia Mayer",
       "POSITION": "Business assistant",
       "DESCRIPTION":
-        "Enecuum business assistant with 7 years background. Have an administrative experience in marketing, event and business spheres. Juliya sure that the administrative efficiency and streamlined workflow are the based foundation of successful project."
+        "Enecuum's business assistant with 7 years of field background. Julia has an administrative experience in marketing, event management and other business areas. Julia is sure that administrative efficiency and streamlined workflow are the foundation of a successful project."
     },
     "PERSON_19": {
       "NAME": "Julia Osipova",
       "POSITION": "UX/UI designer",
       "DESCRIPTION":
-        "UX/UI designer, based on web and mobile applications. She studied in Saint-Petersburg State University of Technology and Design (Graphic Design in advertisement and in the business area faculty). Julia has two years work experience. She created UX/UI design for web applications for WIX platform and also had work experience in web applications in crypto area."
+        "A UX/UI designer of web and mobile applications. Julia studied at the Saint Petersburg State University of Technology and Design (faculty of Graphic Design in Advertisement and Business). Julia has two years of work experience during which she created UX/UI designs for WIX platform web apps and web apps for cryptocurrency projects."
     },
     "PERSON_20": {
-      "NAME": "Urszula McCormac",
+      "NAME": "Urszula McCormack",
       "POSITION": "Legal Advisor",
-      "DESCRIPTION": ""
+      "DESCRIPTION": "Urszula is our renown international legal adviser. She helps the project to stay on track and navigates it through the unfamiliar terrain of the Chinese and international legal systems."
     },
     "PERSON_21": {
       "NAME": "Ismail Malik",
       "POSITION": "Advisor",
-      "DESCRIPTION": ""
+      "DESCRIPTION": "Ismail is a prominent professional in the field of promotion and consulting. His iconic figure along with his deep knowledge help cut Enecuum into a true diamond on the market."
     },
     "PERSON_22": {
       "NAME": "Dmitry Sviridov",
-      "POSITION": "Developer",
+      "POSITION": "Software Engineer",
       "DESCRIPTION":
-        "Veteran Software Engineer with 15+ years of experience of design, implementation and development of technically challenging projects. Proven track record of shipping project, including video games, rendering engines, mobile applications, GIS and embedded technical systems. Vast experience in international collaboration, including working with remote teams, and moving across the globe if the project requires personal presence."
+        "A veteran software engineer with 15+ years of experience in design, implementation and development of technically challenging projects. Proven track record of successful shipping of numerous projects, including video games, rendering engines, mobile applications, GIS and embedded technical systems. Vast experience in international collaboration, including working with remote teams, and moving across the globe if the project requires a personal presence."
     },
     "SEE_MORE": "See more",
     "FORM": {
@@ -373,86 +401,79 @@
   },
   "CAREERS": {
     "TITLE": "Careers",
-    "TEXT":
-      "We are always seeking to grow our team with top talant from various professional backgrounds. Submit your resume for consideration as new positions become available.",
     "SUPPORT_MANAGER": {
-      "TITLE": "Community/support manager",
+      "TITLE": "Community/Support Manager",
       "DESC": {
-        "LINE_1": "Location: St Petersburg",
-        "LINE_2": "Experience: 1-3 years",
-        "LINE_3": ""
+        "LINE_1": "St Petersburg, Ploschad Lenina, Gorkovskaya",
+        "LINE_2": "Desired work experience: 1-3 years",
+        "LINE_3": "Full time"
       },
       "SUM":
-        "We are creating an innovative decentralized platform of new generation for implementation of block-chain technologies into business. Today our laboratory and office are based in St Petersburg. We are a multinational company, developing advanced digital technologies, able to change the world. We are looking for professionals who are ready to change the world together with us.",
+        "We are an innovating decentralized platform for integrating blockchain into business processes. На сегодняшний день головной офис и лаборатория располагаются в г. Санкт-Петербург. Мы - международная компания, разрабатывающая передовые, цифровые технологии, меняющие мир и мы ищем специалистов в своих областях, которые хотят менять мир вместе с нами",
       "DUTIES": {
-        "TITLE": "Responsibilities:",
-        "LINE_1": "Communication with clients",
-        "LINE_2": "Responses to the questions in social media",
-        "LINE_3": "Request processing inside CRM",
+        "TITLE": "Обязанности",
+        "LINE_1":
+          "Выстраивание экосистемы вокруг бренда и формирование образа компании в коммуникации",
+        "LINE_2":
+          "Ответы на корпоративную почту и запросы через support CRM (можно выбрать удобную для себя)",
+        "LINE_3":
+          "Общение с подписчиками с целью вовлечения их в коммуникацию. Каналы: Medium, Bitcointalk, Reddit, Twitter, Facebook, Quora, Telegram",
         "LINE_4":
-          "Preparation and implementation of advertisement campaigns in social media, followed by monitoring and analyses",
-        "LINE_5": "Communication with subscribers aiming at their involvement",
-        "LINE_6":
-          "Channels: Medium, Bitcointalk, Reddit, Twitter, Facebook, Quora, Telegram"
+          "Сбор статистики для FAQ по наиболее популярным запросам аудитории"
       },
       "REQUIRES": {
-        "TITLE": "Skills and requirements:",
-        "LINE_1":
-          "Ability to tune targeted advertisement in FB, YouTube, Twitter;",
-        "LINE_2": "Ability to work with parcers;",
-        "LINE_3": "Working knowledge of Reddit, Twitter;",
-        "LINE_4": "Good command of written English;",
-        "LINE_5": "Communicative skills;",
-        "LINE_6": "Creativity;",
-        "LINE_7": "Blockchain technology understanding will be a plus"
+        "TITLE": "Требования",
+        "LINE_1": "Свободный письменный английский язык",
+        "LINE_2":
+          "Понимание тематики блокчейн или большое желание в ней разобраться",
+        "LINE_3": "Умение работать с CRM",
+        "LINE_4": "Стрессоустойчивость",
+        "LINE_5": "Коммуникабельность",
+        "LINE_6": "Возможность работать в нестандартном графике",
+        "LINE_7": "Креативность"
       },
       "CONDITIONS": {
-        "TITLE": "Working environment",
-        "LINE_1": "Comfortable modern office;",
-        "LINE_2": "Tea&coffee;",
-        "LINE_3": "oung, friendly and professional team;",
-        "LINE_4": "Learning opportunities: seminars and courses"
+        "TITLE": "Условия",
+        "LINE_1":
+          "Работа в комфортном офисе, после испытательного срока возможна работа удаленно",
+        "LINE_2": "Бесплатный кофе и чай;",
+        "LINE_3": "Молодой и дружный коллектив профессионалов;",
+        "LINE_4": "Бесплатные посещения различных семинаров и обучающих курсов",
+        "LINE_5": "Испытательный срок 2 недели;"
       }
     },
     "PROJECT_MANAGER": {
-      "TITLE": "Project manager",
-      "PRICE": "",
+      "TITLE": "Project Manager",
       "DESC": {
-        "LINE_1": "Location: St Petersburg",
-        "LINE_2": "Experience: 3–6 years"
+        "LINE_1": "Санкт-Петербург, Площадь Ленина,  Горьковская",
+        "LINE_2": "Требуемый опыт работы: 3–6 лет",
+        "LINE_3": "Полная занятость, полный день"
       },
       "SUM":
-        "We are creating an innovative decentralized platform of new generation for implementation of block-chain technologies into business. Today our laboratory and office are based in St Petersburg. We are a multinational company, developing advanced digital technologies, able to change the world. We are looking for professionals who are ready to change the world together with us.",
+        "Инновационная децентрализованная платформа нового поколения для внедрения блокчейн-технологий в бизнес. На сегодняшний день головной офис и лаборатория располагаются в г. Санкт-Петербург. Мы - международная компания, разрабатывающая передовые, цифровые технологии, меняющие мир и мы ищем специалистов в своих областях, которые хотят менять мир вместе с нами",
       "DUTIES": {
-        "TITLE": "Responsibilities",
-        "LINE_1": "Management of project development;",
-        "LINE_2": "Resource control;",
-        "LINE_3": "Schedule and held SCRUM meetings;",
-        "LINE_4": "Agreement, coordination and control of development plan;"
+        "TITLE": "Обязанности",
+        "LINE_1": "Управление проектом разработки",
+        "LINE_2": "Согласование и контроль плана разработки",
+        "LINE_3": "Контроль ресурсов",
+        "LINE_4": "Организация SCRUM meetings"
       },
       "REQUIRES": {
-        "TITLE": "Skills and requirements",
-        "LINE_1": "Experience in similar position at least 3 years;",
-        "LINE_2": "Good command of SCRUM metodology;",
-        "LINE_3": "Working knowledge in Task management, Bug Tracking systems;",
-        "LINE_4": "Good understanding of modern technologies;",
-        "LINE_5": "Blockchain technologies knowledge would be a plus;",
-        "LINE_6": "Good command of written English;"
+        "TITLE": "Требования",
+        "LINE_1": "Опыт работы на аналогичной должности от 3 лет",
+        "LINE_2": "Свободное владение английским языком",
+        "LINE_3": "Хорошее знание SCRUM методологии",
+        "LINE_4": "Навыки работы в системе Task Management, Bug Tracking",
+        "LINE_5": "Хорошее понимание современных технологий",
+        "LINE_6": "Знание технологии блокчейн будет плюсом"
       },
       "CONDITIONS": {
-        "TITLE": "Working environment",
-        "LINE_1":
-          "РComfortable modern office, distant work is possible after the trial period;",
-        "LINE_2": "Tea&coffee;",
-        "LINE_3": "Young, friendly and professional team;",
-        "LINE_4": "Learning opportunities: seminars and courses;",
-        "LINE_5": "Trial period 2 weeks;"
-      },
-      "KEY_SKILLS": {
-        "TITLE": "Key skills",
-        "LINE_1": "Project Management;",
-        "LINE_2": "Bug Tracking System;",
-        "LINE_3": "English language;"
+        "TITLE": "Условия",
+        "LINE_1": "Работа в комфортном офисе;",
+        "LINE_2": "Бесплатный кофе и чай;",
+        "LINE_3": "Молодой и дружный коллектив профессионалов;",
+        "LINE_4": "Бесплатные посещения различных семинаров и обучающих курсов",
+        "LINE_5": "Испытательный срок 2 недели;"
       }
     },
     "MEDIA_MANAGER": {
