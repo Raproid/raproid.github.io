@@ -31,12 +31,12 @@
   "TOP_BANNER": {
     "TITLE": " Blockchain of Tomorrow",
     "TEXT":
-      "Enecuum is an innovating decentralized platform for integrating blockchain into business processes"
+      "Enecuum is an innovative decentralized platform for integrating blockchain into business processes"
   },
   "FEATURES": {
     "SLIDER_1": {
-      "TITLE": "HyperDAG",
-      "SUB_TITLE": "Directed Acyclic Hypergraph",
+      "TITLE": "Scalability",
+      "SUB_TITLE": "Directed Acyclic Hypergraph (HyperDAG)",
       "TEXT":
         "New transaction recording method supporting creation of separate branches in the system, with a custom ruleset tailored to solve any business problem, including the problem of quick and cheap handling a large number of transactions. These branches made of chains of blocks each containing a number of homogenous transactions."
     },
@@ -44,7 +44,7 @@
       "TITLE": "Scalability",
       "SUB_TITLE": "Free Transactions",
       "TEXT":
-        "Instant transactions with zero fees. Our architecture already supports macroblocks of unlimited size - a unique solution allowing our system protocol to scale in parallel with the growing overall computational power of the network."
+        "Most part of transactions have zero fees. Our architecture already supports macroblocks of unlimited size - a unique solution allowing our system protocol to scale in parallel with the growing overall computational power of the network."
     },
     "SLIDER_3": {
       "TITLE": "Speed",
@@ -56,13 +56,13 @@
       "TITLE": "Security",
       "SUB_TITLE": "Hybrid Consensus Algorithm",
       "TEXT":
-        "Implementation of PoW + PoA (first case of real life implementation) + PoS algorithms increases the level of security and makes the system 3 times more resistant to hacking."
+        "Implementation of PoW + PoA (first case of real life implementation) + PoS algorithms makes the system 3 times more resistant to hacking."
     },
     "SLIDER_5": {
       "TITLE": "Security",
       "SUB_TITLE": "Private Branches",
       "TEXT":
-        "Enecuum jettons to create dedicated branches where circulation of ENQ coins, the main system cryptocurrency, is not intended. A jetton is both an access key to the corresponding branch and a decryption key for the transactions in this branch, and can be freely transferred between the users of the system. The key purpose of jetton branches is to facilitate creation of a blockchain-based flexible environment for easy interaction between businesses and their customers."
+        "Enecuum jettons allow to create dedicated branches where circulation of ENQ coins, the main system cryptocurrency, is not intended. A jetton is both an access key to the corresponding branch and a decryption key for the transactions in this branch, and can be freely transferred between the users of the system. The key purpose of jetton branches is to facilitate creation of a blockchain-based flexible environment for easy interaction between businesses and their customers."
     },
     "SLIDER_6": {
       "TITLE": "Security",
@@ -161,11 +161,11 @@
       "TITLE": "Proof of Work",
       "TEXT": {
         "BLOCK_1":
-        "Proof of Work at Enecuum is based on an improved version of the Bitcoin-NG protocol modified for effective mining of many block of different types in parallel. It ensures a high of scalability the system.",
+        "Proof of Work at Enecuum is based on an improved version of the Bitcoin-NG protocol modified for effective mining of many block of different types in parallel. This approach ensures high scalability the system.",
         "BLOCK_2":
-        "A custom version of the Cryptonight protocol (Keccak + AES + X11) defends the system against centralization caused by ASIC devices.",
+        "A custom version of the Cryptonight protocol (Keccak + AES + X11) aims to defend the system against centralization caused by Application-Specific Integrated Circuit devices.",
         "BLOCK_3":
-        "PoW miners calculate the block hash and hold their macroblocks open for PoA miners to fill it with microblocks containing transations."
+        "PoW miners calculate the block hash and hold their macroblocks open for PoA miners to fill it with microblocks containing transactions."
         }
       },
     "ITEM_2": {
@@ -173,7 +173,7 @@
       "TEXT":
       {
         "BLOCK_1":
-          "Proof of Activity at Eneecum is applied at two different stages.",
+          "Proof of Activity at Eneecum is proposed to be applied at two different stages.",
         "BLOCK_2":
           " First, PoA miners reach consensus to form teams of 64 participants. Second, every team validates a chain of 62 microblocks with 40 transaction each and publish them into the network - to the blocks opened by the PoW miners.", 
         "BLOCK_3":
@@ -186,14 +186,14 @@
         "BLOCK_1":
         "PoS miners continuously re-check balances of all wallets in the system.",
         "BLOCK_2":
-        "Reward is received in the form of an interest. The system defines the minimum and maximum balance thresholds outside of which a miners is not able to gain any interest, and the interest grows as the miner’s balance grows towards the maximum."
+        "The reward for PoS mining is flexible. The system defines the minimum and maximum balance thresholds outside of which a miner is not able to gain any reward."
       }
     }
   },
   "PHONE_MINING": {
     "TITLE": "Phone Mining",
     "TEXT":
-      "Using your phone for PoA mining, you approve transactions and validate blocks. The reward for PoA mining is equal to the reward received by PoW miners, with no required high computational power. Most simple mining without loss of energy and memory."
+      "With Enecuum, you'll be able to perform PoA mining on your phone approving transactions and validating blocks. The reward for PoA mining is equal to the reward received by PoW miners. Effective mining with little computational power."
   },
   "ROADMAP": {
     "TITLE": "Roadmap",
@@ -267,43 +267,43 @@
       "NAME": "Anton Nikonorov",
       "POSITION": "CTO",
       "DESCRIPTION":
-        "Experienced Chief Executive Officer with a demonstrated history of experience in the Information Technology & Services industry. Skilled in Oracle DB, C++, Agile Methodologies, SCADA and Apache Cordova. A strong entrepreneur and a professional with an Engineer's degree in Electrical Egineering from the St. Petersburg Polytechnic University."
+        "Experienced Chief Executive Officer with a demonstrated history of experience in the Information Technology & Services industry. Skilled in Oracle DB, C++, Agile Methodologies, SCADA and Apache Cordova. A strong entrepreneur and a professional with a degree in Electrical Egineering from the St. Petersburg Polytechnic University."
     },
     "PERSON_2": {
       "NAME": "Mikhail Sayfullin",
       "POSITION": "CEO",
       "DESCRIPTION":
-        "Entrepreneur since 2002. Founded and developed a marketing agency that successfully delivered high quality services to the largest international corporations. Since 2014, Michail has been successfully working in the IT field launching a popular marketplace in the entertainment sector. One of the founders of the Enecuum Limited and its strategic manager since 2017."
+        "Entrepreneur since 2002. Founded and developed a marketing agency that successfully delivered high quality services to the largest international corporations. Since 2014, Michail has been successfully working in the IT field launching a popular marketplace in the entertainment sector. One of the founders of the Enecuum Limited and our strategic manager since 2017."
     },
     "PERSON_3": {
       "NAME": "Ivan V. Ivanov",
-      "POSITION": "Director, Board member, Hong Kong",
+      "POSITION": "COO",
       "DESCRIPTION":
-        "Founder of the UPSTUDY GROUP, co-Founder of EE24.COM, managing director of the YUKUMA GROUP, CEO at AM Digital. A prominent professional with more than 13 years experience of business development and management in High Tech, IT and Web projects. With his strong entrepreneurial skills and multiple international business connections, Ivan is proud to be one the board members at Enecuum and helps make the project an international success."
+        "Founder of the UPSTUDY GROUP, co-Founder of EE24.COM, managing director of the YUKUMA GROUP, CEO at AM Digital. A prominent professional with more than 13 years experience of business development and management in High Tech, IT and Web projects. With his strong entrepreneurial skills and multiple international business connections, Ivan is proud to be a board member of Enecuum helping make the project an international success."
     },
     "PERSON_4": {
       "NAME": "Darya Melnikova",
       "POSITION": "Software Developer",
       "DESCRIPTION":
-        "A Haskell/C++ software developer, Daria is getting her Master's degree in Computer Science & Software Engineering. Her passion is mathematical logic and functional programming. Daria also has an Advanced Training Diploma from the Saint Petersburg Academic University and a law degree. After a few years of building a career in law, Daria discovered that software development is much more fun, than acts and contracts, and was into it ever since."
+        "A Haskell/C++ software developer, Daria is stuyding for a Master's degree in Computer Science & Software Engineering. Her passion is mathematical logic and functional programming. Daria also has an Advanced Training Diploma from the Saint Petersburg Academic University and a law degree. After a few years of building a career in law, Daria discovered that software development is much more fun, than legislations and contracts, and was into it ever since."
     },
     "PERSON_5": {
       "NAME": "Oleg Maksimov",
       "POSITION": "Software Developer",
       "DESCRIPTION":
-        "A skillful Android/iOS developer with 5 years field background. Oleg graduated from the Ulyanovsk State Univercity in 2009. He was involved in video gaming industry and Web Dev (Frontend). Oleg participated in the creation process of such products as Android & iOS apps for \"My Perekrestok\", \"Zdravcity\", \"Fsrar\", \"CMS-Magazine\". He also contributed to the development of \"Jelly Jumpers\", \"Dead ahead\" and \"Zerotram\" mobile games and open-source software: Yandexmapkit-android, Requery, MultiSlider, Urho3D, ZeroMQ."
+        "A skillful Android/iOS developer with 5 years field background. Oleg graduated from the Ulyanovsk State Univercity in 2009. He was involved in video gaming industry and front-end web development. Oleg participated in the creation process of such products as Android & iOS apps for \"My Perekrestok\", \"Zdravcity\", \"Fsrar\", \"CMS-Magazine\". He also contributed to the development of \"Jelly Jumpers\", \"Dead ahead\" and \"Zerotram\" mobile games and open-source software: Yandexmapkit-android, Requery, MultiSlider, Urho3D, ZeroMQ."
     },
     "PERSON_6": {
       "NAME": "Kseniya Pozdnyakova",
       "POSITION": "Software Developer",
       "DESCRIPTION":
-        "Ksenia is a Haskell developer, her favourite programming language. \"Haskell is so natural for someone who really loves math\". She has a strong background in Applied Mathematics received at the Ural Federal University. She dreams of changing the world. That is why she chose to be a developer. \"You can invent something and scale it for the whole humankind. You can improve life drastically not only for a single person, but for the whole society. That is my passion,\" says Ksenis."
+        "Ksenia is a Haskell developer, her favourite programming language. \"Haskell is so natural for someone who really loves math\". She has a strong background in Applied Mathematics received at the Ural Federal University. She dreams of changing the world. That is why she chose to be a developer. \"You can invent something and scale it for the whole of humankind. You can improve life drastically not only for a single person, but for the whole society. That is my passion,\" says Ksenis."
     },
     "PERSON_7": {
       "NAME": "Ilya Gruzdev",
       "POSITION": "Software Developer",
       "DESCRIPTION":
-        "A geek and mathematician. He studied in Saint Petersburg National Research University of Information Technologies, Mechanics and Optics (ITMO). His main interests are Computer Science, theoretical physics, functional programming languages and its use in practice, and DSL development."
+        "A geek and mathematician. Ilya studied in Saint Petersburg National Research University of Information Technologies, Mechanics and Optics (ITMO). His main interests are Computer Science, theoretical physics, functional programming languages and its use in practice, and DSL development."
     },
     "PERSON_8": {
       "NAME": "Dmitry Pavlyuk",
@@ -315,13 +315,13 @@
       "NAME": "Boris Yartsev",
       "POSITION": "Software Developer",
       "DESCRIPTION":
-        "Boris has 12 year experience in Java, in the field of online gambling solutions, but has recently discovered the joy of the functional programming. He graduated from the Saint Petersburg National Research University of Information Technologies, Mechanics and Optics (ITMO), where later he successfully taught a course on distributed systems for three years. His aim is to become a world class specialist in the blockchain technology and cryptocurrencies."
+        "Boris has 12 years experience in Java, in the field of online gambling solutions, but has recently discovered the joy of the functional programming. He graduated from the Saint Petersburg National Research University of Information Technologies, Mechanics and Optics (ITMO), where later he successfully taught a course on distributed systems for three years. His aim is to become a world class specialist in the blockchain technology and cryptocurrencies."
     },
     "PERSON_10": {
       "NAME": "Artem Kravchenko",
       "POSITION": "DevOps",
       "DESCRIPTION":
-        "DevOps. Techno guru. Interested in automatization, AI, software development. Now proving his high skill in blockchain projects. His work is his hobby. He's very good at solving any business problems."
+        "DevOps. Techno guru. Interested in process automation, AI and software development. Now proving his high skill in blockchain projects. His work is his hobby. He's very good at solving any business problems."
     },
     "PERSON_11": {
       "NAME": "Mikhail Subbotin",
@@ -333,13 +333,13 @@
       "NAME": "Vladislav Svolskiy",
       "POSITION": "Cyber Security Specialist",
       "DESCRIPTION":
-        "GeekHack is a young, ambitious cyber security specialist taking pride in designing elegant and secure systems, and devising methods and means of ensuring a strong information security culture. He likes to be actively engaged in the development and implementation of cyber security in the project as well as auditing the level of security of each product in the company and the company infrastructure on the whole."
+        "A young, ambitious cybersecurity specialist taking pride in designing elegant and secure systems, and devising methods and means of ensuring a strong information security culture. He likes to be actively engaged in the development and implementation of cyber security in the project as well as auditing the level of security of each product in the company and the company infrastructure on the whole."
     },
     "PERSON_13": {
       "NAME": "Milya Musina",
       "POSITION": "CMO",
       "DESCRIPTION":
-        "Crypto geek and marketer. Even at school Milya managed to launch her own art festival with a 3000 people audience using only guerrilla marketing. It was her first marketing project and an immediate success. Many years later, she got interested in cryptocurrencies and started promoting cryptocurrency exchange, all that leading her to our friendly company."
+        "Crypto geek and marketer. Even at school Milya managed to launch her own art festival with a 3000-strong audience using only guerrilla marketing. It was her first marketing project and an immediate success. Many years later, she got interested in cryptocurrencies and started promoting a cryptocurrency exchange, all that leading her to our friendly company."
     },
     "PERSON_14": {
       "NAME": "Denis Lisetskiy",
@@ -351,7 +351,7 @@
       "NAME": "Igor Sawczuk",
       "POSITION": "Content Team Lead, Copywriter",
       "DESCRIPTION":
-        "Igor has been employed in the IT field for more than 15 years. During the recent 4 years, he has officially been working on the blockchain market. He was involved in a number of ICO-accelerators and the launch of several large ICO-projects. In addition to that, he is an active writer on the subject of Information Technologies. According to ozon.ru, one of his books depicting the culture of IT became a best-seller of 2016 in Russia."
+        "Igor has been employed in the IT field for more than 15 years. During the last 4 years, he has officially been working on the blockchain market. He was involved in a number of ICO-accelerators and the launch of several large ICO-projects. In addition to that, he is an active writer on the subject of Information Technologies. According to ozon.ru, one of his books depicting the culture of IT became a best-seller of 2016 in Russia."
     },
     "PERSON_16": {
       "NAME": "Oleg Karakoz",
@@ -369,7 +369,7 @@
       "NAME": "Julia Mayer",
       "POSITION": "Business assistant",
       "DESCRIPTION":
-        "Enecuum's business assistant with 7 years of field background. Julia has an administrative experience in marketing, event management and other business areas. Julia is sure that administrative efficiency and streamlined workflow are the foundation of a successful project."
+        "Enecuum's business assistant with 7 years field experience. Julia has an administrative experience in marketing, event management and other business areas. Julia is sure that administrative efficiency and streamlined workflow are the foundation of a successful project."
     },
     "PERSON_19": {
       "NAME": "Julia Osipova",
@@ -409,7 +409,7 @@
         "LINE_3": "Full time"
       },
       "SUM":
-        "We are an innovating decentralized platform for integrating blockchain into business processes. На сегодняшний день головной офис и лаборатория располагаются в г. Санкт-Петербург. Мы - международная компания, разрабатывающая передовые, цифровые технологии, меняющие мир и мы ищем специалистов в своих областях, которые хотят менять мир вместе с нами",
+        "We are an innovative decentralized platform for integrating blockchain into business processes. На сегодняшний день головной офис и лаборатория располагаются в г. Санкт-Петербург. Мы - международная компания, разрабатывающая передовые, цифровые технологии, меняющие мир и мы ищем специалистов в своих областях, которые хотят менять мир вместе с нами",
       "DUTIES": {
         "TITLE": "Обязанности",
         "LINE_1":
