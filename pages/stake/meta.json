@@ -1,3 +1,12 @@
 {
-  "index": "Introduction"
+  "index": "What is Ankr Staking?",
+  "delegated-staking": "Delegated Staking",
+  "liquid-staking": "Liquid Staking",
+  "defi": "DeFi",
+  "bridge": "Bridge",
+  "switch": "Switch",
+  "liquid-crowdloan": "Liquid Crowdloan",
+  "extra": "Extra",
+  "api": "Liquid Staking APIs",
+  "sdk": "Liquid Staking SDKs"
 }
