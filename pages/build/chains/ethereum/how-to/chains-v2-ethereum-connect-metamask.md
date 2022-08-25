@@ -29,7 +29,7 @@ There are default settings in MetaMask for connecting a wallet to Ethereum Mainn
 
 2. Ignore the **Chain ID warning** and click **Save**.
 
-<img src={require('/img/ankr-eth-mainnet-metamask.png').default} alt="Rinkeby RPC MetaMask" width="600" />
+<img src="/ankr-eth-mainnet-metamask.png" alt="Rinkeby RPC MetaMask" class="responsive-pic" width="600" />
 
 ## About Ethereum Testnets
 
@@ -85,7 +85,7 @@ _Make sure you include backslashes and don't add any whitespace._
 
 2. Ignore the **Chain ID warning** and click **Save**
 
-<img src={require('/img/ankr-rinkeby-metamask.png').default} alt="Rinkeby RPC MetaMask" width="600" />
+<img src="/ankr-rinkeby-metamask.png"} alt="Rinkeby RPC MetaMask" class="responsive-pic" width="600" />
 
 ## Ropsten and faucets
 
@@ -119,7 +119,7 @@ There are default settings in MetaMask for connecting a wallet to Ropsten Testne
 
 2. Ignore the **Chain ID warning** and click **Save**
 
-<img src={require('/img/ankr-ropsten-metamask.png').default} alt="Rinkeby RPC MetaMask" width="600" />
+<img src="/ankr-ropsten-metamask.png" alt="Rinkeby RPC MetaMask" class="responsive-pic" width="600" />
 
 ## Goerli and faucets
 
@@ -151,4 +151,4 @@ There are default settings in MetaMask for connecting a wallet to Goerli Testnet
 
 2. Ignore the **Chain ID warning** and click **Save**
 
-<img src={require('/img/ankr-goerli-metamask.png').default} alt="Rinkeby RPC MetaMask" width="600" />
+<img src="/ankr-goerli-metamask.png" alt="Rinkeby RPC MetaMask" class="responsive-pic" width="600" />

@@ -12,7 +12,7 @@ Returns newly created Contract wrapper, using the provided address and ABI.
 
 :::note
 You have to provide everything listed under your contract definition's `abi` section.
-<img src={require('/img/interfaces-note.png').default} alt="abi section" width="190" />
+<img src="/interfaces-note.png" alt="abi section" class="responsive-pic" width="190" />
 :::
 
 ### `IEthHandler Eth { get; }`

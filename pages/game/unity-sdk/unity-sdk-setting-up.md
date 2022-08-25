@@ -1,8 +1,3 @@
----
-title: Setting Up
-id: setting-up
----
-
 # Setting up
 
 ## Installation
@@ -15,7 +10,8 @@ id: setting-up
 
 4. Select '*Import all*' to have access to all SDK capabilities.
 
-![Install SDK](@site/static/img/install-sdk.png)
+<img src="/install-sdk.png" alt="Install SDK" class="responsive-pic" width="700" />
+
 
 
 ## What's inside

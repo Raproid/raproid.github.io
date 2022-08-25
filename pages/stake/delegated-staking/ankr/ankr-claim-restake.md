@@ -51,4 +51,4 @@ You can restake your rewards to increase you APY. To do that:
 3. On the management page, under **Active Staking**, choose a Node Provider and an _unlocked_ reward. 
 4. Click **Restake** next to the chosen reward.
 
-<img src={require('/img/delegated-staking/ankr-bankr.png').default} alt="Ankr Bankr" width="400" />
+<img src="/delegated-staking/ankr-bankr.png" alt="Ankr Bankr" class="responsive-pic" width="400" />

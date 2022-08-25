@@ -20,15 +20,16 @@ The following instructions are based on Monterey v12.3.1.
 
 ## STEP ONE - Add Unreal Engine v4
 
-<iframe width="450" height="275" src="https://www.youtube.com/embed/tMKK9Ui2a0k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+Watch how to install Unreal Engine v4:
+<iframe width="600" height="400" src="https://www.youtube.com/embed/tMKK9Ui2a0k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-#
+You can also read through this list:
 
 1. Open **Epic Games Launcher** and view all versions of the **Unreal Engine** you have. 
 
 2. Click **Library** and the **+** button to add the **v4** version
 
-    <img src={require('/img/unreal-v5.png').default} alt="blank" width="600" />
+    <img src="/unreal-v5.png" alt="blank" class="responsive-pic" width="600" />
 
 3. You can now click to install **v4**. (This takes some time)
 
@@ -40,7 +41,7 @@ The following instructions are based on Monterey v12.3.1.
    "Do you want the app **UnrealEditor.app** to accept incoming network connections"
    Select **Allow**
 
-   <img src={require('/img/game-mac-1.png').default} alt="blank" width="200" />
+   <img src="/game-mac-1.png" alt="blank" class="responsive-pic" width="200" />
 
    :::
 
@@ -48,7 +49,7 @@ The following instructions are based on Monterey v12.3.1.
 
 1. Inside the **Unreal Project Browser**, select **Games** and click **Next**
 
-   <img src={require('/img/v4-games-2.png').default} alt="blank" width="500" />
+   <img src="/v4-games-2.png" alt="blank" class="responsive-pic" width="500" />
 
 2. On the **Template** screen, select **Blank** and click **Next**
 
@@ -58,21 +59,21 @@ The following instructions are based on Monterey v12.3.1.
 
     :::
 
-    <img src={require('/img/game-template.png').default} alt="blank" width="500" />
+    <img src="/game-template.png" alt="blank" class="responsive-pic" width="500" />
 
 3. In **Project Settings**
 * From the **Blueprint** and **C++** options, select **C++**. 
 * From the **Starter Content** and **No Starter Content** options, select **No Starter Content**
 * From the **Desktop/Console** or **Mobile** options, select your preference. 
 
-    <img src={require('/img/game-v4-2.png').default} alt="blank" width="500" />
+    <img src="/game-v4-2.png" alt="blank" class="responsive-pic" width="500" />
 
 
 4. Give your project a memorable name e.g. BlockchainGame and then click **Create Project**
 
 5. Check your project is successfully created and opens. Then close it. So we can do the next important step of adding the SDK. 
 
-<img src={require('/img/game-mac-2.png').default} alt="create folder" width="350" />
+<img src="/game-mac-2.png" alt="create folder" class="responsive-pic" width="350" />
 
 ## STEP THREE - Download Ankr SDK
 
@@ -88,7 +89,7 @@ The following instructions are based on Monterey v12.3.1.
 
 4. Delete the **AnkrSDK.zip** file if it is inside the **Plugins folder** as well. 
 
-<img src={require('/img/game-mac-3.png').default} alt="create folder" width="400" />
+<img src="/game-mac-3.png" alt="create folder" class="responsive-pic" width="400" />
 
 
 ## STEP FOUR - Generate the Xcode project
@@ -115,13 +116,13 @@ These docs are written using Xcode 13.1
 
 2. Expand **Games > your_unreal_project__name > Source > your_unreal_project_name > your_unreal_project_name.Build.cs** 
 
-   <img src={require('/img/game-mac-5.png').default} alt="Xcode" width="600" />
+   <img src="/game-mac-5.png" alt="Xcode" class="responsive-pic" width="600" />
 
    Add `"AnkrSDK"` at the end of the string array as shown below: 
 
    ```
    PublicDependencyModuleNames.AddRange(new string[] { "Core", "CoreUObject", "Engine", "InputCore", "AnkrSDK" });
-
+   ```
 
 3. Now from the top menu, select **Product** > **Build For** > **running**
 

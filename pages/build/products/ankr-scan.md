@@ -7,7 +7,7 @@ id: scan
 
 **Ankr Scan** is a Multi-Chain Explorer that allows a unified view of multiple chains at a time. Currently it supports 11 chains with more in the pipeline. 
 
-![Ankr Scan Chains](@site/static/img/ankr-scan-chains.png)
+<img src="/ankr-scan-chains.png" alt="Ankr Scan Chains" class="responsive-pic" width="800" />
 
 * View current and historical data for transactions, addresses and blocks 
 * Unified view of Crypto assets, Tokens and NFTs acrossing multiple chains.
@@ -19,7 +19,7 @@ id: scan
 - **Txn hash** - View full details for a specific transaction.
 - **Block** - View full details for a specific block.
 
-![Ankr Scan](@site/static/img/ankr-scan.png)
+<img src="/ankr-scan.png" alt="Ankr Scan" class="responsive-pic" width="800" />
 
 ## Block data
 
@@ -45,7 +45,7 @@ View individual block details for blocks held on multiple chains.
 
 - **State root** - The root hash of Merkle trie that stores the entire blockchain state.
 
-![Ankr Scan](@site/static/img/blockview-scan.png)
+<img src="/blockview-scan.png" alt="Ankr Scan" class="responsive-pic" width="800" />
 
 ## Transaction data
 
@@ -73,13 +73,13 @@ You can view detailed information for an individual transaction on supported blo
 
 - **Nonce** - The numbered transaction sent from a given address. Each sent transaction increases the nonce by 1
 
-![Ankr Scan](@site/static/img/tx-data-scan.png)
+<img src="/tx-data-scan.png" alt="Ankr Scan" class="responsive-pic" width="800" />
 
 ## Address view
 
 By entering a specific wallet address you can gain a view of the following:
 
-![Ankr Scan](@site/static/img/tx-data-scan.png)
+<img src="/tx-data-scan.png" alt="Ankr Scan" class="responsive-pic" width="800" />
 
 ### Assets
 
@@ -118,7 +118,7 @@ Token Transfers provide details of **from** and **to** transactions between addr
 - **Value** - The amount transferred
 - **Token** The asset type transferred
 
-![Ankr Scan](@site/static/img/assets-view-scan.png)
+<img src="/assets-view-scan.png" alt="Ankr Scan" class="responsive-pic" width="800" />
 
 ### NFTs
 

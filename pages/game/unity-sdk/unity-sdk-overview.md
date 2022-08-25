@@ -7,7 +7,7 @@ id: about-unity
 
 The Ankr Gaming Unity SDK provides a powerful toolkit for Game Developers and Studios to easily interact with Web3 and create an amazing gaming experience. 
 
-![GameSDK](@site/static/img/ankr-game.png)
+<img src="/ankr-game.png" alt="GameSDK" class="responsive-pic" width="800" />
 
 ## Key features
 
@@ -38,4 +38,4 @@ Check out Ankr Game channels in the [Ankr Discord](https://discord.gg/uYaNu23Ww7
 
 ## Example integration
 
-![Meta-apes](@site/static/img/metaapes.png)
+<img src="/metaapes.png" alt="Meta-apes" class="responsive-pic" width="800" />

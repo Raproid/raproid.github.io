@@ -109,7 +109,7 @@ echo $((0x14eeb))
 
 Check the latest block at [https://explorer.syscoin.org/](https://explorer.syscoin.org/)  
 
-<img src={require('/img/verify-latest-block.png').default} alt="Verify latest block" width="1000" />
+<img src="/verify-latest-block.png" alt="Verify latest block" class="responsive-pic" width="1000" />
 
 
 
