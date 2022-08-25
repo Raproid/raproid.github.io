@@ -1,7 +1,0 @@
-{
-  "ankrsdkfactory": "AnkrSDKFactory",
-  "ankrsdkwrapper": "AnkrSDKWrapper",
-  "eth-handler": "EthHandler",
-  "contract": "Contract",
-  "contract-event-subscriber": "ContractEventSubscriber"
-}

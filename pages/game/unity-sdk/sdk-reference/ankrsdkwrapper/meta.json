@@ -1,6 +1,0 @@
-{
-  "unity-sdk-ankr-sdk-wrapper": "AnkrSDKWrapper",
-  "unity-sdk-get-contract": "GetContract",
-  "unity-sdk-create-subscriber": "CreateSubscriber",
-  "unity-sdk-disconnect": "Disconnect"
-}
