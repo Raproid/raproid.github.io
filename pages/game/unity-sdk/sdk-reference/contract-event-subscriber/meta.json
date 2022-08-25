@@ -1,0 +1,8 @@
+{
+  "unity-sdk-contract-event-subscriber": "ContractEventSubscriber",
+  "unity-sdk-constructor": "Constructor",
+  "unity-sdk-subscribe": "Subscribe",
+  "unity-sdk-listen-for-events": "ListenForEvents",
+  "unity-sdk-unsubscribe": "Unsubscribe",
+  "unity-sdk-stop-listen-for-events": "StopListen"
+}

@@ -1,0 +1,4 @@
+{
+  "unity-sdk-ankr-sdk-factory": "AnkrSDKFactory",
+  "unity-sdk-get-ankr-sdk-instance": "GetAnkrSDKInstance"
+}

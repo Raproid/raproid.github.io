@@ -1,0 +1,8 @@
+{
+  "unity-sdk-contract": "Contract",
+  "unity-sdk-call-method": "CallMethod",
+  "web3-send-method": "Web3SendMethod",
+  "unity-sdk-get-events": "GetEvents",
+  "unity-sdk-get-data": "GetData",
+  "unity-sdk-estimate-gas": "EstimateGas"
+}

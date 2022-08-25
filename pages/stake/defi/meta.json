@@ -1,7 +1,7 @@
 {
-  "what-is-defi": "What is Ankr DeFi?",
-  "liquidity-pools": "Liquidity Pools",
-  "yield-farming": "Yield Farming",
-  "vaults": "Vaults",
-  "faq": "FAQ"
+  "defi-overview": "Overview",
+  "defi-liquidity-pools": "Liquidity Pools",
+  "defi-yield-farming": "Yield Farming",
+  "defi-vaults": "Vaults",
+  "defi-faq": "FAQ"
 }

@@ -1,0 +1,14 @@
+{
+  "unity-sdk-eth-handler": "EthHandler",
+  "unity-sdk-get-transaction": "GetTransaction",
+  "unity-sdk-get-transaction-receipt": "GetTransactionReceipt",
+  "unity-sdk-get-default-account": "GetDefaultAccount",
+  "unity-sdk-sign": "Sign",
+  "unity-sdk-send-transaction": "SendTransaction",
+  "unity-sdk-estimate-gas-2": "EstimateGas 2",
+  "unity-sdk-get-balance": "GetBalance",
+  "unity-sdk-get-block-number": "GetBlockNumber",
+  "unity-sdk-get-transaction-count": "GetTransactionCount",
+  "unity-sdk-get-block-with-transactions": "GetBlockWithTransactions",
+  "unity-sdk-get-block-with-transactions-hashes": "GetBlockWithTransactionsHashes"
+}
