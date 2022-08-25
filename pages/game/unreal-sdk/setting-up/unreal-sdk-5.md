@@ -111,7 +111,7 @@ These docs are written using Xcode 13.1
 
   * Add `"AnkrSDK"` at the end of the string array as shown below: 
 
-   ```cpp
+   ```
    PublicDependencyModuleNames.AddRange(new string[] { "Core", "CoreUObject", "Engine", "InputCore", "AnkrSDK" });
 
 3. Now from the top menu, select **Product** > **Build For** > **running**
@@ -126,7 +126,7 @@ These docs are written using Xcode 13.1
 
 2. Open **MyGameInstance.h** and include the following code:
 
-   ```cpp
+   ```
       #include "AnkrClient.h"
 
       UPROPERTY()
@@ -138,7 +138,7 @@ These docs are written using Xcode 13.1
 
 3. Open **MyGameInstance.cpp** and include the following code:
 
-   ```cpp
+   ```
    UAnkrClient* UMyGameInstance::GetAnkrClient()
    {
       if (ankrClient == nullptr)
@@ -238,7 +238,7 @@ Inside Visual Studio project
 
 1. Add **AnkrSDK** to **your_unreal_project_name > Source > your_unreal_project_name > your_unreal_project_name.Build.cs** as shown below:
 
-   ```cpp
+   ```
    PublicDependencyModuleNames.AddRange(new string[] { "Core", "CoreUObject", "Engine", "InputCore", "AnkrSDK" });
    ```
 
@@ -252,7 +252,7 @@ Inside Visual Studio project
 
 2. Open **MyGameInstance.h** and include the following code:
 
-   ```cpp
+   ```
       #include "AnkrClient.h"
 
       UPROPERTY()
@@ -264,7 +264,7 @@ Inside Visual Studio project
 
 3. Open **MyGameInstance.cpp** and include the following code:
 
-   ```cpp
+   ```
    UAnkrClient* UMyGameInstance::GetAnkrClient()
    {
       if (ankrClient == nullptr)

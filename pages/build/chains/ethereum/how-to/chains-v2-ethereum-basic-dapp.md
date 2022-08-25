@@ -9,7 +9,7 @@ Let's get started with a super simple project using node and truffle. It is a go
 
 Make sure you have Node installed. 
     
-```bash
+```
 $ node --version
 v14.16.1
 ```
@@ -22,13 +22,13 @@ In your terminal or command prompt do the following:
 
 1) Let's create a folder for our super simple project
 
-```bash
+```
 mkdir eth-project && cd eth-project
 ```
 
 2) Now initialize it
 
-```bash
+```
 npm init -y
 ```
 
@@ -43,13 +43,13 @@ Make sure you are in your project directory first. e.g. eth-project
 
 :::
 
-```bash
+```
 npm install --save-dev truffle
 ```
 
 2) Initialize a truffle project inside your folder.
 
-```bash
+```
 npx truffle init
 
 Starting init...
@@ -79,7 +79,7 @@ This `Storage` contract is very straightforward. It stores an integer on the blo
 
 2) Save it as **Storage.sol**.
 
-```solidity
+```
 // SPDX-License-Identifier: GPL-3.0
 pragma solidity >=0.7.0 <0.9.0;
 
@@ -116,8 +116,7 @@ The Ethereum Virtual Machine (EVM) executes the logic defined in the smart contr
 
 2) Locate the `Compilers` section, specify a compatible version and toggle the comment into code. 
 
-```sol
-
+```
 // Configure your compilers
 compilers: {
     solc: {
@@ -126,7 +125,9 @@ compilers: {
 
 3) Now you can compile with a single command:
 
-```npx truffle compile```
+```
+npx truffle compile
+```
 
 The contract is compiled and a new **build/contracts** directory is created.
 
@@ -142,19 +143,19 @@ Prior to using a testnet it is better to run a local blockchain on your machine.
 
 1) Install Ganache
 
-```js
+```
 npm install --save-dev ganache-cli
 ```
 
 2) Start Ganache in deterministic mode:
 
-```js
+```
 npx ganache-cli --deterministic
 ```
 
 You get a response with a list of available accounts, private keys and some blockchain config values. It also displays an address to connect to it. `127.0.0.1:8545`.
 
-```js
+```
 Ganache CLI v6.12.2 (ganache-core: 2.13.2)
 
 Available Accounts
@@ -212,7 +213,7 @@ Let's create a JavaScript migration to deploy our Storage contract.
 
 2) Add the code below:
 
-```solidity
+```
 const Storage = artifacts.require('Storage');
 
 module.exports = async function (deployer) {
@@ -226,7 +227,7 @@ module.exports = async function (deployer) {
 
 2) Open **truffle.config.js** and toggle the comments off for the following settings:
 
-```js
+```
 
 // truffle-config.js
 module.exports = {
@@ -242,13 +243,13 @@ module.exports = {
 ```
 3) Deploy the **Storage** contract to the development network using the `migrate` command.
 
-```js
+```
 npx truffle migrate --network development
 ```
 
 You should get a response similar to below:
 
-```js
+```
 
 Compiling your contracts...
 ===========================
@@ -302,7 +303,7 @@ You can now start interacting with your local blockchain
 
 1) Install a Truffle console to make it easy to interact with your contract
 
-```js
+```
 npx truffle console --network development
 ```
 
@@ -310,7 +311,7 @@ npx truffle console --network development
 
 We can use the console to interact with the deployed **storage** contract. 
 
-```js
+```
 
 truffle(development)> const storage = await Storage.deployed();
 undefined
@@ -323,13 +324,13 @@ The **Storage** contract has a first function `store` that receives an integer v
 
 1) Lets call the first function to store the number **189**.
 
-```js
+```
 truffle(development)> await storage.store(189)
 ```
 
 Your response should be something like this:
 
-```js
+```
 {
   tx: '0xc08101e1c1ddef8977b60bca6a5d360076fdd13fb063d2cf7c7841292e59c1a0',
   receipt: {
@@ -355,7 +356,7 @@ Your response should be something like this:
 
 As this is a read only transaction, no gas is incurred. Our contract returns `uint256` which is too large a number for JavaScript so instead we get returned a big number object. We can display the big number as a string using (await box.retrieve()).toString().
 
-```js
+```
 truffle(development)> (await storage.retrieve()).toString()
 '189'
 ```

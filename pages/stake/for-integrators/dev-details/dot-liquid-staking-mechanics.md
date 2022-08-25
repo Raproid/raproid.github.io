@@ -104,7 +104,8 @@ The workflow is user-driven. User interacts with Ankr and Polkadot via Ankr fron
 
 6. The `claim` object in the reply contains the following fields: 
 
-  ```{
+  ```
+  {
   "claim": {
     "address": "string",
     "status": "ACTIVE"|"CLAIMED"|"EXPIRED",

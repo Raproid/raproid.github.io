@@ -29,10 +29,14 @@ Gets full information for the block specified by request parameters.
   * `includeLogs` (boolean): set to `true` to include logs, or to `false` to exclude them. Note that logs are stored inside transactions, so make sure the following parameter is also set to `true` if you'd like to include logs.
   * `includeTxs` (boolean): set to `true` to include transactions, or to `false` to exclude them.
 
-<Tabs>
-<TabItem value="getBlocksRange" label="Body">
-
-```json
+<Nextra.Tabs
+  items={[
+    "Body",
+    "Headers",
+  ]}
+>   
+  <Nextra.Tab>
+```
 {
     "jsonrpc": "2.0",
     "method": "ankr_getBlocksRange",
@@ -44,16 +48,13 @@ Gets full information for the block specified by request parameters.
     "id": 1
 }
 ```
-
-</TabItem>
-<TabItem value="shell" label="Headers">
-
-```shell
+  </Nextra.Tab>
+  <Nextra.Tab>
+```sh
 Content-Type: application/json
 ```
-
-</TabItem>
-</Tabs>
+  </Nextra.Tab>
+</Nextra.Tabs>
 
 ### Response
 
@@ -84,13 +85,14 @@ curl --location --request POST 'https://rpc.ankr.com/multichain' \
 
 Code: 200 OK
 
-import Tabs from '@theme/Tabs';
-import TabItem from '@theme/TabItem';
-
-<Tabs>
-<TabItem value="getBlocksRange_response" label="Schema">
-
-```json
+<Nextra.Tabs
+  items={[
+    "Schema",
+    "Example",
+  ]}
+>
+  <Nextra.Tab>
+```
 {
   "error": {},
   "id": 1,
@@ -199,16 +201,13 @@ import TabItem from '@theme/TabItem';
   }
 }
 ```
-
-</TabItem>
-<TabItem value="getBlocksRange_example" label="Example">
-
-```json
-
+  </Nextra.Tab>
+  <Nextra.Tab>
 ```
 
-</TabItem>
-</Tabs>
+```
+  </Nextra.Tab>
+</Nextra.Tabs>
 
 ---
 
@@ -240,10 +239,14 @@ Gets history data for the blocks specified by request parameters.
   * `address` (uint8): an address of the contract created the logs. 
   * `topics` (uint8): the data the log contains.
 
-<Tabs>
-<TabItem value="getLogs" label="Body">
-
-```json
+<Nextra.Tabs
+  items={[
+    "Body",
+    "Headers",
+  ]}
+>
+  <Nextra.Tab>
+```
 {
     "jsonrpc": "2.0",
     "method": "ankr_getLogs",
@@ -262,16 +265,13 @@ Gets history data for the blocks specified by request parameters.
     "id": 1
 }
 ```
-
-</TabItem>
-<TabItem value="shell" label="Headers">
-
-```shell
+  </Nextra.Tab>
+  <Nextra.Tab>
+```sh
 Content-Type: application/json
 ```
-
-</TabItem>
-</Tabs>
+  </Nextra.Tab>
+</Nextra.Tabs>
 
 ### Response
 
@@ -309,10 +309,14 @@ curl --location --request POST 'https://rpc.ankr.com/multichain' \
 
 Code: 200 OK
 
-<Tabs>
-<TabItem value="getLogs_response" label="Schema">
-
-```json
+<Nextra.Tabs
+  items={[
+    "Schema",
+    "Example",
+  ]}
+>
+  <Nextra.Tab>
+```
 {
   "error": {},
   "id": 1,
@@ -354,11 +358,9 @@ Code: 200 OK
   }
 }
 ```
-
-</TabItem>
-<TabItem value="getLogs_example" label="Example">
-
-```json
+  </Nextra.Tab>
+  <Nextra.Tab>
+```
 {
   "jsonrpc": "2.0",
   "id": 1,
@@ -412,9 +414,8 @@ Code: 200 OK
   }
 }
 ```
-
-</TabItem>
-</Tabs>
+  </Nextra.Tab>
+</Nextra.Tabs>
 
 ---
 
@@ -436,10 +437,14 @@ Returns transaction details for a transaction specified by hash.
   * `decodeTxData` (boolean): set to `true` to decode transaction data, or to `false` if not interested in it.
   * `includeLogs` (boolean): set to `true` to include logs, or to `false` to exclude them.
 
-<Tabs>
-<TabItem value="getTransactionsByHash" label="Body">
-
-```json
+<Nextra.Tabs
+  items={[
+    "Body",
+    "Headers",
+  ]}
+>
+  <Nextra.Tab>
+```
 {
     "jsonrpc": "2.0",
     "method": "ankr_getTransactionsByHash",
@@ -451,16 +456,13 @@ Returns transaction details for a transaction specified by hash.
     "id": 1
 }
 ```
-
-</TabItem>
-<TabItem value="shell" label="Headers">
-
-```shell
+  </Nextra.Tab>
+  <Nextra.Tab>
+```sh
 Content-Type: application/json
 ```
-
-</TabItem>
-</Tabs>
+  </Nextra.Tab>
+</Nextra.Tabs>
 
 ### Response
 
@@ -493,10 +495,14 @@ curl --location -g --request POST '{{URL}}' \
 
 Code: 200 OK
 
-<Tabs>
-<TabItem value="getTransactionsByHash_response" label="Schema">
-
-```json
+<Nextra.Tabs
+  items={[
+    "Schema",
+    "Example",
+  ]}
+>
+  <Nextra.Tab>
+```
 {
   "error": {},
   "id": 1,
@@ -579,11 +585,9 @@ Code: 200 OK
   }
 }
 ```
-
-</TabItem>
-<TabItem value="getTransactionsByHash_example" label="Example">
-
-```json
+  </Nextra.Tab>
+  <Nextra.Tab>
+```
 {
     "jsonrpc": "2.0",
     "id": 1,
@@ -812,6 +816,5 @@ Code: 200 OK
     }
 }
 ```
-
-</TabItem>
-</Tabs>
+  </Nextra.Tab>
+</Nextra.Tabs>

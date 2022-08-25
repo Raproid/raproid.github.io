@@ -52,7 +52,7 @@ Returns the client version
 
 #### Example request
 
-```js
+```
 curl https://rpc.ankr.com/arbitrum \
   -X POST \
   -H "Content-Type: application/json" \
@@ -61,7 +61,7 @@ curl https://rpc.ankr.com/arbitrum \
 
 #### Example response
 
-```js
+```
 {"jsonrpc":"2.0","id":1,"result":"arb-rpc-node/v0.8.0"}
 ```
 
@@ -74,7 +74,7 @@ Returns the current network id.
 
 #### Example request
 
-```js
+```
   
   curl https://rpc.ankr.com/arbitrum \
   -X POST \
@@ -84,7 +84,7 @@ Returns the current network id.
 
 #### Example response
 
-```js
+```
 {"jsonrpc":"2.0","id":67,"result":"42161"}
 ```
 
@@ -92,7 +92,7 @@ Returns the current network id.
 
 ### Example request
 
-```js
+```
 
 curl https://rpc.ankr.com/arbitrum \
   -X POST \
@@ -102,7 +102,7 @@ curl https://rpc.ankr.com/arbitrum \
 
 ### Example response
 
-```js
+```
 {"jsonrpc":"2.0","id":67,"result":"0x788e6b"}
 ```
 

@@ -1,8 +1,5 @@
----
-title: Switching aETHc on BNB Chain
-id: switch-aethc-binance
----
-import Admonition from '@theme/Admonition';
+import Callout from "nextra-theme-docs/callout";
+import Image from 'next/image';
 
 # Switching aETHc on BNB Chain
 
@@ -14,21 +11,19 @@ To switch to the new aETHc:
 
 1. In your wallet, switch the account with the locked aETHc and change the network option to Binance Smart Chain. 
 2. Visit [Ankr Staking Dashboard](https://www.ankr.com/staking/dashboard/). Ankr will ask you to connect your wallet if you haven't done it before. 
-    <img src={require('/img/switch-old-aethc-to-new/dashboard-init.png').default} alt="Staking dashboard with old aETHc" width="1000" />
-3. Locate the "unsupported old version" of aETHc and click **Switch to new**. <br />
-   <img src={require('/img/switch-old-aethc-to-new/old-aethc-click-switch.png').default} alt="Click Switch to new on old aETHc" width="497" />
-   <div>
-   <Admonition type="tip">
-   <p>If you forgot to change to Binance Smart Chain at Step 1, you may need to reconnect your wallet after changing to it.</p>
-   </Admonition>
-   </div>
+    <Image src="/switch-old-aethc-to-new/dashboard-init.png" alt="Staking dashboard with old aETHc" width={1000} height={500} />
+3. Locate the "unsupported old version" of aETHc and click **Switch to new**.<br /> 
+   <Image src="/switch-old-aethc-to-new/old-aethc-click-switch.png" alt="Click Switch" width={497} height={200} />
+   <Callout>
+     If you forgot to change to Binance Smart Chain at Step 1, you may need to reconnect your wallet after changing to it.
+   </Callout>
 4. Confirm the switching transaction in your wallet. <br />
-   <img src={require('/img/switch-old-aethc-to-new/confirm-switching.png').default} alt="Confirm switching" width="310" />
+   <Image src="/switch-old-aethc-to-new/confirm-switching.png" alt="Confirm switching" width={310} height={500} />
 5. After confirming the transaction, wait for it to finalize. <br />
-   <img src={require('/img/switch-old-aethc-to-new/switching-pending.png').default} alt="Switching in progress" width="550" />
-6. When the transaction is finalized and switching is successful, click **Go to dashboard** to see the new aETHc. <br />
+   <Image src="/switch-old-aethc-to-new/switching-pending.png" alt="Switching in progress" width={550} height={400} />
+6. When the transaction is finalized and switching is successful, click **Go to dashboard** to see the new aETHc. 
    You can also  add it to your wallet clicking **Add aETHCc to wallet**. <br />
-   <img src={require('/img/switch-old-aethc-to-new/switching-success.png').default} alt="Successful switching" width="550" />
+   <Image src="/switch-old-aethc-to-new/switching-success.png" alt="Successful switching" width={550} height={350} />
 
 
 

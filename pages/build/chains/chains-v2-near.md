@@ -49,7 +49,7 @@ Returns gas price for a specific block_height or block_hash. Using [null] will r
 
 #### Example request
 
-```js
+```
 curl https://rpc.ankr.com/near \
   -X POST \
   -H "Content-Type: application/json" \
@@ -61,7 +61,7 @@ curl https://rpc.ankr.com/near \
 
 #### Example response
 
-```js
+```
 {"jsonrpc":"2.0","result":{"gas_price":"100000000"},"id":"dontcare"}
 ```
 
@@ -75,7 +75,7 @@ You may choose to search by a specific block or finality, you can not choose bot
 
 #### Example request
 
-```js
+```
 curl https://rpc.ankr.com/near \
   -X POST \
   -H "Content-Type: application/json" \
@@ -91,7 +91,7 @@ curl https://rpc.ankr.com/near \
 
 #### Example response (Extract)
 
-```js
+```
 {"jsonrpc":"2.0","result":{"author":"moonlet.poolv1.near","header":{"height":61437572,"prev_height":61437571,"epoch_id":"9tqM9PSuQQXjvrAEhvRb45Q7XpDNS8itEcjr8yACDe2C","next_epoch_id":"2Ri3EriB9b5hBHmSPLLfJQhUyqCDx8Q8zsrpVK6aMFCo","hash":"GtGb4NnzLKxNYxWLum3eNhto6oWE1syc6ryrj9xAYqJU","prev_hash":"4LA5n9S72HCBbxwyR38gLZnZtcksc27kmFYZzZ2fQJob","prev_state_root":"AtdLpdibkTxhGu2CJRtgyWF5rGSpMeUEXH1Gb9SrjSQU","chunk_receipts_root":"CkUi6LaNxEeHrWsrm1QVj7vD...
 ```
 
@@ -106,7 +106,7 @@ sender account id
 
 #### Example request 
 
-```js
+```
 curl https://rpc.ankr.com/near \
   -X POST \
   -H "Content-Type: application/json" \

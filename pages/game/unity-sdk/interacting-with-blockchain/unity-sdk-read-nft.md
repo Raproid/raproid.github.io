@@ -11,14 +11,14 @@ In this step, we want to check if the player owns any existing NFT characters. I
 
 1. To start first initialize the `SDKWrapper` to store contracts for use here inside some private variables. For this example we are using the ```GameCharacterContract``` used in the ```WearableNFTExample``` Use Case.
 
-    ```c
+    ```
         var mirageSDKWrapper = MirageSDKWrapper.GetInitializedInstance(WearableNFTContractInformation.ProviderURL);
         _gameCharacterContract = mirageSDKWrapper.GetContract(WearableNFTContractInformation.GameCharacterContractAddress, WearableNFTContractInformation.GameCharacterABI);
     ```
 
 2. To query if the player holds any NFTs, call the ```balanceOf function```. This returns the number of these Tokens in the address.
 
-    ```js
+    ```
         /**
          * @dev Returns the number of tokens in ``owner``'s account.
          */

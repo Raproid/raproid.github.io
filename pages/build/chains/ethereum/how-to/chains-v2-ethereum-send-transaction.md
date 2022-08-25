@@ -85,7 +85,7 @@ PRIVATE_KEY = "your-metamask-private-key"
 
 6) Create a **transaction.js** file
 
-```js
+```
 async function main() {
   require('dotenv').config();
   const { ANKR_URL, PRIVATE_KEY } = process.env;
@@ -122,13 +122,13 @@ main();
 
 7) Run the code 
 
-```js
+```
 node transaction.js
 ```
 
 **Example Successful Response**
 
-```js
+```
 [Running] node "/send-tx/transaction.js"
 🎉 The hash of your transaction is:  0x6a6e88b10a018487629409dbf3c3c08fced94e5ca381abf54279df593bb48b5a
 

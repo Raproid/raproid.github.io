@@ -49,7 +49,7 @@ Returns the current client version.
 
 #### Example request
 
-```js
+```
 curl https://rpc.ankr.com/polygon \
   -X POST \
   -H "Content-Type: application/json" \
@@ -58,7 +58,7 @@ curl https://rpc.ankr.com/polygon \
 
 #### Example response
 
-```js
+```
 {"jsonrpc":"2.0","id":1,"result":"bor/v0.2.14-stable-10c4e89f/linux-amd64/go1.17.3"}
 ```
 
@@ -70,7 +70,7 @@ Returns the current network id.
 
 #### Example request
 
-```js
+```
   
   curl https://rpc.ankr.com/polygon\
   -X POST \
@@ -80,7 +80,7 @@ Returns the current network id.
 
 #### Example response
 
-```js
+```
 {"jsonrpc":"2.0","id":67,"result":"137"}
 ```
 
@@ -88,7 +88,7 @@ Returns the current network id.
 
 #### Example request
 
-```js
+```
 
 curl https://rpc.ankr.com/polygon \
   -X POST \
@@ -98,6 +98,6 @@ curl https://rpc.ankr.com/polygon \
 
 #### Example response
 
-```js
+```
 {"jsonrpc":"2.0","id":67,"result":"0x18be35a"}
 ```

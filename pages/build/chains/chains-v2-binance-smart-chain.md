@@ -54,7 +54,7 @@ Returns the current client version.
 
 #### Example request
 
-```js
+```
 curl https://rpc.ankr.com/bsc \
   -X POST \
   -H "Content-Type: application/json" \
@@ -63,7 +63,7 @@ curl https://rpc.ankr.com/bsc \
 
 #### Example response
 
-```js
+```
 {"jsonrpc":"2.0","id":1,"result":"Geth/v1.1.7-74f6b613/linux-amd64/go1.16.10"}
 ```
 
@@ -76,7 +76,7 @@ Returns the current network id.
 
 #### Example request
 
-```js
+```
   
   curl https://rpc.ankr.com/bsc \
   -X POST \
@@ -86,7 +86,7 @@ Returns the current network id.
 
 #### Example response
 
-```js
+```
 {"jsonrpc":"2.0","id":67,"result":"56"}
 ```
 
@@ -94,7 +94,7 @@ Returns the current network id.
 
 ### Example request
 
-```js
+```
 
 curl https://rpc.ankr.com/bsc \
   -X POST \
@@ -104,7 +104,7 @@ curl https://rpc.ankr.com/bsc \
 
 ### Example response
 
-```js
+```
 {"jsonrpc":"2.0","id":67,"result":"0xf50e1c"}
 ```
 

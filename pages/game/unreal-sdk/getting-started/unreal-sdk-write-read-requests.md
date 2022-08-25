@@ -41,7 +41,7 @@ A successful request issues a ticket to come to your MetaMask wallet. The ticket
 
 ### Code Example
 
-```cpp
+```
 void UAnkrClient::SendTransaction(FString contract, FString abi_hash, FString method, FString args, const FAnkrCallCompleteDynamicDelegate& Result)
 {
 	http = &FHttpModule::Get();
@@ -129,7 +129,7 @@ Retrieves the information specified by the body parameters.
 
 ### Code Example
 
-```cpp
+```
 void UAnkrClient::CallMethod(FString contract, FString abi_hash, FString method, FString args, const FAnkrCallCompleteDynamicDelegate& Result)
 {
 	http = &FHttpModule::Get();
@@ -177,7 +177,7 @@ Returns the ABI hash.
 
 ### Code Example
 
-```cpp
+```
 void UAnkrClient::SendABI(FString abi, const FAnkrCallCompleteDynamicDelegate& Result)
 {
 	http = &FHttpModule::Get();
@@ -238,7 +238,7 @@ Returns a ticket validation status — whether the operation has been approved, 
 
 ### Code Example
 
-```cpp
+```
 void UAnkrClient::SignMessage(FString message, const FAnkrCallCompleteDynamicDelegate & Result)
 {
 	http = &FHttpModule::Get();
@@ -297,7 +297,7 @@ Returns a `signature` data object based on the body parameters specified.
 
 ### Code Example
 
-```cpp
+```
 void UAnkrClient::GetSignature(FString ticket, const FAnkrCallCompleteDynamicDelegate& Result)
 {
 	http = &FHttpModule::Get();
@@ -352,7 +352,7 @@ Returns an account address for the connected wallet's public address.
 
 ### Code Example
 
-```cpp
+```
 void UAnkrClient::VerifyMessage(FString message, FString signature, const FAnkrCallCompleteDynamicDelegate& Result)
 {
 	http = &FHttpModule::Get();

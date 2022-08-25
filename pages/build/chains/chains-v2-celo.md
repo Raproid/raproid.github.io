@@ -51,7 +51,7 @@ Returns the current client version.
 
 #### Example request
 
-```js
+```
 curl https://rpc.ankr.com/celo \
   -X POST \
   -H "Content-Type: application/json" \
@@ -60,7 +60,7 @@ curl https://rpc.ankr.com/celo \
 
 #### Example response
 
-```js
+```
 {"jsonrpc":"2.0","id":1,"result":"celo/v1.5.2-stable-1bd6b188/linux-amd64/go1.17.3"}
 ```
 
@@ -72,7 +72,7 @@ Returns the current network id.
 
 #### Example request
 
-```js
+```
   
   curl https://rpc.ankr.com/celo\
   -X POST \
@@ -82,7 +82,7 @@ Returns the current network id.
 
 #### Example response
 
-```js
+```
 {"jsonrpc":"2.0","id":67,"result":"42220"}
 ```
 
@@ -90,7 +90,7 @@ Returns the current network id.
 
 #### Example request
 
-```js
+```
 
 curl https://rpc.ankr.com/celo \
   -X POST \
@@ -100,7 +100,7 @@ curl https://rpc.ankr.com/celo \
 
 #### Example response
 
-```js
+```
 {"jsonrpc":"2.0","id":67,"result":"0xb63607"}
 ```
 

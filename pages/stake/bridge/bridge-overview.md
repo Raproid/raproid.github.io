@@ -17,8 +17,12 @@ You receive Liquid Staking tokens when staking your original assets, in 1:1 rati
 
 Currently, Ankr Bridge supports the following native Ankr Liquid Tokens and allows you to transfer them between these networks:
 
-* aMATICb — Ethereum <-> Polygon, Ethereum <-> BSC, Polygon <-> BSC. 
-* aETHb — Ethereum <-> BSC.
+* aMATICb
+  * Ethereum–Polygon–Ethereum
+  * Ethereum–BNB Smart Chain–Ethereum
+  * Polygon–BNB Smart Chain–Polygon
+* aETHb
+  * Ethereum–BNB Smart Chain–Ethereum
 
 We're planning to add support for BNB, FTM, AVAX soon. 
 

@@ -108,7 +108,8 @@ The workflow is user-driven. User interacts with Ankr and Kusama via the Ankr St
 
 6. The `claim` object in the reply contains the following fields:
 
-  ```{
+  ```
+{
   "claim": {
     "address": "string",
     "status": "ACTIVE"|"CLAIMED"|"EXPIRED",

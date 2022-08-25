@@ -40,7 +40,7 @@ A successful request issues a ticket to come to the MetaMask wallet of the desig
 
 ### Code Example
 
-```cpp
+```
 void UWearableNFTExample::MintCharacter(FString abi_hash, FString to, FAnkrCallCompleteDynamicDelegate Result)
 {
 	http = &FHttpModule::Get();
@@ -108,7 +108,7 @@ A successful request issues a ticket to come to your MetaMask wallet. The ticket
 
 ### Code Example
 
-```cpp
+```
 void UWearableNFTExample::MintItems(FString abi_hash, FString to, FAnkrCallCompleteDynamicDelegate Result)
 {
 	http = &FHttpModule::Get();
@@ -180,7 +180,7 @@ A successful request issues a ticket to come to your MetaMask wallet. The ticket
 
 ### Code Example
 
-```cpp
+```
 void UWearableNFTExample::GameItemSetApproval(FString abi_hash, FString callOperator, bool approved, FAnkrCallCompleteDynamicDelegate Result)
 {
 	http = &FHttpModule::Get();
@@ -255,7 +255,7 @@ The response comes as a data object specifying the number of tokens belonging to
 
 ### Code example
 
-```cpp
+```
 void UWearableNFTExample::GetCharacterBalance(FString abi_hash, FString address, FAnkrCallCompleteDynamicDelegate Result)
 {
 	http = &FHttpModule::Get();
@@ -315,7 +315,7 @@ The response comes as a data object containing the ID of the token specified by 
 
 ### Code example
 
-```cpp
+```
 void UWearableNFTExample::GetCharacterTokenId(FString abi_hash, int tokenBalance, FString owner, FString index, FAnkrCallCompleteDynamicDelegate Result)
 {
 	if (tokenBalance <= 0)
@@ -379,7 +379,7 @@ A successful request issues a ticket to come to your MetaMask wallet. The ticket
 
 ### Code Example
 
-```cpp
+```
 void UWearableNFTExample::ChangeHat(FString abi_hash, int characterId, bool hasHat, FString hatAddress, FAnkrCallCompleteDynamicDelegate Result)
 {
 	if (!hasHat || characterId == -1)
@@ -454,7 +454,7 @@ The response comes as a data object containing the token address that correspond
 
 ### Code Example
 
-```cpp
+```
 void UWearableNFTExample::GetHat(FString abi_hash, int characterId, FAnkrCallCompleteDynamicDelegate Result)
 {
 	http = &FHttpModule::Get();
@@ -511,7 +511,7 @@ The response comes as a data object containing a code value indicating a specifi
 
 ### Code Example
 
-```cpp
+```
 void UWearableNFTExample::GetTicketResult(FString ticketId, FAnkrCallCompleteDynamicDelegate Result)
 {
 #if ENGINE_MAJOR_VERSION == 5 || (ENGINE_MAJOR_VERSION == 4 && ENGINE_MINOR_VERSION >= 26)
@@ -579,7 +579,7 @@ The response is a data object containing an array of balances for each token. Th
 
 ### Code example
 
-```cpp
+```
 void UWearableNFTExample::GetItemsBalance(FString abi_hash, FString address, FAnkrCallCompleteDynamicDelegate Result)
 {
 	http = &FHttpModule::Get();

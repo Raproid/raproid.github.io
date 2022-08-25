@@ -59,7 +59,7 @@ As a Premium user, you have custom URLs at hand to enable your projects to inter
 
 A Premium URL consists of a connection protocol (`https` or `wss`), domain name (`rpc.ankr.com`), common path of a blockchain to use (`/eth`), and your personal JWT token as the last segment of the path:
 
-```http request
+```
 https://rpc.ankr.com/eth/6fe08843fa0966456eaa3fb19d4828b12389e71f48829f50df25e45bc5fd6cc5
 ```
 

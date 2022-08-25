@@ -11,7 +11,7 @@ To get started, you need to have deployed your contract on to the blockchain and
 
 The following example is a `WearableNFTExample` contract from the SDK. [Check it out](https://github.com/Ankr-network/game-unity-demo/blob/master/Assets/AnkrSDK/Examples/Scripts/WearableNFTExample/WearableNFTContractInformation.cs)
 
-```js
+```
 namespace AnkrSDK.Examples.WearableNFTExample
 {
 	public class WearableNFTContractInformation

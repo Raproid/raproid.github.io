@@ -15,7 +15,7 @@ This section assumes you have already deployed the relevant smart contracts to t
 
 `deviceId` — the parameter that is generated upon initialization and saved for the further usage. It will be automatically populated upon sending any requests from that particular device. This parameter serves as a kind of validator. For example, it might prevent confirming a ticket from any other device except for the one associated with the `deviceId` generated upon initialization.
 
-```js
+```
 deviceId = load->UniqueId;
 ```
 
@@ -23,7 +23,7 @@ deviceId = load->UniqueId;
 
 `ConnectWallet` — connects to the wallet app on your mobile device. On a desktop, a QR-code is to be generated upon logging in. The session is saved to a variable for the further usage.
 
-```cpp
+```
 void UAnkrClient::ConnectWallet(const FAnkrCallCompleteDynamicDelegate& Result)
 {
 	http = &FHttpModule::Get();
@@ -91,13 +91,13 @@ void UAnkrClient::ConnectWallet(const FAnkrCallCompleteDynamicDelegate& Result)
 
 If you haven't logged in to your wallet yet, then the app on your mobile device will automatically prompt you to log in.
 
-```cpp
+```
 FPlatformProcess::LaunchURL(recievedUri.GetCharArray().GetData(), NULL, NULL);
 ```
 
 If you're logged in, then  `GetWalletInfo` retrieves your wallet information.
 
-```cpp
+```
 void UAnkrClient::GetWalletInfo(const FAnkrCallCompleteDynamicDelegate& Result)
 {
 	http = &FHttpModule::Get();

@@ -44,3 +44,39 @@ This documentation serves as a resource to explore how you can use and integrate
 <div className="p-4 border border-gray-200 dark:border-gray-900 rounded mt-6">
   [Learn and practice Web3](learn/)↗
 </div>
+
+<Nextra.Tabs
+  items={[
+    "Arch",
+    "Fedora 32-36",
+    "Gentoo",
+    "Ubuntu 20.04 - 22.04",
+    "Ubuntu 18.04",
+  ]}
+>
+  <Nextra.Tab>
+    ```sh
+    sudo pacman -S qemu qemu-arch-extra qemu-block-gluster qemu-block-iscsi qemu-block-rbd samba
+    ```
+  </Nextra.Tab>
+  <Nextra.Tab>
+    ```sh
+    sudo dnf install qemu
+    ```
+  </Nextra.Tab>
+  <Nextra.Tab>
+    ```sh
+    emerge --ask app-emulation/qemu
+    ```
+  </Nextra.Tab>
+  <Nextra.Tab>
+    ```sh
+    sudo apt install qemu-kvm qemu virt-manager virt-viewer libvirt-daemon-system libvirt-clients
+    ```
+  </Nextra.Tab>
+  <Nextra.Tab>
+    ```sh
+    sudo apt-get install qemu-kvm qemu virt-manager virt-viewer libvirt-bin
+    ```
+  </Nextra.Tab>
+</Nextra.Tabs>

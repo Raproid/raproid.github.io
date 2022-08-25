@@ -35,7 +35,7 @@ When we've understood what the Events are, let's move on to how we can use that.
 
 To prepare DTO for request events, we need the following:
 
-```CSharp
+```
 [Event("Transfer")]
 public class TransferEventDTO : EventDTOBase
 {
@@ -84,7 +84,7 @@ Before we start requesting something, I would like to clarify how the requests t
 
 Return to Event `Transfer`. If we want to find all events from the network start until last block with props to equal our address (all transfers that we got from the start of network) then we need to create the following object:
 
-```CSharp
+```
 var filters = new EventFilterData
 {
 	fromBlock = BlockParameter.CreateEarliest(),
@@ -97,7 +97,7 @@ Why `filterTopic2`? Because prop `to` has the second position in Event props.
 
 If you don’t want to think about the props position, you can use the `EventFilterRequest` class.
 
-```CSharp
+```
 var filtersRequest = new EventFilterRequest<TransferEventDTO>();
 filtersRequest.SetFromBlock(BlockParameter.CreateEarliest());
 filtersRequest.SetToBlock(BlockParameter.CreateLatest());
@@ -126,7 +126,7 @@ Now, we are clear with the request, so let’s move to sending it.
 
 To get past events, you need to instantiate class `Contract` and call the `GetEvents` method.
 
-```CSharp
+```
 var ankrSDK = AnkrSDKWrapper.GetSDKInstance("http://...");
 _erc20Contract = ankrSDK.GetContract("0x..", "{...}");
 ...
@@ -145,7 +145,7 @@ Subscribing works via WebSockets only. Request a relevant endpoint from your pro
 
 First, instantiate a subscriber:
 
-```CSharp
+```
 var ankrSDK = AnkrSDKWrapper.GetSDKInstance("https://...");
 var _eventSubscriber = ankrSDK.CreateSubscriber("wss://...");
 _eventSubscriber.ListenForEvents().Forget();
@@ -153,14 +153,14 @@ _eventSubscriber.ListenForEvents().Forget();
 
 Then create a seamless request (the same as for the past events) without setting `fromBlock` and `toBlock` because you will get all events from the block (from starting a subscription to unsubscribing from it).
 
-```CSharp
+```
 var filtersRequest = new EventFilterRequest<TransferEventDTO>();
 filtersRequest.AddTopic("To", EthHandler.DefaultAccount);
 ```
 
 And make a subscription:
 
-```CSharp
+```
 var _subscription = await _eventSubscriber.Subscribe(
   filters,
   ERC20ContractInformation.ContractAddress, 

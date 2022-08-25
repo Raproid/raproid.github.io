@@ -95,13 +95,14 @@ In the code samples below, use **EITHER** the public endpoint **OR** the premium
 
 :::
 
-import Tabs from '@theme/Tabs';
-import TabItem from '@theme/TabItem';
-
-<Tabs>
-<TabItem value="web3.js" label="Web3.js">
-
-```js
+<Nextra.Tabs
+  items={[
+    "Web3",
+    "Ethers.js",
+  ]}
+>
+  <Nextra.Tab>
+```
 const Web3 = require('web3'); //Load Web3 library
 
 // Create local Web3 instance - set Moonbeam as provider
@@ -110,11 +111,9 @@ const web3 = new Web3("https://rpc.ankr.com/moonbeam"); // Public RPC URL
 const web3 = new Web3("https://rpc.ankr.com/moonbeam/YOUR-API-KEY"); // Premium RPC URL
 
 ```
-
-</TabItem>
-<TabItem value="ethers.js" label="Ethers.js">
-
-```js
+  </Nextra.Tab>
+  <Nextra.Tab>
+```
 const ethers = require('ethers');
 
 const providerURL = "https://rpc.ankr.com/moonbeam"; // Public RPC URL
@@ -127,9 +126,9 @@ const provider = new ethers.providers.StaticJsonRpcProvider(providerURL, {
     name: 'moonbeam'
 });
 ```
+  </Nextra.Tab>
+</Nextra.Tabs>
 
-</TabItem>
-</Tabs>
 
 
 ### Using Substrate API libraries
@@ -150,7 +149,7 @@ const provider = new ethers.providers.StaticJsonRpcProvider(providerURL, {
 
     You can install this through a package manager such as `yarn`. Install it in your project directory with the following command:
 
-    ```js
+    ```
     yarn add @polkadot/api
 
     ```
@@ -159,7 +158,7 @@ const provider = new ethers.providers.StaticJsonRpcProvider(providerURL, {
 
     To decode Moonbeam custom events and types, you need to include the [Moonbeam Types Bundle](https://www.npmjs.com/package/moonbeam-types-bundle) into your project by adding the following package information to your `package.json`:
 
-    ```js
+    ```
     "@polkadot/api": "^6.9.1",
     "moonbeam-types-bundle": "^2.0.1",
     "typescript": "4.3.2"
@@ -169,7 +168,7 @@ const provider = new ethers.providers.StaticJsonRpcProvider(providerURL, {
 
     Add this statement to the start of your project file. 
 
-    ```js
+    ```
     import { typesBundlePre900 } from "moonbeam-types-bundle"
     ```
 

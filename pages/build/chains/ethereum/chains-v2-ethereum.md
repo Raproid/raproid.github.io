@@ -37,7 +37,7 @@ You can set up your **MetaMask wallet** to connect to Ethereum RPC. You can then
 
 This request gets the Client version being used. 
 
-```js
+```
 curl https://rpc.ankr.com/eth \
   -X POST \
   -H "Content-Type: application/json" \
@@ -48,7 +48,7 @@ curl https://rpc.ankr.com/eth \
 
 The response shows Geth Client v1.1.7-74 is used.
 
-```js
+```
 {"jsonrpc":"2.0","id":1,"result":"Geth/v1.1.7-74f6b613/linux-amd64/go1.16.10"}
 ```
 
@@ -56,7 +56,7 @@ The response shows Geth Client v1.1.7-74 is used.
 
 This request returns the current network id.
 
-```js
+```
   
   curl https://rpc.ankr.com/eth \
   -X POST \
@@ -66,7 +66,7 @@ This request returns the current network id.
 
 #### Example response - Ethereum Mainnet ID is returned 
 
-```js
+```
 {"jsonrpc":"2.0","id":67,"result":"1"}
 ```
 
@@ -82,7 +82,7 @@ This request returns the current network id.
 
 ### Example request - Uses eth_ to request the latest block number
 
-```js
+```
 
 curl https://rpc.ankr.com/eth \
   -X POST \
@@ -94,7 +94,7 @@ curl https://rpc.ankr.com/eth \
 
 The latest block number is returned in hex
 
-```js
+```
 {"jsonrpc":"2.0","id":67,"result":"0xdb85e4"}
 ```
 

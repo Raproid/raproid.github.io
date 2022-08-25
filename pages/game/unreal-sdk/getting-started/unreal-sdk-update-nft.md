@@ -39,7 +39,7 @@ A data object providing the following information on the NFT:
 
 ### Code Example
 
-```cpp
+```
 void UUpdateNFTExample::GetNFTInfo(FString abi_hash, int tokenId, FAnkrCallCompleteDynamicDelegate Result)
 {
 	http = &FHttpModule::Get();
@@ -96,7 +96,7 @@ A successful request issues a ticket to come to your MetaMask wallet. The ticket
 
 ### Code Example
 
-```cpp
+```
 void UUpdateNFTExample::UpdateNFT(FString abi_hash, FItemInfoStructure _item, FAnkrCallCompleteDynamicDelegate Result)
 {
 	http = &FHttpModule::Get();

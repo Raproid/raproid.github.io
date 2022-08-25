@@ -76,7 +76,7 @@ curl https://rpc.ankr.com/harmony \
 
 #### Example response
 
-```js
+```
 {"jsonrpc":"2.0","id":1,"result":"Harmony (C) 2020. harmony, version v7331-v4.3.4-0-g4ea9072e (runner@ 2022-01-31T03:01:13+0000)"}
 ```
 
@@ -98,7 +98,7 @@ Returns the current network id.
 
 #### Example response
 
-```js
+```
 {"jsonrpc":"2.0","id":67,"result":"1666600000"}
 ```
 

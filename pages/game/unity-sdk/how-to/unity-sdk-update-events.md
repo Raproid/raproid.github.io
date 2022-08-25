@@ -69,7 +69,7 @@ We recommend naming your class fields with the same names as the props of the `E
 3) Add the attribute `Parameter` for every field in the class and pass the types of `Event` props e.g.
 specify the type and name of the `Even`t prop, the order of the prop in the `event` and whether the prop is indexed or not as a boolean. 
 
-```c
+```
 public ParameterAttribute(string type, string name, int order, bool indexed = false)
 ```
 
@@ -80,7 +80,7 @@ Make sure you use compatible field types for types of Event props
 :::
 
 
-```c
+```
 
 [Event("Transfer")]
 public class TransferEventDTO : EventDTOBase
@@ -141,7 +141,7 @@ Let's say we want to find all the events (or transfers) from the genesis block u
 
 This is how we create the object. 
 
-```c
+```
 
 var filters = new EventFilterData
 {
@@ -155,7 +155,7 @@ Why do we use `filterTopic2`? Because the `to` address prop has second position 
 
 If you don’t want to think about the position of props, you can use the class `EventFilterRequest` to get the same results. 
 
-```c
+```
 var filtersRequest = new EventFilterRequest<TransferEventDTO>();
 filtersRequest.SetFromBlock(BlockParameter.CreateEarliest());
 filtersRequest.SetToBlock(BlockParameter.CreateLatest());
@@ -186,7 +186,7 @@ So how do we send the request?
 
 To get past events you need to instantiate class `Contract` and call method `GetEvents`
 
-```c
+```
 var ankrSDK = AnkrSDKWrapper.GetSDKInstance("http://...");
 _erc20Contract = ankrSDK.GetContract("0x..", "{...}");
 ...
@@ -207,7 +207,7 @@ This requires setting up a websocket connection. If you are using Ankr RPCs, you
 
 Simply, instantiate the subscription as in the following example:
 
-```c
+```
 var ankrSDK = AnkrSDKWrapper.GetSDKInstance("https://...");
 var _eventSubscriber = ankrSDK.CreateSubscriber("wss://...");
 _eventSubscriber.ListenForEvents().Forget();
@@ -215,14 +215,14 @@ _eventSubscriber.ListenForEvents().Forget();
 
 You do not need to set the parameters `fromBlock` and `toBlock` because you will receive *all* events from the block until you unsubscribe.
 
-```c
+```
 var filtersRequest = new EventFilterRequest<TransferEventDTO>();
 filtersRequest.AddTopic("To", EthHandler.DefaultAccount);
 ```
 
 And make a subscription
 
-```c
+```
 var _subscription = await _eventSubscriber.Subscribe(
   filters,
   ERC20ContractInformation.ContractAddress, 

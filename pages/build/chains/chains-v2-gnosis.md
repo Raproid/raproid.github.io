@@ -57,7 +57,7 @@ Returns the current client version.
 
 #### Example request
 
-```js
+```
 curl https://rpc.ankr.com/gnosis \
   -X POST \
   -H "Content-Type: application/json" \
@@ -68,7 +68,7 @@ curl https://rpc.ankr.com/gnosis \
 
 #### Example response
 
-```js
+```
 {"jsonrpc":"2.0","result":"OpenEthereum//v3.3.0-rc.15-stable-88eb7d325-20211104/x86_64-linux-gnu/rustc1.48.0","id":1}
 ```
 
@@ -81,7 +81,7 @@ Returns the current network id.
 
 #### Example request
 
-```js
+```
   
   curl https://rpc.ankr.com/gnosis \
   -X POST \
@@ -91,7 +91,7 @@ Returns the current network id.
 
 #### Example response
 
-```js
+```
 {"jsonrpc":"2.0","result":"100","id":67}
 ```
 
@@ -103,7 +103,7 @@ Returns the current network id.
 
 Returns the gas price for the transaction in hex.
 
-```js
+```
 
 curl https://rpc.ankr.com/gnosis \
   -X POST \
@@ -122,7 +122,7 @@ curl https://rpc.ankr.com/gnosis \
 
 ### Example response
 
-```js
+```
 {"jsonrpc":"2.0","result":"0x5208","id":1}
 ```
 
@@ -138,12 +138,6 @@ Gnosis RPC calls do not work with URLs that specify a Port Number.
 ### web3 
 
 - **clientVersion**
-
-import Tabs from '@theme/Tabs';
-import TabItem from '@theme/TabItem';
-
-<Tabs>
-<TabItem value="go" label="Go">
 
 ```go
 package main
@@ -192,6 +186,4 @@ func main() {
   fmt.Println(string(body))
 }
 ```
-</TabItem>
-</Tabs>
 

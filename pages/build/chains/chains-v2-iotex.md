@@ -27,7 +27,7 @@ Returns the current client version.
 
 #### Example request
 
-```js
+```
 curl https://rpc.ankr.com/iotex \
   -X POST \
   -H "Content-Type: application/json" \
@@ -36,7 +36,7 @@ curl https://rpc.ankr.com/iotex \
 
 #### Example response
 
-```js
+```
 {"jsonrpc":"2.0","id":1,"result":"v1.6.4-rc0/go version go1.17.6 linux/amd64"}
 ```
 
@@ -48,7 +48,7 @@ Returns the current network id.
 
 #### Example request
 
-```js
+```
   
   curl https://rpc.ankr.com/iotex\
   -X POST \
@@ -58,7 +58,7 @@ Returns the current network id.
 
 #### Example response
 
-```js
+```
 {"jsonrpc":"2.0","id":67,"result":"4689"}
 ```
 
@@ -66,7 +66,7 @@ Returns the current network id.
 
 #### Example request
 
-```js
+```
 
 curl https://rpc.ankr.com/iotex \
   -X POST \
@@ -76,6 +76,6 @@ curl https://rpc.ankr.com/iotex \
 
 #### Example response
 
-```js
+```
 {"jsonrpc":"2.0","id":67,"result":"0xf93dc8"}
 ```

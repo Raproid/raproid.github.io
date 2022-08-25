@@ -46,7 +46,7 @@ Returns the current client version.
 
 #### Example request
 
-```js
+```
 curl https://rpc.ankr.com/fantom \
   -X POST \
   -H "Content-Type: application/json" \
@@ -55,7 +55,7 @@ curl https://rpc.ankr.com/fantom \
 
 #### Example response
 
-```js
+```
 {"jsonrpc":"2.0","id":1,"result":"go-opera/v1.1.0-rc.3-4f960171-1645028798/linux-amd64/go1.17.7"}
 ```
 
@@ -67,7 +67,7 @@ Returns the current network id.
 
 #### Example request
 
-```js
+```
   
   curl https://rpc.ankr.com/fantom\
   -X POST \
@@ -77,7 +77,7 @@ Returns the current network id.
 
 #### Example response
 
-```js
+```
 {"jsonrpc":"2.0","id":67,"result":"250"}
 ```
 
@@ -85,7 +85,7 @@ Returns the current network id.
 
 #### Example request
 
-```js
+```
 
 curl https://rpc.ankr.com/fantom \
   -X POST \
@@ -95,6 +95,6 @@ curl https://rpc.ankr.com/fantom \
 
 #### Example response
 
-```js
+```
 {"jsonrpc":"2.0","id":67,"result":"0x1fe0cee"}
 ```

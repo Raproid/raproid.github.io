@@ -62,7 +62,7 @@ Returns the current client version.
 
 #### Example request
 
-```js
+```
 curl https://rpc.ankr.com/avalanche \
   -X POST \
   -H "Content-Type: application/json" \
@@ -71,7 +71,7 @@ curl https://rpc.ankr.com/avalanche \
 
 #### Example response
 
-```js
+```
 {"jsonrpc":"2.0","id":1,"result":"v0.7.2-rc.1"}
 ```
 
@@ -84,7 +84,7 @@ Returns the current network id.
 
 #### Example request
 
-```js
+```
   
   curl https://rpc.ankr.com/avalanche \
   -X POST \
@@ -94,7 +94,7 @@ Returns the current network id.
 
 #### Example response
 
-```js
+```
 {"jsonrpc":"2.0","id":67,"result":"43114"}
 ```
 
@@ -102,7 +102,7 @@ Returns the current network id.
 
 ### Example request
 
-```js
+```
 
 curl https://rpc.ankr.com/avalanche \
   -X POST \
@@ -112,7 +112,7 @@ curl https://rpc.ankr.com/avalanche \
 
 ### Example response
 
-```js
+```
 {"jsonrpc":"2.0","id":67,"result":"0xaf7bf1"}
 ```
 
@@ -122,12 +122,6 @@ curl https://rpc.ankr.com/avalanche \
 ### web3 
 
 - **clientVersion**
-
-import Tabs from '@theme/Tabs';
-import TabItem from '@theme/TabItem';
-
-<Tabs>
-<TabItem value="go" label="Go">
 
 ```go
 package main
@@ -176,6 +170,3 @@ func main() {
   fmt.Println(string(body))
 }
 ```
-</TabItem>
-</Tabs>
-

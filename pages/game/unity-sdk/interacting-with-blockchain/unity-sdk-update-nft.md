@@ -26,7 +26,7 @@ These methods require
 
 The following extract is an example usage of the **GetData** method to retrieve information about an NFT:
 
-```c#
+```
 private async UniTask<BigInteger> GetHat(BigInteger tokenID)
 		{
 			var getHatMessage = new GetHatMessage
@@ -48,7 +48,7 @@ Use the `CallMethod` to write new information to the blockchain. These methods u
 
 The following extract is an example of how a `CallMethod` is used to update an NFT: 
 
-```c#
+```
 public async void UpdateNFT()
 		{
 			// 1) Request nft parameters and signature for parameters
@@ -72,7 +72,7 @@ This is an example from the SDK and illustrates how to update a GameItem NFT by 
 
 2. Create an instance of `Web3` class and call `Initialize` method after login in MetaMask
 
-    ```c#
+    ```
     string provider_url = "<ethereum node url>";
             
     Web3 web3 = new Web3(provider_url);
@@ -81,7 +81,7 @@ This is an example from the SDK and illustrates how to update a GameItem NFT by 
 
 3. The user sends a GET request `hero/{id}` to [backend](https://github.com/mirage-xyz/mirage-go-sdk) where `id` is the index of the NFT in the contract.
 
-    ```c#
+    ```
     UnityWebRequest request = UnityWebRequest.Get(url+$"hero/{tokenId}");
     await request.Send();
     ```
@@ -102,7 +102,7 @@ This is an example from the SDK and illustrates how to update a GameItem NFT by 
 
 4. After getting the parameters of the NFT and Signature, the user should call contract method `updateTokenWithSignedMessage` and pass it all data from the backend as tuple.
 
-    ```c#
+    ```
     ItemInfo info = await RequestPreparedParams(0);
     string receipt = await contract.CallMethod("updateTokenWithSignedMessage", new object[] {info});
     ```

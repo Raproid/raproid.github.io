@@ -31,13 +31,14 @@ Gets a list of NFTs (ERC721/ERC1155/ENS/POAP) associated with an account specifi
      * Smart contract address (`"0xd8682bfa6918b0174f287b888e765b9a1b4dc9c3": [] `) — retrieves all NFTs from the address.
      * Smart contract address and NFT ID (`"0xd8682bfa6918b0174f287b888e765b9a1b4dc9c3": ["8937"]`) — retrieves a particular NFT specified.
 
-import Tabs from '@theme/Tabs';
-import TabItem from '@theme/TabItem';
-
-<Tabs>
-<TabItem value="NFTsByOwner" label="Body">
-
-```json
+<Nextra.Tabs
+  items={[
+    "Body",
+    "Headers",
+  ]}
+>
+  <Nextra.Tab>
+```
 {
     "jsonrpc": "2.0",
     "method": "ankr_getNFTsByOwner",
@@ -50,16 +51,13 @@ import TabItem from '@theme/TabItem';
     "id": 1
 }
 ```
-
-</TabItem>
-<TabItem value="shell" label="Headers">
-
-```shell
+  </Nextra.Tab>
+  <Nextra.Tab>
+```sh
 Content-Type: application/json
 ```
-
-</TabItem>
-</Tabs>
+  </Nextra.Tab>
+</Nextra.Tabs>
 
 ### Response
 
@@ -119,10 +117,14 @@ curl --location --request POST 'https://rpc.ankr.com/multichain' \
 
 Code: 200 OK
 
-<Tabs>
-<TabItem value="NFTsByOwner_response" label="Schema">
-
-```json
+<Nextra.Tabs
+  items={[
+    "Schema",
+    "Example",
+  ]}
+>
+  <Nextra.Tab>
+```
 {
   "error": {},
   "id": 1,
@@ -159,11 +161,9 @@ Code: 200 OK
   }
 }
 ```
-
-</TabItem>
-<TabItem value="NFTsByOwner_example" label="Example">
-
-```json
+  </Nextra.Tab>
+  <Nextra.Tab>
+```
 {
   "jsonrpc": "2.0",
   "id": 1,
@@ -291,9 +291,8 @@ Code: 200 OK
   }
 }
 ```
-
-</TabItem>
-</Tabs>
+  </Nextra.Tab>
+</Nextra.Tabs>
 
 ---
 
@@ -314,10 +313,14 @@ Gets NFT metadata (ERC721/ERC1155/ENS/POAP) associated with a specific NFT. A re
   * `contractAddress` (string): a contract address of the NFT the metadata belongs to.
   * `tokenId` (integer): a token ID of the NFT the metadata belongs to.
 
-<Tabs>
-<TabItem value="ankr_getNFTMetadata" label="Body">
-
-```json
+<Nextra.Tabs
+  items={[
+    "Body",
+    "Headers",
+  ]}
+>
+  <Nextra.Tab>
+```
 {
     "jsonrpc": "2.0",
     "method": "ankr_getNFTMetadata",
@@ -329,16 +332,13 @@ Gets NFT metadata (ERC721/ERC1155/ENS/POAP) associated with a specific NFT. A re
     "id": 1
 }
 ```
-
-</TabItem>
-<TabItem value="shell" label="Headers">
-
-```shell
+  </Nextra.Tab>
+  <Nextra.Tab>
+```sh
 Content-Type: application/json
 ```
-
-</TabItem>
-</Tabs>
+  </Nextra.Tab>
+</Nextra.Tabs>
 
 ### Response
 
@@ -389,10 +389,14 @@ curl --location --request POST 'https://rpc.ankr.com/multichain' \
 
 Code: 200 OK
 
-<Tabs>
-<TabItem value="ankr_getNFTMetadata_response" label="Schema">
-
-```json
+<Nextra.Tabs
+  items={[
+    "Schema",
+    "Example",
+  ]}
+>
+  <Nextra.Tab>
+```
 {
   "error": {},
   "id": 1,
@@ -428,11 +432,9 @@ Code: 200 OK
   }
 }
 ```
-
-</TabItem>
-<TabItem value="ankr_getNFTMetadata_example" label="Example">
-
-```json
+  </Nextra.Tab>
+  <Nextra.Tab>
+```
 {
     "jsonrpc": "2.0",
     "id": 1,
@@ -479,9 +481,8 @@ Code: 200 OK
     }
 }
 ```
-
-</TabItem>
-</Tabs>
+  </Nextra.Tab>
+</Nextra.Tabs>
 
 ---
 
@@ -501,10 +502,14 @@ Gets holders of the NFT specified by request body parameters.
   * `pageSize` (integer): a number of results you'd like to get.
   * `pageToken` (string): a token is provided at the end of the response body and can be referenced in the request to fetch the next page.
 
-<Tabs>
-<TabItem value="getNFTHolders" label="Body">
-
-```json
+<Nextra.Tabs
+  items={[
+    "Body",
+    "Headers",
+  ]}
+>
+  <Nextra.Tab>
+```
 {
     "jsonrpc": "2.0",
     "method": "ankr_getNFTHolders",
@@ -517,17 +522,14 @@ Gets holders of the NFT specified by request body parameters.
     "id": 1
 }
 ```
-
-</TabItem>
-<TabItem value="shell" label="Headers">
-
-```shell
+  </Nextra.Tab>
+  <Nextra.Tab>
+```sh
 Content-Type: application/json
 X-API-KEY: {{KEY}}
 ```
-
-</TabItem>
-</Tabs>
+  </Nextra.Tab>
+</Nextra.Tabs>
 
 ### Response
 
@@ -566,10 +568,14 @@ curl --location --request POST 'https://rpc.ankr.com/multichain' \
 
 Code: 200 OK
 
-<Tabs>
-<TabItem value="getNFTHolders_response" label="Schema">
-
-```json
+<Nextra.Tabs
+  items={[
+    "Schema",
+    "Example",
+  ]}
+>
+  <Nextra.Tab>
+```
 {
   "error": {},
   "id": 1,
@@ -582,11 +588,9 @@ Code: 200 OK
   }
 }
 ```
-
-</TabItem>
-<TabItem value="getNFTHolders_example" label="Example">
-
-```json
+  </Nextra.Tab>
+  <Nextra.Tab>
+```
 {
     "jsonrpc": "2.0",
     "id": 1,
@@ -607,9 +611,8 @@ Code: 200 OK
     }
 }
 ```
-
-</TabItem>
-</Tabs>
+  </Nextra.Tab>
+</Nextra.Tabs>
 
 
 

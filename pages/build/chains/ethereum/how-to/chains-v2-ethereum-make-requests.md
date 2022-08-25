@@ -36,7 +36,7 @@ touch index.js
 - Sets the provider to an Ankr RPC
 - Makes a request to get the latest Block Number. 
 
-```js
+```
 
 const Web3 = require('web3');
 const web3 = new Web3("https://rpc.ankr.com/eth"); // For Premium endpoints append API key to url "https://rpc.ankr.com/eth/APIKEY"
@@ -49,7 +49,7 @@ web3.eth.getBlockNumber()
 
 You should see the latest Block Number as below!!!
 
-```js
+```
 
 node index.js
 14679276

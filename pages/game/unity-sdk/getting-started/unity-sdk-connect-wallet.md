@@ -49,7 +49,7 @@ You can then use `.SetImageActive(bool)` to activate/deactivate the QRCode.
 Here is the way it is implemented in our **Examples**.
 We get the `ConnectURL` from a `walletconnect` Instance. Then we generate the `QRCode` from it and activate the QRCode's image so it can be scanned: 
 
-```C#
+```
 
 var connectURL = WalletConnect.Instance.ConnectURL;
 _qrCodeImage.UpdateQRCode(connectURL);
@@ -75,7 +75,7 @@ If you agree to connect, a `Session Key` is saved in `PlayerPrefs` for future us
 
 Create an instance of a `AnkrSDKWrapper` class via `AnkrSDKWrapper.GetSDKInstance()` method after successful connection to your wallet.
 
-    ```js
+    ```
     var ankrSdk = AnkrSDKWrapper.GetSDKInstance("<ethereum node url>");
     ```
 
@@ -87,7 +87,7 @@ This is an example from the SDK on how to link a Web3 wallet to a player account
 
 1. To connect a wallet, first make an instance of a `Web3` class and call `Initialize` method after login in MetaMask
 
-    ```js
+    ```
     string provider_url = "<ethereum node url>";
             
     Web3 web3 = new Web3(provider_url);
@@ -96,14 +96,14 @@ This is an example from the SDK on how to link a Web3 wallet to a player account
 
 2. To prove ownership of the wallet address, the player should sign an arbitrary string > zero length. We recommend using uuid strings. The Web3 Wallet provides the sign functionality. To start this step call method `Sign`.
 
-    ```js
+    ```
     string message = "Hi I am a message !"
     string signature = await web3.Sign(message); //returns the signature.
     ```
 
 3. The next step involves the backend serverside. You can view an example script [here](https://github.com/mirage-xyz/mirage-serverside-demo/blob/main/backends/signing-go/main.go). It returns a signature if authentication is successful. Below is an ***extract*** from this script:
 
-    ```js
+    ```
     package main
 
     import (
@@ -148,7 +148,7 @@ This is an example from the SDK on how to link a Web3 wallet to a player account
 
 4. To verify the user make a call using the method POST `/account/verification/address` with the payload i.e. returned signature
 
-    ```json
+    ```
     {
     "message": "Hi I am a message !", // your message
     "signature":"0x..." // result of Web3.Sign()
