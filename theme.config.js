@@ -24,70 +24,21 @@ export default {
 // Logo
   logo: logo,
 // Head content and settings
-  head: ({ title, meta }) => {
-    const { route } = useRouter();
-
-    const ogImage =
-      meta.image || meta.description
-
-    return (
-      <>
-        {/* Meta-information */}
-        <meta name="msapplication-TileColor" content="#ffffff" />
-        <meta httpEquiv="Content-Language" content="en" />
-        <meta
-          name="description"
-          content={
-            meta.description ||
-            "Ankr is a leading Web3 Infrastructure Company."
-          }
-        />
-        <meta
-          name="og:description"
-          content={
-            meta.description ||
-            "Ankr is a leading Web3 Infrastructure Company."
-          }
-        />
-        <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:image" content={ogImage} />
-        <meta
-          name="og:title"
-          content={
-            title ? title + " – Ankr" : "Ankr: Web3 Infrastructure Company."
-          }
-        />
-        <meta name="og:image" content={ogImage} />
-        <meta name="apple-mobile-web-app-title" content="Ankr" />
-
-        {/* Favicons */}
-        <link rel="manifest" href="/favicon/site.webmanifest" />
-        <link rel="icon" type="image/svg+xml" href="/favicon/favicon.svg" />
-        <link
-          rel="icon"
-          type="image/png"
-          sizes="16x16"
-          href="/favicon/favicon-16x16.png"
-        />
-        <link
-          rel="icon"
-          type="image/png"
-          sizes="32x32"
-          href="/favicon/favicon-32x32.png"
-        />
-        <link
-          rel="apple-icon"
-          sizes="180x180"
-          href="/favicon/apple-icon-180x180.png"
-        />
-        <link
-          rel="mask-icon"
-          href="/favicon/safari-pinned-tab.svg"
-          color="#000000"
-        />
-      </>
-    );
-  },
+head: () => {
+  return (
+    <>
+      {/* Meta-information */}
+      <meta name="msapplication-TileColor" content="#ffffff" />
+      <meta httpEquiv="Content-Language" content="en" />
+      <meta
+        name="description"
+        content={
+          "Ankr is a leading Web3 Infrastructure Company."
+        }
+      />
+    </>
+  );
+},
 //Footer content and settings
   footerText: (
     <div className="grid grid-cols-1 md:grid-cols-4 gap-8 md:space-x-16 lg:space-x-28">
