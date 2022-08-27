@@ -5,7 +5,7 @@ id: stake-ksm
 
 ## Before you start
 
-:::info Ensure the following:
+<Callout> Ensure the following:
 You are using a Chrome Browser.
 
 You have a **Polkadot.js wallet** chrome extension installed.
@@ -13,7 +13,7 @@ You have a **Polkadot.js wallet** chrome extension installed.
 You have the required amount of KSM you wish to contribute in your Polkadot.js wallet (chrome extension) plus an amount for gas fees.
 
 You have a MetaMask wallet.
-:::
+</Callout>
 
 ## Install Polkadot.js wallet
 
@@ -29,11 +29,11 @@ You have a MetaMask wallet.
 
 ## Transfer KSM to your Polkadot.js wallet
 
-:::info 
+<Callout> 
 Wallets to use to transfer Polkadot.
 
 You can use _Polka Wallet, Trust Wallet, Fearless Wallet, Polkadot.js_ to send KSM to your extension wallet.
-:::
+</Callout>
 
 1. Connect your wallet to the [Polkadot Account App](https://polkadot.js.org/apps/#/accounts) to view your balance or make a transfer to another account.
 
@@ -71,7 +71,7 @@ You can use _Polka Wallet, Trust Wallet, Fearless Wallet, Polkadot.js_ to send K
 
 4. Authorize your Polkadot.js wallet.
 
-:::info success
+<Callout> success
 
 This enables access to aKSMb Tokens.
 Successful addition to your wallet is indicated by your Ethereum wallet updating with aKSMb tokens.

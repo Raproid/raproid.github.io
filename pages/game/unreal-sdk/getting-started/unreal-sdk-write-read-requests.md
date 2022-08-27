@@ -1,19 +1,16 @@
----
-title: Write/Read Requests
-id: unreal-send-retrieve
----
+import Callout from "nextra-theme-docs/callout";
 
 # Write and Read requests
 
 This page lists the functionality you can use in your game. 
 
-:::tip Write vs. Read requests
+<Callout> Write vs. Read requests
 
 * *Write* requests change the current state of the blockchain (example: minting NFTs) and thus incur gas fees to cover smart contract operations. Those requests issue tickets you need to approve or reject in MetaMask.
 
 * *Read* requests don't change but only show the current state of the blockchain, and don't incur any gas fees. Those requests don't issue tickets or need approval.
 
-:::
+</Callout>
 
 ### Guided tutorial
 

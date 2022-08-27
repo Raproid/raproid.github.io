@@ -7,7 +7,7 @@ id: unstake-ankr
 
 ### Before you start
 
-:::note
+<Callout>
 
 Ensure you have a small amount of ETH for the gas fee.
 
@@ -16,15 +16,15 @@ ANKR delegated staking has a locking period of 84–91 days. You are only able t
 When unstaking, an undelegate period of 1 next epoch — 7 days — applies. After this period, you can claim your unstaked ANKR to the connected wallet address.
 For example, if the epoch starts on Monday, and you unstaked on Monday, you'll wait 14 days (current_epoch + next_epoch), on Tuesday — 13 days, and so on.
 
-:::
+</Callout>
 
 ## Unstake ANKR
 We designed ANKR Staking with multiple Node Providers in mind, so there is no **Unstake all** button.
 This button would be impossible with you staking with different Node Providers.
 You can unstake your ANKR by specific staking transaction you made. 
-:::note
+<Callout>
 Multiple Node Providers support is coming soon.
-:::
+</Callout>
 ## Unstake ANKR by specific staking transaction
 1. Open [Ankr Staking Dashboard](https://www.ankr.com/staking/dashboard/)
 2. Locate the ANKR box and click the **Manage**.
@@ -36,7 +36,7 @@ Multiple Node Providers support is coming soon.
 
 You will need to make the following interactions in your wallet:
 
-:thumbsup: **Grant access** to grant access to your wallet.
+👍 **Grant access** to grant access to your wallet.
 
-:thumbsup: **Confirm** the transaction.
+👍 **Confirm** the transaction.
 

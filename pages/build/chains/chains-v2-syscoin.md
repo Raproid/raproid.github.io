@@ -1,7 +1,4 @@
----
-title: Overview
-id: about-syscoin
----
+import Callout from "nextra-theme-docs/callout";
 
 # Syscoin
 Syscoin is a Proof-of-Work blockchain. It uses merged-mining - a technique whereby PoW blockchain miners can merge several cryptocurrencies with mining at the same time. Syscoin currently has around 20% of the hashpower that goes into mining Bitcoin. SysCoin utilizes [Chainlocks](https://docs.syscoin.org/docs/tech/chainlocks) to securely mitigate against <a href="https://www.ankr.com/docs/learn/extra/51-attacks">51% attacks</a>
@@ -20,11 +17,11 @@ Syscoin has a modular blockchain architecture with multiple specialized layers. 
 
 This is where the data from the blockchain is stored. ZK-rollups on Syscoin store data on-chain whilst Validium roll-ups store data off-chain in decentralized storage or with trusted entitites. Validium is scheduled for later in the year.
 
-:::info What is Validium?
+<Callout>
+What is Validium?
 
 Validium is a Layer-2 scaling solution that enforces the validity of all transactions using zero-knowledge proofs whilst data is kept off-chain. This means that assets cannot be accessed without explicit authorization from the account owner. 
-
-:::
+</Callout>
 
 ## Quick links
 

@@ -1,7 +1,4 @@
----
-title: Deploy ERC-721 Token
-id: deploy-erc721-token
----
+import Callout from "nextra-theme-docs/callout";
 
 # Deploy ERC-721 token
 
@@ -48,6 +45,6 @@ contract MyERC721Token is ERC721URIStorage, Ownable {
 
 MetaData URI is a link (usually on ipfs) that returns a JSON object with information about your NFT token.
 
-:::tip
+<Callout>
 For more information on NFT (EIP-721) metadata, visit the [official EIP page](https://github.com/ethereum/EIPs/blob/master/EIPS/eip-721.md).
-:::
+</Callout>

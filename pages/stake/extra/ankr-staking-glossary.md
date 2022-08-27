@@ -1,7 +1,4 @@
----
-title: Staking Glossary
-id: glossary
----
+import Callout from "nextra-theme-docs/callout";
 
 # Staking glossary
 
@@ -100,9 +97,9 @@ By creating mutually beneficial relationships with significant mining pools, Ank
 Liquidity mining is a term used in DeFi to describe the process of supplying liquidity* (in the form of crypto assets) to decentralized financial platforms/protocols and in return receiving rewards (usually in the form of tokens) for doing so.
 *Supplying liquidity is also known as staking assets.
 
-::: note
+<Callout>
 Liquidity Mining is distinct from Yield Farming. Yield farming is a form of staking. Liquidity mining is a subset of yield farming. The main difference is that liquidity providers are compensated not just with fee revenue but also the platform’s own token.
-:::
+</Callout>
 
 This is a quick overview of how it works. (See StakeFi for more details.)
 1. Buy crypto assets e.g. ETH and/or DAI. (Some protocols require asset pairs).

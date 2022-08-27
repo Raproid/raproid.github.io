@@ -41,8 +41,7 @@ You can set up your **MetaMask wallet** to connect to Moonbeam RPC. You can then
 
 The Moonbeam API is very similar to the Ethereum API and is compatible with the majority of Ethereum-style JSON-RPC methods. Developers can leverage this compatibility and use the [**web3.js library**](https://web3js.readthedocs.io/en/v1.7.3/), [**ethers.js library**](https://docs.ethers.io/) and the [**web3.py library**](https://web3py.readthedocs.io/) to interact with a Moonbeam node as if they were doing so on Ethereum.
 
-:::warning 
-
+<Callout type="warning" emoji="❗">
 However, not all Ethereum JSON RPC methods are supported, and some of the supported ones return default values. 
 
 The following methods are supported on the Moonbeam RPC. 
@@ -80,8 +79,7 @@ The following methods are supported on the Moonbeam RPC.
  - **[eth_getWork](https://eth.wiki/json-rpc/API#eth_getwork)** — Returns `["0x0","0x0","0x0"]` by default
  - **[eth_submitWork](https://eth.wiki/json-rpc/API#eth_submitwork)** — Not supported
  - **[eth_submitHashrate](https://eth.wiki/json-rpc/API#eth_submithashrate)** — Not supported
-
-:::
+</Callout>
 
 ### How to integrate with Moonbeam
 
@@ -89,11 +87,9 @@ If you're using the Public RPCs, your endpoint is `https://rpc.ankr.com/moonbeam
 
 If you're using the Premium Plan, you can copy your two endpoints for HTTPS and WSS from [Ankr Protocol](https://www.ankr.com/protocol/public/)
 
-:::tip
-
+<Callout>
 In the code samples below, use **EITHER** the public endpoint **OR** the premium endpoint (if you have signed up to the Premium Plan)
-
-:::
+</Callout>
 
 <Nextra.Tabs
   items={[

@@ -34,9 +34,9 @@ aAVAXc is tradable in [Ankr DeFi](https://ankr.com/defi/trade/).
 From the Ankr Staking dashboard, you can choose to **Unstake** and redeem aAVAXb/aAVAXc. 
 Wait for up to 28 days to redeem aAVAXb/aAVAXc for AVAX. 
 
-:::info
+<Callout>
 Unstaking means that aAVAXb has an **elastic supply** contributing to a **robust price stability mechanism** without relying on having large amounts of tokens in liquidity pools to ensure token price stability.
-:::
+</Callout>
 
 ## Access **Instant Liquidity Pools** 
 

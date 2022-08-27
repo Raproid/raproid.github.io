@@ -21,7 +21,7 @@ The following instructions are based on Monterey v12.3.1.
 
    <img src="/unreal-v5.png" alt="blank" class="responsive-pic" width="600" />
 
-   :::warning greyed out + button 
+   <Callout type="warning" emoji="❗"> greyed out + button 
    If you find that the + button is greyed out, then do the following:
 
    a. Sign out 
@@ -34,13 +34,13 @@ The following instructions are based on Monterey v12.3.1.
 
    d. Now Sign in as usual 
 
-   :::
+   </Callout>
 
 3. You can now click to install **v5**. (This takes some time)
 
 4. Launch **v5** (Be patient, this can take a little while)
 
-   :::note
+   <Callout>
 
    If a pop up appears:
    "Do you want the app **UnrealEditor.app** to accept incoming network connections"
@@ -48,7 +48,7 @@ The following instructions are based on Monterey v12.3.1.
 
    <img src="/game-mac-1.png" alt="blank" class="responsive-pic" width="200" />
 
-   :::
+   </Callout>
 
 ## STEP TWO - Create a new project
 
@@ -81,11 +81,11 @@ The following instructions are based on Monterey v12.3.1.
 
 ## STEP FOUR - Generate the Xcode project
 
-:::info 
+<Callout> 
 
 These docs are written using Xcode 13.1
 
-:::
+</Callout>
 
 1. Open **Unreal Editor**
 
@@ -149,11 +149,11 @@ These docs are written using Xcode 13.1
 
 4. You can now add and use all the functions from the **Ankr SDK** in your game.
 
-   :::tip
+   <Callout>
 
    ## ✅ Nice work!! You're all set to go
 
-   :::
+   </Callout>
 
 
 
@@ -173,7 +173,7 @@ The following instructions are based on Windows 10.
 
 2. Click **Library** and the **+** button to add the **v5** version
 
-   :::warning greyed out + button 
+   <Callout type="warning" emoji="❗"> greyed out + button 
    If you find that the + button is greyed out, then do the following:
 
    a. Sign out 
@@ -181,19 +181,19 @@ The following instructions are based on Windows 10.
    c. Inside **Epic Games Launcher** > **Library** > **+** > **v5**
    d. Now Sign in as usual 
 
-   :::
+   </Callout>
 
 3. You can now click to install **v5** (This takes some time)
 
 4. Launch **v5** (Be patient, this can take a little while)
 
-   :::note
+   <Callout>
 
    If a pop up appears:
    "Do you want the app **UnrealEditor.app** to accept incoming network connections"
    Select **Allow**
 
-   :::
+   </Callout>
 
 ## STEP TWO - Create a new project
 
@@ -275,8 +275,8 @@ Inside Visual Studio project
 
 4. You can now add and use all the functions from the **Ankr SDK** in your game.
 
-   :::tip
+   <Callout>
 
    ## ✅ Nice work!! You're all set to go
 
-   :::
+   </Callout>

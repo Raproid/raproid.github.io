@@ -1,10 +1,8 @@
----
-title: Stake FTM
-id: stake-ftm
----
+import Callout from "nextra-theme-docs/callout";
+
 ### Wallets that support Fantom
 
-:::info
+<Callout>
 
 :white_check_mark: **Metamask**: Fantom supported
 
@@ -16,7 +14,7 @@ id: stake-ftm
 
 :x: **Huobi Wallet**: Fantom is not supported
 
-:::
+</Callout>
 
 ## How to stake FTM
 
@@ -36,11 +34,11 @@ id: stake-ftm
 
 You will need to make the following interactions in your wallet:
 
-:thumbsup: **Grant access** to grant access to your wallet.
+👍 **Grant access** to grant access to your wallet.
 
-:thumbsup: **Approve** to add a new network.
+👍 **Approve** to add a new network.
 
-:thumbsup: **Switch network** to switch to the correсt network.
+👍 **Switch network** to switch to the correсt network.
 
 ### Stake your FTM
 
@@ -56,21 +54,21 @@ You will need to make the following interactions in your wallet:
 
 6. Click *Go to dashboard* to see the added liquid staking token. You may need to wait a little for the transaction to finalize and *Dashboard* to automatically update. 
 
-:::info
+<Callout>
 
 Gas fees are incurred to finalize the staking transactions.
 
-:::
+</Callout>
 
 You will need to make the following interactions in your wallet:
 
-:thumbsup:**Authorize** to confirm the connection.
+👍**Authorize** to confirm the connection.
 
-:thumbsup: **Approve** the transaction.
+👍 **Approve** the transaction.
 
-:thumbsup: **Confirm** the transaction.
+👍 **Confirm** the transaction.
 
-:::success
+<Callout>
 
 Your aFTMb balance automatically increases by a small amount, daily, to reflect your Fantom Staking rewards. You can now use your aFTMb reward earning tokens to earn additional layers of rewards on other DeFi platforms listed in [**DeFi**](https://ankr.com/staking/defi/) under the aFTMb section.
 

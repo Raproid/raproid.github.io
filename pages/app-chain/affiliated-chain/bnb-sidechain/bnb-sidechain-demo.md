@@ -1,7 +1,4 @@
----
-title: Demo
-id: demo
----
+import Callout from "nextra-theme-docs/callout";
 
 There is a demo application where you can try BNB Sidechain. 
 It already contains pre-deployed API gateways, block explorer, UI for the staking and faucet.
@@ -19,6 +16,6 @@ Chain ID: 14000
 Current Symbol: BAS
 ```
 
-:::info
+<Callout>
 If you want to see BNB Sidechain source code, check the [BNB Sidechain codebase](https://github.com/Ankr-network?q=bas). 
-:::
+</Callout>

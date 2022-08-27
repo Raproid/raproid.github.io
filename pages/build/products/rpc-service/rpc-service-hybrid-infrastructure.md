@@ -1,11 +1,8 @@
----
-title: Hybrid Infrastructure
-id: hybrid-infra
----
+import Callout from "nextra-theme-docs/callout";
 
 # Hybrid infrastructure
 
-:::note Request for Hybrid Infrastructure 
+<Callout> Request for Hybrid Infrastructure 
 
 Fill in the details for our Sales to contact you:
 
@@ -17,7 +14,7 @@ Fill in the details for our Sales to contact you:
   allowfullscreen>
 </iframe>
 
-:::
+</Callout>
 
 ## What's Hybrid Infrastructure?
 

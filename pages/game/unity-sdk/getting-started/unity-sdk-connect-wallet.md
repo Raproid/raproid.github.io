@@ -1,7 +1,4 @@
----
-title: Connect Wallet and Authenticate
-id: connect-wallet
----
+import Callout from "nextra-theme-docs/callout";
 
 # Connect wallet and authenticate
 
@@ -61,11 +58,9 @@ This `QRCode` should be scanned from you MetaMask mobile app. (It asks you to co
 
 At this point, you are connected and any transactions that require the user signing a message will pop up in their MetaMask app on their phone. 
 
-:::tip
-
+<Callout>
 Occasionally, the MetaMask mobile app does not pop up by itself. Should this be case, open the app manually.
-
-:::
+</Callout>
 
 ### 3. Accept connection
 

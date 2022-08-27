@@ -34,11 +34,11 @@ A very small amount of ETH is used as gas fee to perform a transaction. Normally
 
 You will need to make the following interactions in your wallet:
 
-:thumbsup: **Grant access** to grant access to your wallet.
+👍 **Grant access** to grant access to your wallet.
 
-:thumbsup: **Approve** to add a new network.
+👍 **Approve** to add a new network.
 
-:thumbsup: **Switch network** to switch to the correсt network.
+👍 **Switch network** to switch to the correсt network.
 
 ### Stake your MATIC
 
@@ -55,27 +55,27 @@ You will need to make the following interactions in your wallet:
 6. Click *Go to dashboard* to see the added liquid staking token. You may need to wait a little for the transaction to finalize and *Dashboard* to automatically update. 
 
 
-:::info
+<Callout>
 
 As mentioned before, a gas fee is incurred to finalize the staking transaction.
 
-:::
+</Callout>
 
 You will need to make the following interactions in your wallet:
 
-:thumbsup:**Authorize** to confirm the connection.
+👍**Authorize** to confirm the connection.
 
-:thumbsup: **Approve** the transaction.
+👍 **Approve** the transaction.
 
-:thumbsup: **Confirm** the transaction.
+👍 **Confirm** the transaction.
 
-:::success
+<Callout>
 
 Your aMATICb balance automatically increases by a small amount, daily, to reflect your Polygon Staking rewards. 
 Your aMATICc balance stays the same, but the fair value of aMATICc to MATIC grows daily.
 
 You can now use your aMATICb to earn additional layers of rewards on other DeFi platforms listed in [**DeFi**](https://ankr.com/staking/defi/) under the aMATICb section. aMATICc support is coming soon.
-:::
+</Callout>
 
 ### If you don't see your liquid staking token balance
 

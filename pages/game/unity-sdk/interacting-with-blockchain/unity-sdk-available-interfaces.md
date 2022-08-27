@@ -1,7 +1,4 @@
----
-title: Available Interfaces
-id: avialable-interfaces
----
+import Callout from "nextra-theme-docs/callout";
 
 # Available interfaces
 
@@ -10,10 +7,10 @@ id: avialable-interfaces
 ### `IContract GetContract(string contractAddress, string contractABI);`
 Returns newly created Contract wrapper, using the provided address and ABI.
 
-:::note
+<Callout>
 You have to provide everything listed under your contract definition's `abi` section.
 <img src="/interfaces-note.png" alt="abi section" class="responsive-pic" width="190" />
-:::
+</Callout>
 
 ### `IEthHandler Eth { get; }`
 Gets the IEthHandler instance created by the AnkrSDK instance.
@@ -162,9 +159,9 @@ Subscribes to a new event.
 
 #### Parameters 
 `EventFilterData` — topics specified by you.
-:::note
+<Callout>
 This is an async operation, as it is required to receive a response about the subscription.
-:::
+</Callout>
 
 ### `UniTask<IContractEventSubscription> Subscribe<TEventType>(EventFilterRequest<TEventType> evFilter, string contractAddress, Action<TEventType> handler) where TEventType : IEventDTO, new();`
 Subscribes to a new event. 
@@ -172,9 +169,9 @@ Subscribes to a new event.
 #### Parameters 
 `EventFilterRequest` — automatically assembles topic from EventDTO.
 
-:::note
+<Callout>
 This is an async operation, as it is required to receive a response about the subscription.
-:::
+</Callout>
 
 ### `UniTask Unsubscribe(string subscriptionId);`
 Sends a request to unsubscribe from an event by `subscriptionId`.

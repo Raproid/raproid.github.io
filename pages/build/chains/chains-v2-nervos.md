@@ -1,7 +1,4 @@
----
-Title: Nervos RPC
-id: nervos
----
+import Callout from "nextra-theme-docs/callout";
 
 # Nervos
 
@@ -17,11 +14,11 @@ This is a permissionless framework to build scaling solutions on top of Nervos C
 2. *Polyjuice* 
 This adds EVM-compatibility by integrating an EVM engine for running Ethereum Smart Contracts. 
 
-:::info There are two RPCs for Nervos
-
+<Callout>
+There are two RPCs for Nervos:
 1. Layer 1 CKB Chain
 2. Layer Godwoken Chain
-:::
+</Callout>
 
 ## Quick links
 

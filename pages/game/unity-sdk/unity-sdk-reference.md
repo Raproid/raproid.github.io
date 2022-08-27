@@ -953,9 +953,9 @@ A class containing the method to interact with smart contracts.
 
 #### Description
 
-:::warning
+<Callout type="warning" emoji="❗">
 Use only for methods that change a smart contract state. To return a contract state, contract field, and mappings, use [GetData](/game/unity/api-reference/contract/get-data). To find out more on the difference between contract methods, see [Gas fees and gas-free methods](/game/extra/gas-fees-gas-free-methods).
-:::
+</Callout>
 
 Makes a call to the contract method, and returns a transaction hash when that call applies to work. This method is asynchronous.
 
@@ -1028,9 +1028,9 @@ The method returns nothing specific, but instead it returns various values on va
 
 #### Description
 
-:::warning
+<Callout type="warning" emoji="❗">
 Use only for methods that change a smart contract state. Use [GetData](/game/unity/api-reference/contract/get-data) for methods that return contract state, contract field, and mappings. To get more about difference between contract method please read the article.
-:::
+</Callout>
 
 In contrast with [CallMethod](/game/unity/api-reference/contract/call-method), this method provides the handlers for all the transaction lifecycle stages. To work with that method you need to implement the `ITransactionEventHandler` interface. The following implementation works with `EventHandler` to provide the most flexible experience to work with a transaction lifecycle.
 
@@ -1240,9 +1240,9 @@ public class ContractExample : MonoBehaviour
 
 #### Description
 
-:::warning
+<Callout type="warning" emoji="❗">
 Use only for methods that return data, contract fields, and mappings. To change a contract state, use [CallMethod](/game/unity/api-reference/contract/call-method) or [Web3SendMethod](/game/unity/api-reference/contract/web3-send-method). To find out more on the difference between contract methods please, have a look at [Gas fees and gas-free methods](/game/extra/gas-fees-gas-free-methods).
-:::
+</Callout>
 
 The method allows getting contract states from the contract methods, fields, and mappings.
 
@@ -1362,9 +1362,9 @@ public class ContractExample : MonoBehaviour
 
 #### Description
 
-:::warning
+<Callout type="warning" emoji="❗">
 Use only for the contract methods that change a smart contract state. To find out more on the difference between the contract methods, have a look at [Gas fee and gas-free methods](/game/extra/gas-fees-gas-free-methods).
-:::
+</Callout>
 
 Requests a gas estimation for a contract method call.
 

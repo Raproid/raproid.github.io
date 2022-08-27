@@ -1,7 +1,4 @@
----
-title: Native Asset Bridge
-id: native-bridge
----
+import Callout from "nextra-theme-docs/callout";
 
 BNB Sidechain brings a native cross-chain bridge that is embedded to BNB Sidechain as a system smart contract. Here we specify interfaces for the EVM version of BNB Sidechain:
 
@@ -38,9 +35,9 @@ interface BASValidatorHub {
 }
 ```
 
-:::note
+<Callout>
 This interface is a draft and might change in the future.
-:::
+</Callout>
 
 System contract address of BNB Sidechain Validator Hub smart contract is: 
 

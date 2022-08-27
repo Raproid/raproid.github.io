@@ -7,12 +7,12 @@ id: stake-bnb
 
 ## Before you start
 
-:::info Ensure the following:
+<Callout> Ensure the following:
 
 You are using a Chrome Browser.
 
 You have a MetaMask wallet.
-:::
+</Callout>
 
 ## Purchase BNB
 
@@ -38,11 +38,11 @@ You have a MetaMask wallet.
 
 You will need to make the following interactions in your wallet:
 
-:thumbsup: **Grant access** to grant access to your wallet.
+👍 **Grant access** to grant access to your wallet.
 
-:thumbsup: **Approve** to add a new network.
+👍 **Approve** to add a new network.
 
-:thumbsup: **Switch network** to switch to the correсt network.
+👍 **Switch network** to switch to the correсt network.
 
 ## Stake your BNB
 
@@ -58,18 +58,18 @@ You will need to make the following interactions in your wallet:
 
 6. Click *Go to dashboard* to see the added liquid staking token. You may need to wait a little for the transaction to finalize and *Dashboard* to automatically update. 
 
-:::info
+<Callout>
 
 As mentioned before, a gas fee is incurred to finalize the staking transactions.
 
-:::
+</Callout>
 
-:::success
+<Callout>
 **Success**
 
 Your aBNBb balance will automatically increase by a small amount daily to reflect your Binance Coin Staking rewards. 
 You can now use your aBNBb reward earning tokens to earn additional layers of rewards on other DeFi platforms listed in [**DeFi**](https://ankr.com/staking/defi/) under the aBNBb section.
-:::
+</Callout>
 
 ### If you don't see your liquid staking token balance
 

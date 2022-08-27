@@ -1,16 +1,13 @@
----
-Title: Near RPC
-id: near
----
+import Callout from "nextra-theme-docs/callout";
 
 # Near
 NEAR is a decentralized, development platform built on a [sharded](https://near.org/downloads/Nightshade.pdf), Proof-of-Stake, Layer 1 blockchain designed for ease of use.
 
 NEAR developers can host serverless applications and smart contracts that easily connect to "open finance" networks and benefit from an ecosystem of "open web"  components.
 
-:::warning
+<Callout type="warning" emoji="❗">
 Near is not compatible with the Ethereum Virtual Machine.  All contract code is deployed and run inside a WASM Compatible Virtual Machine. 
-:::
+</Callout>
 
 ## Quick links
 
@@ -69,9 +66,9 @@ curl https://rpc.ankr.com/near \
 
 Queries network and returns block details for given height or hash. You can also use `finality` param to return latest block details.
 
-:::info
+<Callout>
 You may choose to search by a specific block or finality, you can not choose both.
-:::
+</Callout>
 
 #### Example request
 

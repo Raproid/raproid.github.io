@@ -1,7 +1,4 @@
----
-title: Update an NFT
-id: update-nft
----
+import Callout from "nextra-theme-docs/callout";
 
 # Update an NFT
 
@@ -66,9 +63,9 @@ This is an example from the SDK and illustrates how to update a GameItem NFT by 
 
 1. Amend [GameItem.sol](https://github.com/mirage-xyz/mirage-smart-contract-example/blob/master/composable-nft/contracts/GameItem.sol) to your purposes and deploy it to network.
 
-    :::info
+    <Callout>
     Ensure that the smart contract is deployed from the same account that uses the backend to sign data.
-    :::
+    </Callout>
 
 2. Create an instance of `Web3` class and call `Initialize` method after login in MetaMask
 

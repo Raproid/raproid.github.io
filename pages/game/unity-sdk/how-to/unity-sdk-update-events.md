@@ -58,11 +58,11 @@ So now we understand what `Events` are.
 
 1) First we need to create a class extended from `EventDTOBase`. Add the same fields as for the `Event` itself. 
 
-:::tip Naming Class fields
+<Callout> Naming Class fields
 
 We recommend naming your class fields with the same names as the props of the `Event` in the contract
 
-:::
+</Callout>
 
 2) Add the attribute `Event` to the class with the same name as the `Event` in the contract e.g. `TransferEventDTO`.
 
@@ -73,11 +73,11 @@ specify the type and name of the `Even`t prop, the order of the prop in the `eve
 public ParameterAttribute(string type, string name, int order, bool indexed = false)
 ```
 
-:::tip
+<Callout>
 
 Make sure you use compatible field types for types of Event props
 
-:::
+</Callout>
 
 
 ```
@@ -122,7 +122,7 @@ So before we continue, let's see what requests to an Ethereum node look like and
 
 * `topic3` - values that are relevant to the third indexing of event props e.g. `value`.
 
-:::tip What are Topics?
+<Callout> What are Topics?
 
 Topics are an array of values that describe what's going on in an event. 
 
@@ -132,7 +132,7 @@ You can pass another array for each topic with options for that topic e.g. [null
 
 All values of the array are logically connected using OR operator (example 'option1' OR 'option2' OR 'option3')
 
-:::
+</Callout>
 
 So if we return to our example `Event Transfer`.
 
@@ -199,10 +199,10 @@ To see a full example see [**game-unity-sdk/ERC20Example.cs**](https://github.co
 
 As well as past events, we can also subscribe to get real-time events immediately after they emit.
 
-:::tip websockets
+<Callout> websockets
 This requires setting up a websocket connection. If you are using Ankr RPCs, you should sign up for the [Premium Plan](https://www.ankr.com/protocol/plan/) to get a private websocket (wss) endpoint.
 
-:::
+</Callout>
 
 
 Simply, instantiate the subscription as in the following example:

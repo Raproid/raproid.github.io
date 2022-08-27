@@ -7,11 +7,11 @@ id: stake-eth
 
 ## Connect your wallet
 
-:::caution
+<Callout type="warning" emoji="❗">
 
 **BE SURE to select the ‘Ethereum Mainnet’ network in your wallet. Otherwise you get an error message.**
 
-:::
+</Callout>
 
 1. Visit [Ankr Staking](https://www.ankr.com/staking/) and click **Stake** in the product menu.
 
@@ -25,9 +25,9 @@ id: stake-eth
 
 ## Stake your ETH
 
-:::info
+<Callout>
 **BE SURE: to allow sufficient ETH to cover gas fees.**
-:::
+</Callout>
 
 1. Visit [Ankr Staking](https://www.ankr.com/staking/) and click **Stake** in the product menu. 
 
@@ -40,11 +40,11 @@ id: stake-eth
 5. Add the liquid staking token to your wallet, clicking *Add aETHb to wallet* or *Add aETHc to wallet* respectively.
 
 6. Click *Go to dashboard* to see the added liquid staking token. You may need to wait a little for the transaction to finalize and *Dashboard* to automatically update. 
-:::info
+<Callout>
 
 Ankr sends the collectively pooled **32 ETH** once it is accumulated to the nodes. Until that happens, you have the option to **unstake** if desired.
 
-:::
+</Callout>
 
 ## If you don't see your liquid staking token balance
 

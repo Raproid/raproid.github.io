@@ -4,10 +4,14 @@ const withNextra = require("nextra")({
   unstable_flexsearch: {
     codeblocks: true,
   },
-  unstable_staticImage: true,
 });
 
-module.exports = withNextra();
+module.exports = withNextra({
+  images: {
+    loader: 'akamai',
+    path: '',
+  },
+});
 
 /* example of how to set up redirects
 module.exports = withNextra({

@@ -1,7 +1,4 @@
----
-title: Launch BNB Sidechain
-id: launch-bas
----
+import Callout from "nextra-theme-docs/callout";
 
 # Launch BNB Sidechain
 
@@ -34,11 +31,11 @@ The [config file](https://github.com/Ankr-network/bas-devnet-setup/blob/devel/co
 * `faucet` — map with initial balances for faucet and other needs.
 
 
-:::tip
+<Callout>
 You can easily customize parameters of the genesis config file via [Genesis Configurator](/build-blockchain/app-chain/bnb-sidechain/how-to-launch/customize-genesis-config).
 
 For the rest of the sidechain's codebase, see [the list of available BNB Sidechain repos](/build-blockchain/app-chain/bnb-sidechain/architecture/overview#repositories).
-:::
+</Callout>
 
 ## Launch 
 
@@ -58,9 +55,9 @@ cd bas
 DOMAIN_NAME=dev-02.bas.ankr.com make all
 ```
 
-:::tip
+<Callout>
 The variable `DOMAIN_NAME` should be set to your domain.
-:::
+</Callout>
 
 Deployed services can be access though next endpoints:
 * https://rpc.${DOMAIN_NAME} (port 8545,9546) - Web3 RPC endpoint

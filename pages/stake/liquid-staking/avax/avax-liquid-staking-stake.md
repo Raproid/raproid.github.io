@@ -66,13 +66,13 @@ Get free AVAX to trade on decentralized exchange on the Avalanche network.
 
 ### Stake your AVAX
 
-:::caution BE SURE
+<Callout type="warning" emoji="❗"> BE SURE
 
 To allow sufficient AVAX to cover gas fees AVAX - from 0.025 to 0.1 AVAX 
 
 [_**Find out more**_](https://docs.avax.network/learn/platform-overview/transaction-fees)
 
-:::
+</Callout>
 1. Visit [Ankr Staking](https://www.ankr.com/staking/) and click **Stake** in the product menu. 
 
 2. Locate the **Avalanche (AVAX)** box and click *Stake* in it.
@@ -85,21 +85,21 @@ To allow sufficient AVAX to cover gas fees AVAX - from 0.025 to 0.1 AVAX
 
 6. Click *Go to dashboard* to see the added liquid staking token. You may need to wait a little for the transaction to finalize and *Dashboard* to automatically update.
 
-:::info
+<Callout>
 
 As mentioned before, a gas fee is incurred to finalize the staking transaction.
 
-:::
+</Callout>
 
 You will need to make the following interactions in your wallet:
 
-:thumbsup:**Authorize** to confirm the connection.
+👍**Authorize** to confirm the connection.
 
-:thumbsup: **Approve** the transaction.
+👍 **Approve** the transaction.
 
-:thumbsup: **Confirm** the transaction.
+👍 **Confirm** the transaction.
 
-:::success
+<Callout>
 
 Your aAVAXb balance automatically increases by a small amount, daily, to reflect your Polygon Staking rewards. You can now use your aAVAXb tokens to earn additional layers of rewards on other DeFi platforms listed in [**DeFi**](https://ankr.com/staking/defi/) under the aAVAXb section. Support for aAVAXc is coming soon.
 

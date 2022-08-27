@@ -1,7 +1,4 @@
----
-title: Send transactions
-id: ethereum-transactions
----
+import Callout from "nextra-theme-docs/callout";
 
 In this section we're going to request testnet from a Ropsten faucet and then return testnet to a Ropsten faucet.  
 
@@ -11,9 +8,8 @@ Every transaction on Ethereum must be signed using your private key to validate 
 
 Typically, MetaMask is used in dApp development as it securely holds your private keys in the browser and whenever the front end requires a signature it can call MetaMask. In this walkthrough, your MetaMask private key is stored in a secure .env file along with your endpoint. 
 
-:::tip
-
-## About eth_call Transactions
+<Callout type="warning" emoji="❗">
+About eth_call Transactions
 
 `eth_call` vs `eth_sendRawTransaction`
 
@@ -29,8 +25,7 @@ Does not change state of blockchain	| Updates blockchain (for example, transfers
 Does not consume gas |	Requires gas
 Synchronous |	Asynchronous
 Returns value of contract function available immediately |	Returns transaction hash only. Possible transaction may not be included in a block (for example, if the gas price is too low).
-
-:::
+</Callout>
 
 ## Useful Resources
 
@@ -137,11 +132,11 @@ node transaction.js
 
 You can verify your balance in your wallet. 
 
-:::tip 
+<Callout> 
 
 ## 🙌🏽 Super excellent job!!!
 
-:::
+</Callout>
 
 
 

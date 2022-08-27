@@ -1,7 +1,4 @@
----
-title: Build a basic project
-id: build-eth-project
----
+import Callout from "nextra-theme-docs/callout";
 
 Let's get started with a super simple project using node and truffle. It is a good idea to start off with a local blockchain before connecting to testnets or the mainnet. This gives you the opportunity to demonstrate that everything works.
 
@@ -38,10 +35,10 @@ npm init -y
 
 This will allow you to deploy a smart contract to a blockchain. Truffle can be installed locally inside your project using `npx` to install an executable. This makes it easier to manage versions for each project you build. 
 
-:::tip
+<Callout type="warning" emoji="❗">
 Make sure you are in your project directory first. e.g. eth-project
 
-:::
+</Callout>
 
 ```
 npm install --save-dev truffle
@@ -292,12 +289,12 @@ Summary
 > Final cost:          0.00749062 ETH
 ```
 
-:::tip
+<Callout>
 
 ## Great work!
 You can now start interacting with your local blockchain
 
-:::
+</Callout>
 
 ## Interact with your contract
 

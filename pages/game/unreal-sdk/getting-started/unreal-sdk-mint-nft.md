@@ -7,13 +7,13 @@ id: unreal-mint-nft
 
 This section lists the functions used to mint NFTs (new characters or wearable items). 
 
-:::tip Write vs. Read methods
+<Callout> Write vs. Read methods
 
 * *Write* requests change the current state of the blockchain (example: minting NFTs) and thus incur gas fees to cover smart contract operations. Those requests issue tickets you need to approve or reject in MetaMask.
 
 * *Read* requests don't change but only show the current state of the blockchain, and don't incur any gas fees. Those requests don't issue tickets or need approval. 
 
-:::
+</Callout>
 
 ## Guided tutorial
 

@@ -15,9 +15,9 @@ The validator set can run with fewer validators than BNB Smart Chain, depending 
 
 We can say this is a standard on which you can build simple but functional blockchain projects. Developers and teams can create simple blockchains with their own business rules and economies. Most importantly, they can extend the existing functionality.
 
-:::info
+<Callout>
 Check out the [BNB Sidechain codebase on GitHub](https://github.com/Ankr-network?q=bas). 
-:::
+</Callout>
 
 
 ## Why BNB Sidechain?

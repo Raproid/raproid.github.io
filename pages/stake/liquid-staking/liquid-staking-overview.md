@@ -1,7 +1,4 @@
----
-title: Overview
-id: overview
----
+import Callout from "nextra-theme-docs/callout";
 
 # Ankr Liquid Staking
 Liquid Staking solves the problem of locked up liquidity when staking assets on Proof-of-Stake networks.
@@ -25,12 +22,12 @@ By providing liquidity, you also have the possibility of receiving farming rewar
 3. **Earn more yield**
 You can harvest the farmed tokens and stake those tokens as well to earn more yield, or simply sell them to buy more AVAX and aAVAXb to generate more yield. Repeating this operation periodically can add a compounding effect to yield.
 
-:::tip
+<Callout>
 
 Ready to get started?
 
 Check out [**Ankr Staking**](https://www.ankr.com/staking/)
-:::
+</Callout>
 
 ## Types of Liquid Staking tokens
 
@@ -85,9 +82,9 @@ The Elastic supply feature of liquid staking has an important impact on the pric
 
 ETH liquid staking price stability is based mainly on the amount of liquidity in DEXs. However, with AVAX liquid staking, the price stability is less dependent on the amount of liquidity in a DEX because any price deviation of aAVAXb creates a trading opportunity for other users. Other users can buy aAVAXb at a discount and then return aAVAXb to Ankr Staking(unstake) to claim the aAVAXb fair value. In doing so, a gain can be realized once the unstaking lock-up period, of 28 days for aAVAXb has passed. 
 
-:::tip
+<Callout>
 Ready to start?
 
 Check out [**Ankr Staking**](https://www.ankr.com/staking/)
-:::
+</Callout>
 

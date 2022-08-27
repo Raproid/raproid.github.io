@@ -1,7 +1,4 @@
----
-title: Connect your wallet
-id: connect-ethereum
----
+import Callout from "nextra-theme-docs/callout";
 
 This section walks you through how to connect a MetaMask wallet to Ethereum Mainnet and Testnets.
 
@@ -41,11 +38,9 @@ The following RPC Testnets are available:
 - Ropsten
 - Goerli
 
-:::info🚰
-
+<Callout type="warning" emoji="🚰">
 Be aware that Testnet faucets vary in their reliability and Testnet ETH may take a while to arrive!
-
-:::
+</Callout>
 
 ## Rinkeby and faucets
 

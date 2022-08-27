@@ -1,5 +1,4 @@
 import Callout from "nextra-theme-docs/callout";
-import Image from 'next/image';
 
 # Switching aETHc on BNB Chain
 

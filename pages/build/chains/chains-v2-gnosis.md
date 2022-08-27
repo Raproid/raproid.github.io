@@ -1,7 +1,4 @@
----
-Title: Gnosis RPC
-id: gnosis
----
+import Callout from "nextra-theme-docs/callout";
 
 # Gnosis
 
@@ -41,11 +38,9 @@ You can set up your **MetaMask wallet** to connect to Gnosis RPC. You can then p
 
 ## Integrate code
 
-:::tip
-
+<Callout>
 **Gnosis** supports [standard JSON RPC calls](https://www.ankr.com/docs/build-blockchain/guides/json-methods)
-
-:::
+</Callout>
 
 ## Gnosis
 
@@ -129,11 +124,9 @@ curl https://rpc.ankr.com/gnosis \
 ---
 ## Integrate code
 
-:::caution Be aware!
-
-Gnosis RPC calls do not work with URLs that specify a Port Number. 
-
-:::
+<Callout type="warning" emoji="❗">
+Be aware! Gnosis RPC calls do not work with URLs that specify a Port Number. 
+</Callout>
 
 ### web3 
 

@@ -30,9 +30,9 @@ yarn add @ankr.com/staking-sdk reselect
 npm i @ankr.com/staking-sdk reselect
 ```
 
-:::note
+<Callout>
 To interact with testsnet smart contracts, use the `REACT_APP_API_ENV=staging` environment variable. For mainnet smart contracts, use `REACT_APP_API_ENV=prod`.
-:::
+</Callout>
 
 ## Usage examples
 

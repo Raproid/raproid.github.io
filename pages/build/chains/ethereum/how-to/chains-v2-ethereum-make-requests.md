@@ -1,7 +1,4 @@
----
-title: Start making requests
-id: ethereum-requests
----
+import Callout from "nextra-theme-docs/callout";
 
 In this section, we'll create a simple script using Ethereum Mainnet RPC and Web3.js library to make requests. 
 
@@ -56,8 +53,6 @@ node index.js
 
 ```
 
-:::tip
-
+<Callout>
 ## 🎉 Nice work!!
-
-:::
+</Callout>
