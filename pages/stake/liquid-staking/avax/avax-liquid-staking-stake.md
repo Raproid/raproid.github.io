@@ -1,7 +1,4 @@
----
-title: Stake AVAX
-id: stake-avax
----
+import Callout from "nextra-theme-docs/callout";
 
 ## Use a supported browser extension with the Avalanche network
 
@@ -11,12 +8,12 @@ The choice is up to you. We recommend using Chrome Browser and MetaMask wallet e
 
 There are several ways how to buy AVAX tokens:
 
-### A. Centralized exchanges like Coinbase or Binance supporting withdrawals to AVAX C-Chain
+1. Centralized exchanges like Coinbase or Binance supporting withdrawals to AVAX C-Chain
 
 * Buy AVAX on a centralized exchange
 * Withdraw **AVAX** to **AVAX C-Chain**
 
-### B. Centralized exchanges NOT supporting withdrawals to AVAX C-Chain
+2. Centralized exchanges NOT supporting withdrawals to AVAX C-Chain
 
 * If the exchange you are using does not support AVAX C-Chain, you must withdraw to **AVAX X-Chain** address using [AVAX Wallet](https://wallet.avax.network).
 
@@ -27,6 +24,14 @@ There are several ways how to buy AVAX tokens:
 * Choose the '**C Chain (Contract)** as the destination chain
 
 * Enter the amount you would like to transfer, and then click '**Confirm'**
+
+3. Use [**Avalanche Bridge**](https://bridge.avax.network/login) 
+
+Get free AVAX to trade on decentralized exchange on the Avalanche network.
+
+1. Transfer tokens through [Avalanche Bridge](https://bridge.avax.network/login) using your MetaMask browser extension (Ethereum network).
+2. Once you transferred tokens to Avalanche network using Avalanche Bridge, make sure that your MetaMask browser extension is connected using Avalanche network.
+3. Sell the token that you bridged from Ethereum to Avalanche network in a decentralized exchange on Avalanche network. For example, [Pangolin](https://pangolin.exchange), [Lydia Finance](https://www.lydia.finance), or [TraderJoe](https://www.traderjoexyz.com/).
 
 ### Send AVAX
 
@@ -39,14 +44,6 @@ Now you can send the AVAX from your Avalanche wallet to your MetaMask wallet.
 3. Enter your MetaMask wallet address by copying and pasting it into the **To Address** field on your Avalanche wallet.
 
 4. Confirm, and finalize the transaction.
-
-### C. Use [**Avalanche Bridge**](https://bridge.avax.network/login) 
-
-Get free AVAX to trade on decentralized exchange on the Avalanche network.
-
-1. Transfer tokens through [Avalanche Bridge](https://bridge.avax.network/login) using your MetaMask browser extension (Ethereum network).
-2. Once you transferred tokens to Avalanche network using Avalanche Bridge, make sure that your MetaMask browser extension is connected using Avalanche network.
-3. Sell the token that you bridged from Ethereum to Avalanche network in a decentralized exchange on Avalanche network. For example, [Pangolin](https://pangolin.exchange), [Lydia Finance](https://www.lydia.finance), or [TraderJoe](https://www.traderjoexyz.com/).
 
 ## How to stake AVAX
 
@@ -66,13 +63,12 @@ Get free AVAX to trade on decentralized exchange on the Avalanche network.
 
 ### Stake your AVAX
 
-<Callout type="warning" emoji="❗"> BE SURE
-
-To allow sufficient AVAX to cover gas fees AVAX - from 0.025 to 0.1 AVAX 
+<Callout type="warning" emoji="❗">
+Be sure to allow sufficient AVAX to cover gas fees AVAX - from 0.025 to 0.1 AVAX 
 
 [_**Find out more**_](https://docs.avax.network/learn/platform-overview/transaction-fees)
-
 </Callout>
+
 1. Visit [Ankr Staking](https://www.ankr.com/staking/) and click **Stake** in the product menu. 
 
 2. Locate the **Avalanche (AVAX)** box and click *Stake* in it.
@@ -86,9 +82,7 @@ To allow sufficient AVAX to cover gas fees AVAX - from 0.025 to 0.1 AVAX
 6. Click *Go to dashboard* to see the added liquid staking token. You may need to wait a little for the transaction to finalize and *Dashboard* to automatically update.
 
 <Callout>
-
 As mentioned before, a gas fee is incurred to finalize the staking transaction.
-
 </Callout>
 
 You will need to make the following interactions in your wallet:
@@ -100,8 +94,8 @@ You will need to make the following interactions in your wallet:
 👍 **Confirm** the transaction.
 
 <Callout>
-
 Your aAVAXb balance automatically increases by a small amount, daily, to reflect your Polygon Staking rewards. You can now use your aAVAXb tokens to earn additional layers of rewards on other DeFi platforms listed in [**DeFi**](https://ankr.com/staking/defi/) under the aAVAXb section. Support for aAVAXc is coming soon.
+</Callout>
 
 ### If you don't see your liquid staking token balance
 
