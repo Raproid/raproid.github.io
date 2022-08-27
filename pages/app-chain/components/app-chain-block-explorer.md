@@ -1,8 +1,3 @@
----
-title: Block explorer
-id: block-explorer
----
-
 # Block explorer
 Track and analyze addresses, transactions, and blocks on your App Chain.
 

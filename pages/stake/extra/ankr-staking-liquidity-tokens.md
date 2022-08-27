@@ -1,8 +1,3 @@
----
-title: Liquid Staking Tokens
-id: liquidity-tokens
----
-
 # Types of Liquid Staking tokens
 
 There are two types of Liquid Staking tokens:

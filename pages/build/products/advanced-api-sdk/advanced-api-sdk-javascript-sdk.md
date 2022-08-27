@@ -1,8 +1,3 @@
----
-title: JavaScript SDK
-id: javascript-sdk
----
-
 # Ankr's JavaScript SDK
 
 This SDK contains a compact JavaScript library to enable you interact with Ankr's [Advanced API](/build-blockchain/products/v2/advanced-apis).

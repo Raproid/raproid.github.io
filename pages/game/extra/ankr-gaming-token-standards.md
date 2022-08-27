@@ -1,8 +1,3 @@
----
-title: Token Standards
-id: game-reference
----
-
 # Understanding token standards 
 
 ## ERC-721

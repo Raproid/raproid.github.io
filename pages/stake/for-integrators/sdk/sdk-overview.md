@@ -1,8 +1,3 @@
----
-title: Overview
-id: sdk-overview
----
-
 # Overview
 
 We are ready to provide our services to projects that need infrastructure as a service.

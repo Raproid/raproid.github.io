@@ -1,8 +1,3 @@
----
-title: Micropool Staking
-id: micropools
----
-
 # Micropool staking
 
 Pooled staking removes the barriers to entry for people who want to participate in securing **Proof-of-stake (PoS) networks** such as ETH 2.0 (Beacon Chain). 

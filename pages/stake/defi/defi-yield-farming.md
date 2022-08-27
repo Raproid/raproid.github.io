@@ -1,8 +1,3 @@
----
-title: Yield Farming
-id: yield-farm
----
-
 # Yield farming
 Visiting [Ankr DeFi Dashboard](https://www.ankr.com/staking/defi/), you will see dashboard where you can enable the **Farming** filter. 
 

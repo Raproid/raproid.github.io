@@ -1,8 +1,3 @@
----
-title: Fast-Finality and BLS Cryptography
-id: fast-finality-bls-crypto
----
-
 Parlia is a BFT-like consensus where only one validator produces a block and to be sure of the correctness of this operations we must wait for the confirmation time, usually its 2/3*N+1, where N is active validators (15 blocks for the current configuration). It means that to prove one block we must upload at least 15 blocks to the blockchain. 
 
 BLS cryptography with Parlia’s fast-finality can solve this problem because in this case we can collect one aggregated signature and send only this aggregated signature in BNB Smart Chain, but here we must know the BLS public keys of each validator. 

@@ -1,8 +1,3 @@
----
-title: On-chain Security
-id: on-chain
----
-
 # On-chain security
 
 Everything that goes on BNB Sidechain is controlled by the governance model: from the blockchain consensus, change proposals and staking.

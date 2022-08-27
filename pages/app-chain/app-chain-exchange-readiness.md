@@ -1,9 +1,3 @@
----
-title: Exchange-Readiness Program
-id: exchange-readiness
----
-
-
 # Exchange-Readiness program
 Leverage Ankr’s industry expertise to prepare to apply for exchange listings.
 

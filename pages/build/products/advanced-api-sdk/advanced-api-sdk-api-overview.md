@@ -1,8 +1,3 @@
----
-title: API Overview
-id: advanced-apis
----
-
 Ankr's *Advanced APIs* is a specifically-tailored collection of JSON-RPC API endpoints built to support the most popular Web3 scenarios on multiple chains at almost instant speeds. We believe it to become a single point of reference for the multi-chain requests.
 
 Query our Advanced APIs at the following URL: `https://rpc.ankr.com/multichain`.

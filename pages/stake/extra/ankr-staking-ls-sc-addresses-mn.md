@@ -1,8 +1,3 @@
----
-title: Liquid Staking Smart Contract Addresses (MainNet)
-id: ls-smart-contract-addresses-mn
----
-
 # Smart contract addresses (MainNet)
 
 | Token / Network  | Ethereum (ERC20) |AvalancheC-Chain | BNB Chain (BEP20) | Binance Chain (BEP2) | Polygon  | Fantom  |

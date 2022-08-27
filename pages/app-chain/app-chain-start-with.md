@@ -1,8 +1,3 @@
----
-title: Start with App Chains
-id: step-by-step
----
-
 # App Chains step-by-step
 The entire process of customizing, launching, and testing your App Chain in chronological order.
 

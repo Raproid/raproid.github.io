@@ -1,8 +1,3 @@
----
-title: Audit Reports
-id: audit-reports
----
-
 # Audit reports
 
 For security measures and to ensure its safety to the users, Ankr Staking products undergo audit checks.

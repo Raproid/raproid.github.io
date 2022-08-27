@@ -1,8 +1,3 @@
----
-title: Overview
-id: overview
----
-
 # Ankr DeFi 
 
 ## What is Ankr DeFi?

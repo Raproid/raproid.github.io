@@ -1,8 +1,3 @@
----
-title: Read NFT Data
-id: read-nft
----
-
 # Read NFT data
 
 In this step, we want to check if the player owns any existing NFT characters. If they do, they can use them in the game. 

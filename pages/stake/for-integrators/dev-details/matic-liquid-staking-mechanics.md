@@ -1,8 +1,3 @@
----
-title: MATIC Staking Mechanics
-id: staking-mechanics
----
-
 # MATIC staking mechanics
 
 MATIC Liquid Staking lets the user stake their funds through the corresponding smart contracts on the **Ethereum** network, accumulate rewards, and receive their stake and rewards when unstaking.

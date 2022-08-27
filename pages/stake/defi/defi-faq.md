@@ -1,8 +1,3 @@
----
-title: FAQ
-id: faq
----
-
 ## What is Fair Value of Liquid Staking tokens?
 
 Looking at [Ankr DeFi](https://ankr.com/staking/defi/), you can see the **Difference vs. Fair value** column.

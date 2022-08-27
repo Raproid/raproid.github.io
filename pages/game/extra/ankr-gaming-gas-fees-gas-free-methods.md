@@ -1,8 +1,3 @@
----
-title: Gas fees and gas-free methods
-id: gas-fees-gas-free-methods
----
-
 # Gas fees and gas-free methods
 
 All the methods pertaining to smart contracts can be narrowed down to the methods that change the state of the contract and the methods that don’t.

@@ -1,8 +1,3 @@
----
-title: Blockchain and EVM Security
-id: blockchain-evm
----
-
 # Blockchain and EVM security
 
 ## Blockchain

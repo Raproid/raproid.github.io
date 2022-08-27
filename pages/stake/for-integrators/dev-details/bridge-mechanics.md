@@ -1,8 +1,3 @@
----
-title: Ankr Bridge Mechanics
-id: bridge-mechanics
----
-
 # Ankr Bridge mechahics
 
 ## Smart contracts

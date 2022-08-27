@@ -1,8 +1,3 @@
----
-title: FAQ
-id: faq
----
-
 ### How can I set up my wallet and stake MATIC?
 
 Check the [Stake MATIC](https://www.ankr.com/docs/staking/liquid-staking/matic/stake-matic) user guide.

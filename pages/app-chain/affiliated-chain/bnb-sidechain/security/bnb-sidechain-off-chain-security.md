@@ -1,8 +1,3 @@
----
-title: Off-chain Security
-id: off-chain
----
-
 # Off-chain security
 
 To bring the off-chain security, we're working on L2 solutions that are going to post state proofs in the BNB Smart Chain's original chain.

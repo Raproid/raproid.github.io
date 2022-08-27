@@ -1,8 +1,3 @@
----
-title: PancakeSwap Price Oracle
-id: pancakeswap
----
-
 # Ankr PancakeSwap price oracle
 
 Ankr PancakeSwap price oracle is a TWAP oracle that obtains time-weighted average price (TWAP) for a pair of tokens from [PancakeSwap](https://pancakeswap.finance/). 

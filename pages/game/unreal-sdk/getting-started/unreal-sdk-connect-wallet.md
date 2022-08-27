@@ -1,8 +1,3 @@
----
-title: Connect Wallet
-id: unreal-connect-wallet
----
-
 # Connect a wallet
 
 This section assumes you have already deployed the relevant smart contracts to the blockchain and have smart contract addresses and ABI at your disposal.

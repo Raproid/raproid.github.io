@@ -1,8 +1,3 @@
----
-title: NFT API
-id: nft-api
----
-
 # NFT API Methods
 
 NFT API Methods serve to request NFT-related data across multiple chains.

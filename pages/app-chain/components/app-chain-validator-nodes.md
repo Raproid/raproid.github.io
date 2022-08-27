@@ -1,8 +1,3 @@
----
-title: Validator nodes
-id: validator-nodes
----
-
 # Validator nodes
 
 The core of any Proof-of-Stake blockchain are validator nodes — they process transactions and add new blocks to the chain.  

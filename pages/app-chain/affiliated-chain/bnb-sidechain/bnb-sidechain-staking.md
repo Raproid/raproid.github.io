@@ -1,8 +1,3 @@
----
-title: Staking
-id: staking
----
-
 # Staking
 
 BNB Sidechain supports on-chain staking system and uses the PoSA (proof-of-stake-of-authority) staking model.

@@ -1,8 +1,3 @@
----
-title: Overview
-id: overview
----
-
 # BNB Liquid Staking
 
 Binance Liquid Staking from Ankr Staking offers **instant liquidity** for your staked **BNB**, enabling you to connect your new aBNBb/aBNBc tokens with DeFi platforms and earn several more layers of rewards.

@@ -1,8 +1,3 @@
----
-title: Testnet faucet
-id: testnet-faucet
----
-
 # Testnet token faucet
 Provide free testnet tokens for developers building on your App Chain.
 

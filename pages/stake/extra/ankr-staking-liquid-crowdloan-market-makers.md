@@ -1,8 +1,3 @@
----
-title: Parachain Liquid Crowdloan Market Makers
-id: liquid-crowdloan-market-makers
----
-
 # Parachain Liquid Crowdloan market makers
 
 ### Traditional finance & fair value estimation

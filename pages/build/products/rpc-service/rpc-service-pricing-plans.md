@@ -1,8 +1,3 @@
----
-title: Pricing
-id: pricing
----
-
 # Ankr RPC Pricing Plans
 
 ## Public and Premium plans comparison

@@ -1,8 +1,3 @@
----
-title: C# and Solidity types comparison
-id: csharp-to-solidity
----
-
 # C# and Solidity types comparison
 
 Here is the comparison of types in C# and Solidity:

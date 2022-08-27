@@ -1,8 +1,3 @@
----
-title: Customize Genesis Config
-id: customize-genesis-config
----
-
 # Customize genesis config file
 
 To run a BNB Sidechain instance, you need genesis config file that is included into the [devnet demo setup](https://github.com/Ankr-network/bas-devnet-setup).

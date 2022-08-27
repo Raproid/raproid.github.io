@@ -1,8 +1,3 @@
----
-title: Currency units
-id: currency-units
----
-
 # Currency units
 
 Here is the list of the most used currency units:

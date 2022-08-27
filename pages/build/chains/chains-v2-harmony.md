@@ -1,8 +1,3 @@
----
-Title: Harmony RPC
-id: harmony
----
-
 # Harmony
 
 **Harmony** is a powerful EVM compatible blockchain with sharding and staking features. 

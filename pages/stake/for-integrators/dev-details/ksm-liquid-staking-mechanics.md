@@ -1,12 +1,10 @@
----
-title: KSM Staking Mechanics
-id: staking-mechanics
----
+import Callout from "nextra-theme-docs/callout";
+
 # KSM staking mechanics
 
-:::note
+<Callout>
 Kusama is Polkadot's canary network, so it isn't a typo when you notice `Polkadot` at the end of this document.
-:::
+</Callout>
 
 KSM Liquid Staking lets the user stake their funds through the Ankr deposit address on the Kusama network, accumulate rewards, and receive their stake+rewards when unstaking.
 

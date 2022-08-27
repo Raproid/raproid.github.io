@@ -1,8 +1,3 @@
----
-title: Switch to WebGL
-id: switch-to-webgl
----
-
 # Switch to the WebGL platform
 
 To build a WebGL project you need to switch platforms:

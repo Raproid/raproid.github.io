@@ -1,8 +1,3 @@
----
-title: Update NFTs
-id: unreal-update-nft
----
-
 This section lists the requests to get NFTs and make updates to them (example: adding a hat to a character).
 
 ## Guided tutorial

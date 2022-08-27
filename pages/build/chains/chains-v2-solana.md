@@ -1,8 +1,3 @@
----
-title: Solana
-id: solana
----
-
 # Solana
 
 **Solana** is an open source project implementing a high-performance, permissionless blockchain.

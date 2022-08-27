@@ -1,8 +1,3 @@
----
-Title: Celo RPC
-id: celo
----
-
 # Celo
 
 **Celo** is a mobile-first blockchain designed to make decentralized financial (DeFi) tools and services accessible to anyone with a mobile phone.

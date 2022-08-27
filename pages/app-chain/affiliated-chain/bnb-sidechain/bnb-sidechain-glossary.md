@@ -1,8 +1,3 @@
----
-title: Glossary
-id: glossary
----
-
 ### BNB Sidechain
 Framework for creating sidechains in the BNB Smart Chain ecosystem. 
 

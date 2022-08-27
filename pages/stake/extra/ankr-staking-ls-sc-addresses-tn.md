@@ -1,8 +1,3 @@
----
-title: Liquid Staking Smart Contract Addresses (TestNet)
-id: ls-smart-contract-addresses-tn
----
-
 # Smart contract addresses (TestNet)
 
 | Token / Network                  | Ethereum (ERC20)                                                                                 | AvalancheC-Chain                                                                                   | BNB Chain (BEP20)                                                               | Binance Chain (BEP2) | Polygon                                                                                   | Fantom                                                                                  |

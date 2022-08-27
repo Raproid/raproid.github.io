@@ -1,8 +1,3 @@
----
-title: Overview
-id: overview
----
-
 # Polygon Liquid Staking
 
 **Polygon Liquid Staking** from Ankr Staking offers instant liquidity for your staked MATIC, enabling you to connect your aMATICb/aMATICc tokens with DeFi platforms and earn several more layers of rewards.

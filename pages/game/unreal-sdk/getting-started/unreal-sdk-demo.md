@@ -1,8 +1,3 @@
----
-title: Demo
-id: unreal-demo
----
-
 This Demo section walks through an example project to help get you started. 
 
 ## View demo project

@@ -1,8 +1,3 @@
----
-title: Query API
-id: query-api
----
-
 # Query API Methods
 
 Query API Methods serve to request info on the ranges of blocks (max range is 100) for a full list of block metadata.

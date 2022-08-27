@@ -1,8 +1,3 @@
----
-title: Liquidity Pools
-id: liquidity-pools
----
-
 # Liquidity pools
 Visiting [Ankr DeFi Dashboard](https://www.ankr.com/staking/defi/), you will see dashboard where you can enable the **Liquidity pool** filter. 
 

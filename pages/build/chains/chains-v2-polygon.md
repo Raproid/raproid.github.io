@@ -1,9 +1,3 @@
----
-title: Polygon
-id: polygon
----
-
-
 # Polygon
 
 **Polygon**, (formerly MATIC) is a protocol and a framework for building and connecting Ethereum-compatible blockchain networks. It aggregates scalable solutions on Ethereum supporting a multi-chain Ethereum ecosystem.

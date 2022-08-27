@@ -1,8 +1,3 @@
----
-title: Overview
-id: overview
----
-
 # Ankr oracles
 Ankr offers you oracles that get data from DEXs.
 

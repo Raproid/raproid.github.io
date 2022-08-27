@@ -1,8 +1,3 @@
----
-title: Staking Principles
-id: principles
----
-
 # Staking principles
  
 Ankr Staking solves the problems of Traditional Staking by enabling liquidity, portability and access to value. 

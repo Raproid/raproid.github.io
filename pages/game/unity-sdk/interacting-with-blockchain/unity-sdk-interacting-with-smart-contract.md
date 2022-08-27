@@ -1,8 +1,3 @@
----
-title: Interact with Smart Contract
-id: interact-with-smart-contract
----
-
 # Interact with smart contract
 
 You can interact with a smart contract using these two SDK functions:

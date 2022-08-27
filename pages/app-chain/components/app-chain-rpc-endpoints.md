@@ -1,8 +1,3 @@
----
-title: RPC endpoints
-id: rpc-endpoints
----
-
 # Full Nodes & RPC Endpoints
 Full nodes with RPC endpoints enable developers to communicate with your App Chain using “remote procedure calls.”
 

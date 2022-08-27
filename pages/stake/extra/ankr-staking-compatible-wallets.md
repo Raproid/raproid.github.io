@@ -1,8 +1,3 @@
----
-title: Compatible Wallets
-id: compatible-wallets
----
-
 # Compatible wallets
 
 The following hot wallets are compatible with Ankr Staking: 

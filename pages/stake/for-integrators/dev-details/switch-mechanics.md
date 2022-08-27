@@ -1,8 +1,3 @@
----
-title: Ankr Switch Mechanics
-id: switch-mechanics
----
-
 # Ankr Switch mechanics
 
 ## Fees 

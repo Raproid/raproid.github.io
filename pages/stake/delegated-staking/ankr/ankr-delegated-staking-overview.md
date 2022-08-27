@@ -1,8 +1,3 @@
----
-title: Overview  
-id: overview
----
-
 # Delegated ANKR token staking
 
 ## Introduction

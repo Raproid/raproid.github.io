@@ -1,8 +1,3 @@
----
-title: Ankr Validators
-id: ankr-validators
----
-
 # Ankr validators
 
 Besides using network infrastructure, we are creating and maintaining our own validators.

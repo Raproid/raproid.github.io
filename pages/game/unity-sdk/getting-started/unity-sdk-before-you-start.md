@@ -1,8 +1,3 @@
----
-title: Before You Start
-id: before-you-start
----
-
 # 00 - Before you start
 
 To get started, you need to have deployed your contract on to the blockchain and have the **ABI** and the **Contract Address**. 

@@ -1,8 +1,3 @@
----
-title: System Smart Contracts
-id: sys-smart-contracts
----
-
 Each sidechain of BNB Sidechain is technology-agnostic, meaning that it’s able to include or modify any module inside BNB Sidechain and bring any consensus or runtime execution environment. By default, BNB Sidechain provides an EVM execution environment with a predefined set of system smart contracts for platform operation. If BNB Sidechain developers want to bring more functionality to their sidechain then they should implement it on their own or contribute it to the BNB Sidechain official template to extend the default module set with additional extensions that can be used by other developers in the future.
 
 Predefined BNB Smart Chain-compatible system smart contracts:

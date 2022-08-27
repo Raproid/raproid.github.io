@@ -1,8 +1,3 @@
----
-title: System Smart Contracts Security
-id: smart-contracts
----
-
 # System smart contracts security
 
 For the smart contract runtime environment, BNB Sidechain uses EVM from the official Go-Ethereum codebase. 

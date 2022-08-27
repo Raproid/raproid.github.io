@@ -1,8 +1,3 @@
----
-title: FAQ
-id: faq
----
-
 ### Are there any docs about the ETH staking and how I set up my wallet etc.?
 
 Yes — there is a [user guide](https://www.ankr.com/docs/staking/liquid-staking/eth/stake-eth).

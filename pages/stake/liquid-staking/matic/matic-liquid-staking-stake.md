@@ -1,6 +1,5 @@
 import Callout from "nextra-theme-docs/callout";
 
-
 ## Ensure you have MATIC 
 
 ### Where to buy MATIC?

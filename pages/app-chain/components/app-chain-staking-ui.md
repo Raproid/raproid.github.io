@@ -1,8 +1,3 @@
----
-title: Staking UI 
-id: staking-ui
----
-
 # Staking UI interface
 Enable users to stake your token to your App Chain through a simple, elegant UI interface.
 

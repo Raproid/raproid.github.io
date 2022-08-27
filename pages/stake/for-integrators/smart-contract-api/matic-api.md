@@ -1,8 +1,3 @@
----
-title: MATIC Liquid Staking API
-id: api
----
-
 # MATIC Liquid Staking API
 
 To integrate with MATIC Liquid Staking, use the smart contract functions and examples below.
@@ -224,6 +219,6 @@ Lets the `PolygonPool` to exchange aMATICc for MATIC.
 * [Mainnet live transaction example](https://etherscan.io/tx/0x791b2587ac40bd9a41a38f45a92a328966dbbc1acb958500307dd0eea74b918a)
 * [Mainnet live transaction example](https://goerli.etherscan.io/tx/0x39ca83209a1636a5b803853a38a7294bcf209032f947684064d5034aaaf68b14)
 
-## Get staking metrics
+### Get staking metrics
 
-To integrate Ankr Staking metrics into your dashboards or use metrics like APY in your products, read [Liquid Staking Metrics](https://ankr.com/docs/staking/extra/staking-metrics).
+To integrate Ankr Staking metrics into your dashboards or use metrics like APY in your products, read [Liquid Staking Metrics](../restful-api/staking-metrics).

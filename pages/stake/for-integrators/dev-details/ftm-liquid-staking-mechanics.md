@@ -1,8 +1,3 @@
----
-title: FTM Staking Mechanics
-id: staking-mechanics
----
-
 # FTM staking mechanics
 
 FTM Liquid Staking lets the user stake their funds through the corresponding smart contracts on the Fantom network, accumulate rewards, and receive their stake and rewards when unstaking.

@@ -1,8 +1,3 @@
----
-title: Overview
-id: overview
----
-
 # Overview
 
 Serving developers and web3 consumers alike, App Chains are dedicated blockchains that serve only one dApp — yours.

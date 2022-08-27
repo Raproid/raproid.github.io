@@ -1,8 +1,3 @@
----
-title: Handling Errors
-id: errors
----
-
 ## HTTP Error Codes
 
 | **HTTP Error Codes**     | **Cause**                                                        | **Solution**                                        |

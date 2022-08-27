@@ -1,7 +1,3 @@
----
-title: Before Starting
-id: unreal-before
----
 # Before you start
 ## SDK walk-through
 

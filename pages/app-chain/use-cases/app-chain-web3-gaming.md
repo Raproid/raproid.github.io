@@ -1,8 +1,3 @@
----
-title: Web3 Gaming
-id: web3-gaming
----
-
 # Web3 gaming
 
 ## Introduction

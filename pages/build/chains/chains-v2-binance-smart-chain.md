@@ -1,8 +1,3 @@
----
-Title: BNB Chain RPC
-id: binance-smart-chain
----
-
 # BNB Chain
 
 **BNB Chain** is an EVM compatible chain designed to work alongside Binance Chain. 

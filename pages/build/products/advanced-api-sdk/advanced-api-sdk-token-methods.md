@@ -1,8 +1,3 @@
----
-title: Token API
-id: token-api
----
-
 # Token API Methods
 
 ## `ankr_getAccountBalance`

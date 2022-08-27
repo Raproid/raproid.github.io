@@ -1,8 +1,3 @@
----
-title: Brand Assets
-id: brand-assets
----
-
 # Brand assets
 
 Ankr Staking Brand Assets - Liquid Staking Tokens Logos:

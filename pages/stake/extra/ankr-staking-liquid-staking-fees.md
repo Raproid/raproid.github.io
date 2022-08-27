@@ -1,8 +1,3 @@
----
-title: Liquid Staking Fees
-id: liquid-staking-fees
----
-
 # Liquid Staking fees
 Ankr charges fees for Liquid Staking.
 

@@ -1,8 +1,3 @@
----
-title: Get Support
-id: get-support
----
-
 # Getting support
 
 ## If you're struggling with a problem

@@ -1,8 +1,3 @@
----
-title: FAQ
-id: faq
----
-
 ### Are there any risks from staking, like slashing or penalties?
 When you stake with Ankr as the Node Provider, ANKR token staking does not involve any slashing or other penalties. 
 However, future additional options with other Node Providers may involve some risks, depending on the provider.

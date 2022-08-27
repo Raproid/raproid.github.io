@@ -1,8 +1,3 @@
----
-title: FAQ
-id: faq
----
-
 ### Which wallets are compatible with the aDOTb tokens?
 
 aDOTb is an ERC-20 token that is compatible with Ethereum-based wallets like MetaMask.

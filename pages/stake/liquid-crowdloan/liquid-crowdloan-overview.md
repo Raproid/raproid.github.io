@@ -1,8 +1,3 @@
----
-title: Overview
-id: overview
----
-
 # Ankr Parachain Liquid Crowdloan
 
 ## What are Kusama and Polkadot Parachain Liquid Crowdloan

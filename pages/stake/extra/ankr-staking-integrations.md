@@ -1,8 +1,3 @@
----
-title: Integrations
-id: integrations
----
-
 # Integrations
 
 We encourage you to use Ankr Staking products in your projects. 

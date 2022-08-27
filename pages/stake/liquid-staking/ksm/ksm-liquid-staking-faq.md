@@ -1,8 +1,3 @@
----
-title: FAQ
-id: faq
----
-
 ### Which wallets are compatible with the aKSMb tokens?
 
 aKSMb is an ERC-20 token that is compatible with Ethereum-based wallets like MetaMask.

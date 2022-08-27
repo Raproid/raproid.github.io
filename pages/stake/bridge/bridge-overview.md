@@ -1,8 +1,3 @@
----
-title: Overview
-id: overview
----
-
 # Ankr Bridge
 
 ## What is Ankr Bridge?
