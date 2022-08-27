@@ -2,9 +2,8 @@ import Callout from "nextra-theme-docs/callout";
 
 # Hybrid infrastructure
 
-<Callout> Request for Hybrid Infrastructure 
-
-Fill in the details for our Sales to contact you:
+<Callout>
+To request for Hybrid Infrastructure, fill in the details for our Sales to contact you:
 
 <iframe 
   width="100%"
@@ -13,7 +12,6 @@ Fill in the details for our Sales to contact you:
   frameborder="0"
   allowfullscreen>
 </iframe>
-
 </Callout>
 
 ## What's Hybrid Infrastructure?

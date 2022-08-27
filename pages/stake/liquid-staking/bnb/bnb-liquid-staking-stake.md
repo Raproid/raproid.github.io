@@ -1,17 +1,13 @@
----
-title: Stake BNB
-id: stake-bnb
----
+import Callout from "nextra-theme-docs/callout";
 
 # Stake BNB in Ankr Staking
 
 ## Before you start
 
-<Callout> Ensure the following:
-
-You are using a Chrome Browser.
-
-You have a MetaMask wallet.
+<Callout>
+Ensure the following:
+* You are using a Chrome Browser.
+* You have a MetaMask wallet.
 </Callout>
 
 ## Purchase BNB
@@ -59,14 +55,10 @@ You will need to make the following interactions in your wallet:
 6. Click *Go to dashboard* to see the added liquid staking token. You may need to wait a little for the transaction to finalize and *Dashboard* to automatically update. 
 
 <Callout>
-
 As mentioned before, a gas fee is incurred to finalize the staking transactions.
-
 </Callout>
 
-<Callout>
-**Success**
-
+<Callout emoji="✅">
 Your aBNBb balance will automatically increase by a small amount daily to reflect your Binance Coin Staking rewards. 
 You can now use your aBNBb reward earning tokens to earn additional layers of rewards on other DeFi platforms listed in [**DeFi**](https://ankr.com/staking/defi/) under the aBNBb section.
 </Callout>

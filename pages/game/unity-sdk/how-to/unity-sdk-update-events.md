@@ -1,7 +1,4 @@
----
-title: Subscribe to events
-id: subscribe-game
----
+import Callout from "nextra-theme-docs/callout";
 
 # How to subscribe to events in Unity SDK
 
@@ -56,44 +53,40 @@ So now we understand what `Events` are.
 
 ## How to prepare a DTO for request events
 
-1) First we need to create a class extended from `EventDTOBase`. Add the same fields as for the `Event` itself. 
+1. First we need to create a class extended from `EventDTOBase`. Add the same fields as for the `Event` itself. 
 
-<Callout> Naming Class fields
+   <Callout>
+   Naming Class fields: 
 
-We recommend naming your class fields with the same names as the props of the `Event` in the contract
-
-</Callout>
-
-2) Add the attribute `Event` to the class with the same name as the `Event` in the contract e.g. `TransferEventDTO`.
-
-3) Add the attribute `Parameter` for every field in the class and pass the types of `Event` props e.g.
+   We recommend naming your class fields with the same names as the props of the `Event` in the contract
+   </Callout>
+2. Add the attribute `Event` to the class with the same name as the `Event` in the contract e.g. `TransferEventDTO`.
+3. Add the attribute `Parameter` for every field in the class and pass the types of `Event` props e.g.
 specify the type and name of the `Even`t prop, the order of the prop in the `event` and whether the prop is indexed or not as a boolean. 
 
-```
-public ParameterAttribute(string type, string name, int order, bool indexed = false)
-```
+   ```
+   public ParameterAttribute(string type, string name, int order, bool indexed = false)
+   ```
 
-<Callout>
-
-Make sure you use compatible field types for types of Event props
-
-</Callout>
+   <Callout>
+   Make sure you use compatible field types for types of Event props.
+   </Callout>
 
 
-```
-
-[Event("Transfer")]
-public class TransferEventDTO : EventDTOBase
-{
-	[Parameter("address", "from", 1, true)]
-	public string From { get; set; }
-
-	[Parameter("address", "to", 2, true)]
-	public string To { get; set; }
-
-	[Parameter("uint256", "value", 3, false)]
-	public BigInteger Value { get; set; }
-}
+   ```
+   
+   [Event("Transfer")]
+   public class TransferEventDTO : EventDTOBase
+   {
+       [Parameter("address", "from", 1, true)]
+       public string From { get; set; }
+   
+       [Parameter("address", "to", 2, true)]
+       public string To { get; set; }
+   
+       [Parameter("uint256", "value", 3, false)]
+       public BigInteger Value { get; set; }
+   }
 ```
 
 

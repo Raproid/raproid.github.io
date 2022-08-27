@@ -18,10 +18,8 @@ Ankr Game SDKs provide Web3 capabilities to the two biggest players in the indus
 
 **Unity** is the most popular engine for independent developers and game studios. 
 
-<Callout> Get Unity
-
-[Download Unity Engine](https://unity3d.com/get-unity/download)
-
+<Callout>
+Get Unity: [Download Unity Engine](https://unity3d.com/get-unity/download).
 </Callout>
 
 The Unity Engine is a cross-platform game development suite that makes it easy to build your game once and then deploy it across all major mobile, VR, web, console, and TV platforms from a single script. You can install the engine from Unity Hub, choose the version you want and simply select the target platforms for your game. All the SDKs and other tools required for those platforms can be automatically downloaded by the Hub.
@@ -37,12 +35,9 @@ It has everything you need to create a game from scratch.
 
 **Unreal** is the more popular engine for the AAA-industry and artists. Developed by Epic Games, Unreal is the driving force behind blockbuster games such as Red Dead Redemption 2 and Fortnite. 
 
-<Callout> Get Unreal
-
-[Download Unreal Engine](https://www.unrealengine.com/en-US/download)
-
+<Callout> 
+Get Unreal: [Download Unreal Engine](https://www.unrealengine.com/en-US/download).
 </Callout>
-
 The Unreal Engine is a cross-platform suite of game development tools but you are required to set up the engine for every platform (other than PC) you want to support. This includes installing the SDK and any other tools required to run the game on the target platform. Unreal is renowned for enabling fine-tuned graphics and lightning-fast render speeds. It is the better option for virtual reality integration and photorealistic picture quality. 
 
 You can use blueprints like building blocks for simple prototyping, however C++ is required for more sophisticated game logic. It is a more complex language to learn but there are extensive tutorials and an active and responsive community for support. 

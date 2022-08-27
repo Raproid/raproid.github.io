@@ -34,13 +34,11 @@ You can also read through this list:
 4. Launch **v4** (Be patient, this can take a little while)
 
    <Callout>
-
    If a pop up appears:
    "Do you want the app **UnrealEditor.app** to accept incoming network connections"
    Select **Allow**
 
    <img src="/game-mac-1.png" alt="blank" class="responsive-pic" width="200" />
-
    </Callout>
 
 ## STEP TWO - Create a new project

@@ -54,11 +54,8 @@ You will need to make the following interactions in your wallet:
 
 6. Click *Go to dashboard* to see the added liquid staking token. You may need to wait a little for the transaction to finalize and *Dashboard* to automatically update. 
 
-
 <Callout>
-
 As mentioned before, a gas fee is incurred to finalize the staking transaction.
-
 </Callout>
 
 You will need to make the following interactions in your wallet:
@@ -70,7 +67,6 @@ You will need to make the following interactions in your wallet:
 👍 **Confirm** the transaction.
 
 <Callout>
-
 Your aMATICb balance automatically increases by a small amount, daily, to reflect your Polygon Staking rewards. 
 Your aMATICc balance stays the same, but the fair value of aMATICc to MATIC grows daily.
 

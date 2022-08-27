@@ -37,7 +37,6 @@ This will allow you to deploy a smart contract to a blockchain. Truffle can be i
 
 <Callout type="warning" emoji="❗">
 Make sure you are in your project directory first. e.g. eth-project
-
 </Callout>
 
 ```

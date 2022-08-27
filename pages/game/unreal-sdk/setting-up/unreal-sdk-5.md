@@ -1,3 +1,5 @@
+import Callout from "nextra-theme-docs/callout";
+
 # Setting up — v5
 
 Let's get started!
@@ -21,7 +23,7 @@ The following instructions are based on Monterey v12.3.1.
 
    <img src="/unreal-v5.png" alt="blank" class="responsive-pic" width="600" />
 
-   <Callout type="warning" emoji="❗"> greyed out + button 
+   <Callout type="warning" emoji="❗">
    If you find that the + button is greyed out, then do the following:
 
    a. Sign out 
@@ -33,7 +35,6 @@ The following instructions are based on Monterey v12.3.1.
    c. Inside **Epic Games Launcher**, select **Library** > **+** > **v5**
 
    d. Now Sign in as usual 
-
    </Callout>
 
 3. You can now click to install **v5**. (This takes some time)
@@ -41,13 +42,11 @@ The following instructions are based on Monterey v12.3.1.
 4. Launch **v5** (Be patient, this can take a little while)
 
    <Callout>
-
    If a pop up appears:
    "Do you want the app **UnrealEditor.app** to accept incoming network connections"
    Select **Allow**
 
    <img src="/game-mac-1.png" alt="blank" class="responsive-pic" width="200" />
-
    </Callout>
 
 ## STEP TWO - Create a new project
@@ -82,9 +81,7 @@ The following instructions are based on Monterey v12.3.1.
 ## STEP FOUR - Generate the Xcode project
 
 <Callout> 
-
 These docs are written using Xcode 13.1
-
 </Callout>
 
 1. Open **Unreal Editor**
@@ -150,9 +147,7 @@ These docs are written using Xcode 13.1
 4. You can now add and use all the functions from the **Ankr SDK** in your game.
 
    <Callout>
-
-   ## ✅ Nice work!! You're all set to go
-
+   ✅ Nice work!! You're all set to go
    </Callout>
 
 
@@ -180,20 +175,17 @@ The following instructions are based on Windows 10.
    b. Then from the **login box**, scroll to the bottom and click **'Sign in Later'**. 
    c. Inside **Epic Games Launcher** > **Library** > **+** > **v5**
    d. Now Sign in as usual 
-
    </Callout>
 
 3. You can now click to install **v5** (This takes some time)
 
 4. Launch **v5** (Be patient, this can take a little while)
 
-   <Callout>
-
-   If a pop up appears:
-   "Do you want the app **UnrealEditor.app** to accept incoming network connections"
-   Select **Allow**
-
-   </Callout>
+  <Callout>
+  If a pop up appears:
+  "Do you want the app **UnrealEditor.app** to accept incoming network connections"
+  Select **Allow**
+  </Callout>
 
 ## STEP TWO - Create a new project
 

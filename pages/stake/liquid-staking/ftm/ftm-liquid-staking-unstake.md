@@ -33,4 +33,3 @@ You will need to make the following interactions in your wallet:
 <Callout>
 Once transaction is confirmed, Ankr Ear Dashboard updates to show '_Unstaking in progress'_
 </Callout>
-

@@ -23,7 +23,6 @@ By providing liquidity, you also have the possibility of receiving farming rewar
 You can harvest the farmed tokens and stake those tokens as well to earn more yield, or simply sell them to buy more AVAX and aAVAXb to generate more yield. Repeating this operation periodically can add a compounding effect to yield.
 
 <Callout>
-
 Ready to get started?
 
 Check out [**Ankr Staking**](https://www.ankr.com/staking/)
