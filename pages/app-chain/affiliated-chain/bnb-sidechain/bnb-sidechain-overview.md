@@ -1,7 +1,4 @@
----
-title: Overview
-id: overview
----
+import Callout from "nextra-theme-docs/callout";
 
 # BNB Sidechain
 
