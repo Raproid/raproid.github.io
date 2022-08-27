@@ -1,7 +1,4 @@
----
-title: Deploy ERC-20 Token
-id: deploy-erc20-token
----
+import Callout from "nextra-theme-docs/callout";
 
 # Deploy ERC-20 token
 

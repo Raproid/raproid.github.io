@@ -1,7 +1,4 @@
----
-Title: Moonbeam RPC
-id: moonbeam
----
+import Callout from "nextra-theme-docs/callout";
 
 # Moonbeam
 

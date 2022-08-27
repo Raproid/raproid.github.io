@@ -1,7 +1,4 @@
----
-title: Stake MATIC
-id: stake-matic
----
+import Callout from "nextra-theme-docs/callout";
 
 
 ## Ensure you have MATIC 

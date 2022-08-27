@@ -1,7 +1,4 @@
----
-title: Unstake ANKR 
-id: unstake-ankr
----
+import Callout from "nextra-theme-docs/callout";
 
 # Unstake ANKR token
 

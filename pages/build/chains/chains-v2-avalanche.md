@@ -1,7 +1,4 @@
----
-Title: Avalanche
-id: avalanche
----
+import Callout from "nextra-theme-docs/callout";
 
 # Avalanche
 

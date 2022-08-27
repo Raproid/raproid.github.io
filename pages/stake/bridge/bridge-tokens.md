@@ -1,7 +1,4 @@
----
-title: Bridge Tokens
-id: bridge-tokens
----
+import Callout from "nextra-theme-docs/callout";
 
 # Bridge tokens
 

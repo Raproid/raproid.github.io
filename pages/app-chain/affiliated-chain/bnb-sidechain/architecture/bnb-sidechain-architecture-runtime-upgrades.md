@@ -1,7 +1,4 @@
----
-title: Runtime Upgrades
-id: runtime-upgrades
----
+import Callout from "nextra-theme-docs/callout";
 
 # Runtime upgrades
 

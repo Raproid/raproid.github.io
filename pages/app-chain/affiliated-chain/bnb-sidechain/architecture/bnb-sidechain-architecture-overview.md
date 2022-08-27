@@ -1,8 +1,3 @@
----
-title: Overview
-id: overview
----
-
 # BNB Sidechain architecture
 
 BNB Sidechain is a modular framework for creating BNB Smart Chain-compatible sidechains. 
@@ -16,12 +11,7 @@ BNB Sidechain specifies the primary structure and configuration of the blockchai
 
 After applying templates, BNB Sidechain can be customized using programmable and configurable **modules**.
 
-<p>
-&nbsp;
-
 <img src="/bas-architecture.png" alt="BNB Sidechain architecture" class="responsive-pic" width="1000" />
-
-</p>
 
 ## Modules
 

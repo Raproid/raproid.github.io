@@ -1,7 +1,4 @@
----
-title: Liquid Staking SDK
-id: sdk
----
+import Callout from "nextra-theme-docs/callout";
 
 # Liquid Staking SDK
 

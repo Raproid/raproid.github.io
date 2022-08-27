@@ -1,7 +1,4 @@
----
-title: Stake ETH
-id: stake-eth
----
+import Callout from "nextra-theme-docs/callout";
 
 # How to stake ETH
 
