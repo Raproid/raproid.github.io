@@ -6,12 +6,7 @@ const withNextra = require("nextra")({
   },
 });
 
-module.exports = withNextra({
-  images: {
-    loader: 'akamai',
-    path: '',
-  },
-});
+module.exports = withNextra();
 
 /* example of how to set up redirects
 module.exports = withNextra({
