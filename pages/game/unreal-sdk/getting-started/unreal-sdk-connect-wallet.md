@@ -9,7 +9,7 @@ This section assumes you have already deployed the relevant smart contracts to t
 
 ## Guided tutorial
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/O8FAOFPvDUs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="600" height="400" src="https://www.youtube.com/embed/O8FAOFPvDUs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## deviceId
 

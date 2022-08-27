@@ -1,27 +1,21 @@
----
-title: Unstake DOT
-id: unstake-dot
----
+import Callout from "nextra-theme-docs/callout";
 
 ## Overview
 
 If you decide to unstake, it can take up to 28 days before you can claim your funds.
 
-<Callout> Before you start
+<Callout>
+Before you start
 
 You need to have a small ETH amount to cover the gas fee for the outgoing transactions.
 
 Unstaking DOT tokens is a multi-step process involving sending several transactions to the DOT smart contracts deployed on Ethereum.
-
 </Callout>
 
 ## Unstake DOT
 
-<Callout type="warning" emoji="❗"> fees
-
-The following fees applied when unstaking:
-* Gas fee. 
-
+<Callout type="warning" emoji="❗">
+Gas fee is applied when unstaking
 </Callout>
 
 1. Open [Ankr Staking Dashboard](https://www.ankr.com/staking/dashboard/).

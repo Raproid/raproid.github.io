@@ -16,7 +16,7 @@ The Ankr Unreal Game SDK brings powerful functionality to the Unreal Engine, mak
 4. Add blockchain interactivity to existing games. 
 
 ## SDK tutorials
-<iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLFOf2ihR2i6mo0ZUCil1MCaSCVHMxA0mb" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="600" height="400" src="https://www.youtube.com/embed/videoseries?list=PLFOf2ihR2i6mo0ZUCil1MCaSCVHMxA0mb" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Community support
 

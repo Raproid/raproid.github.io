@@ -1,27 +1,20 @@
----
-title: Unstake KSM
-id: unstake-ksm
----
+import Callout from "nextra-theme-docs/callout";
 
 ## Overview
 
 If you decide to unstake, it can take up to 7 days before you can claim your funds.
 
-<Callout> Before you start
-
-You need to have a small ETH amount to cover the gas fee for the outgoing transactions.
+<Callout>
+Before you start, you need to have a small ETH amount to cover the gas fee for the outgoing transactions.
 
 Unstaking KSM tokens is a multi-step process involving sending several transactions to the KSM smart contracts deployed on Ethereum.
-
 </Callout>
 
 ## Unstake KSM
 
-<Callout type="warning" emoji="❗"> fees
-
+<Callout type="warning" emoji="❗">
 The following fees applied when unstaking:
 * Gas fee. 
-
 </Callout>
 
 1. Open [Ankr Staking Dashboard](https://www.ankr.com/staking/dashboard/).

@@ -1,23 +1,20 @@
----
-title: Mint NFTs
-id: unreal-mint-nft
----
+import Callout from "nextra-theme-docs/callout";
 
 # Mint NFTs
 
 This section lists the functions used to mint NFTs (new characters or wearable items). 
 
-<Callout> Write vs. Read methods
+<Callout>
+Write vs. Read methods
 
 * *Write* requests change the current state of the blockchain (example: minting NFTs) and thus incur gas fees to cover smart contract operations. Those requests issue tickets you need to approve or reject in MetaMask.
 
 * *Read* requests don't change but only show the current state of the blockchain, and don't incur any gas fees. Those requests don't issue tickets or need approval. 
-
 </Callout>
 
 ## Guided tutorial
 
-<iframe width="550" height="305" src="https://www.youtube.com/embed/EtiW3Th9Mns" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="600" height="400" src="https://www.youtube.com/embed/EtiW3Th9Mns" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ---
 

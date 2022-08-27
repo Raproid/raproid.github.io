@@ -1,15 +1,11 @@
----
-title: Unstake BNB
-id: unstake-bnb
----
+import Callout from "nextra-theme-docs/callout";
 
 ## Overview
 
 If you decide to unstake, it can take up to 7-14 days before you receive your funds. 
 
-<Callout> Before you start
-
-Ensure you have a small amount of BNB for the gas fee.
+<Callout>
+Before you start, ensure you have a small amount of BNB for the gas fee.
 
 Unstaking BNB tokens is a multi-step process involving sending several transactions to the BNB smart-contracts deployed in Binance chain and BNB Chain.
 
@@ -18,11 +14,8 @@ BNB tokens are transferred to your wallet automatically when the unstaking proce
 
 ## Unstake BNB
 
-<Callout type="warning" emoji="❗"> fees
-
-The following fees applied when unstaking:
-* Binance gas fee. 
-
+<Callout type="warning" emoji="❗">
+Binance gas fee is applied when unstaking.
 </Callout>
 
 1. Open [Ankr Staking Dashboard](https://www.ankr.com/staking/dashboard/).
@@ -35,9 +28,7 @@ You will need to make the following interactions in your wallet:
 
 👍 **Confirm** the unstaking transaction.
 
-<Callout> success
-
+<Callout emoji="✅">
 Once transaction is confirmed, Ankr Staking Dashboard updates to show *Unstaking in progress*.
-
 </Callout>
 

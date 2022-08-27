@@ -1,9 +1,5 @@
 import Callout from "nextra-theme-docs/callout";
 
-# Setting up — v5
-
-Let's get started!
-
 # MacOS 
 
 The following instructions are based on Monterey v12.3.1.
@@ -147,7 +143,7 @@ These docs are written using Xcode 13.1
 4. You can now add and use all the functions from the **Ankr SDK** in your game.
 
    <Callout>
-   ✅ Nice work!! You're all set to go
+   Nice work!! You're all set to go
    </Callout>
 
 
@@ -168,7 +164,7 @@ The following instructions are based on Windows 10.
 
 2. Click **Library** and the **+** button to add the **v5** version
 
-   <Callout type="warning" emoji="❗"> greyed out + button 
+   <Callout type="warning" emoji="❗">
    If you find that the + button is greyed out, then do the following:
 
    a. Sign out 
@@ -269,6 +265,6 @@ Inside Visual Studio project
 
    <Callout>
 
-   ## ✅ Nice work!! You're all set to go
+   Nice work!! You're all set to go
 
    </Callout>

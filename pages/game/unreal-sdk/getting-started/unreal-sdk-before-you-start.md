@@ -5,7 +5,7 @@ id: unreal-before
 # Before you start
 ## SDK walk-through
 
-<iframe width="550" height="305" src="https://www.youtube.com/embed/lvhW_9y2lEc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="600" height="400" src="https://www.youtube.com/embed/lvhW_9y2lEc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Components interaction
 

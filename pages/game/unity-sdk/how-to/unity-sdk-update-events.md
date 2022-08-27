@@ -87,7 +87,7 @@ specify the type and name of the `Even`t prop, the order of the prop in the `eve
        [Parameter("uint256", "value", 3, false)]
        public BigInteger Value { get; set; }
    }
-```
+    ```
 
 
 Pay attention to the use of compatible field types for the type of `Event` props.
@@ -115,7 +115,8 @@ So before we continue, let's see what requests to an Ethereum node look like and
 
 * `topic3` - values that are relevant to the third indexing of event props e.g. `value`.
 
-<Callout> What are Topics?
+<Callout>
+What are Topics?
 
 Topics are an array of values that describe what's going on in an event. 
 
@@ -124,7 +125,6 @@ The order is important, if you want to leave topics out use null, e.g. `[null, '
 You can pass another array for each topic with options for that topic e.g. [null, ['option1', 'option2']].
 
 All values of the array are logically connected using OR operator (example 'option1' OR 'option2' OR 'option3')
-
 </Callout>
 
 So if we return to our example `Event Transfer`.
@@ -192,11 +192,11 @@ To see a full example see [**game-unity-sdk/ERC20Example.cs**](https://github.co
 
 As well as past events, we can also subscribe to get real-time events immediately after they emit.
 
-<Callout> websockets
+<Callout>
+Websockets
+
 This requires setting up a websocket connection. If you are using Ankr RPCs, you should sign up for the [Premium Plan](https://www.ankr.com/protocol/plan/) to get a private websocket (wss) endpoint.
-
 </Callout>
-
 
 Simply, instantiate the subscription as in the following example:
 

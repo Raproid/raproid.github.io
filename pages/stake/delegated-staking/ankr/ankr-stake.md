@@ -4,11 +4,10 @@ import Callout from "nextra-theme-docs/callout";
 
 ## Before you start
 
-<Callout> Ensure the following:
-
-You are using a Chrome Browser.
-
-You have a MetaMask wallet.
+<Callout> 
+Ensure the following:
+* You are using a Chrome Browser.
+* You have a MetaMask wallet.
 </Callout>
 
 ## Purchase ANKR

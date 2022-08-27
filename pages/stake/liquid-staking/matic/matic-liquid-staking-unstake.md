@@ -16,7 +16,7 @@ MATIC tokens are transferred to your wallet automatically when the unstaking pro
 
 ## Unstake MATIC
 
-<Callout type="warning" emoji="❗"> fees
+<Callout type="warning" emoji="❗"> 
 The following fees applied when unstaking:
 * ANKR fee.
 * Ethereum gas fee. 
