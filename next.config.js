@@ -13,7 +13,7 @@ module.exports = withNextra({
   },
   basePath: '/docs',
   trailingSlash: true,
-  assetPrefix: isProd ? 'https://raproid-github-io.vercel.app/docs/' : undefined,
+  assetPrefix: isProd ? 'https://raproid-github-io.vercel.app/' : undefined,
 });
 
 /* example of how to set up redirects
