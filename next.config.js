@@ -1,3 +1,5 @@
+const isProd = process.env.NODE_ENV === 'production'
+
 const withNextra = require("nextra")({
   theme: "nextra-theme-docs",
   themeConfig: "./theme.config.js",
@@ -11,6 +13,7 @@ module.exports = withNextra({
   },
   basePath: '/docs',
   trailingSlash: true,
+  assetPrefix: isProd ? 'https://raproid-github-io.vercel.app/docs/' : undefined,
 });
 
 /* example of how to set up redirects
