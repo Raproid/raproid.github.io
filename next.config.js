@@ -11,7 +11,6 @@ module.exports = withNextra({
     loader: 'akamai',
     path: '',
   },
-  basePath: '/docs',
   trailingSlash: true,
   assetPrefix: isProd ? 'https://raproid-github-io.vercel.app/' : undefined,
 });
