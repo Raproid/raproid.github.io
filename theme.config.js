@@ -9,171 +9,34 @@ const logo = ({ height }) => (
 // Params
 export default {
 //General params
-  projectLink: "https://github.com/Ankr-network/",
+  project: {
+    link: "https://github.com/Ankr-network/"
+  },
   docsRepositoryBase: "https://github.com/Ankr-network/ankr-docs/tree/main/pages",
   github: "https://github.com/Ankr-network/ankr-docs/",
   titleSuffix: " – Ankr",
-  floatTOC: true,
+  toc: {
+    float: true,
+  },
   sidebar: { defaultMenuCollapsed: true },
 // Feedback and Edit on GH links (footerEditLink is NOT a footer link, the name is misleading)
-  feedbackLink: "Give us feedback →",
-  feedbackLabels: "feedback",
-  footerEditLink: "Edit this page on GitHub →",
+  feedback: {
+  labels: "feedback",
+  link: "Give us feedback →",
+  },
+  editLink: {
+    text: "Edit this page on GitHub →",
+  },
 // Logo
   logo: logo,
 // Head content and settings
 
 //Footer content and settings
-  footerText: (
-    <div className="grid grid-cols-1 md:grid-cols-4 gap-8 md:space-x-16 lg:space-x-28">
+  footer: {
+    text: <div className="grid grid-cols-1 md:grid-cols-4 gap-8 md:space-x-16 lg:space-x-28">
       <div className="flex flex-col">
         © {new Date().getFullYear()} Ankr All rights reserved
       </div>
-      <div className="flex flex-col">
-        <div className="text-current font-bold pb-3">Products</div>
-        <a
-          href="https://www.ankr.com/rpc"
-          target="_blank"
-          rel="noopener"
-          className="no-underline text-current font-semibold"
-        >
-          RPC Service
-        </a>
-        <a
-          href="https://www.ankr.com/advanced-api/"
-          target="_blank"
-          rel="noopener"
-          className="no-underline text-current font-semibold"
-        >
-          Advanced APIs/SDKs
-        </a>
-        <a
-          href="https://www.ankr.com/gaming/"
-          target="_blank"
-          rel="noopener"
-          className="no-underline text-current font-semibold"
-        >
-          Gaming SDKs
-        </a>
-        <a
-          href="https://www.ankr.com/app-chains/"
-          target="_blank"
-          rel="noopener"
-          className="no-underline text-current font-semibold"
-        >
-          App Chains
-        </a>
-        <a
-          href="https://www.ankr.com/about-staking/"
-          target="_blank"
-          rel="noopener"
-          className="no-underline text-current font-semibold"
-        >
-          Liquid Staking
-        </a>
-        <a
-          href="https://ankrscan.io/"
-          target="_blank"
-          rel="noopener"
-          className="no-underline text-current font-semibold"
-        >
-          Ankr Scan
-        </a>
-        <a
-          href="https://www.ankr.com/enterprise/"
-          target="_blank"
-          rel="noopener"
-          className="no-underline text-current font-semibold"
-        >
-          Enterprise Solutions
-        </a>
-      </div>
-      <div className="flex flex-col">
-        <div className="text-current font-bold pb-3">Company</div>
-        <a
-          href="https://www.ankr.com/about/our-purpose/"
-          target="_blank"
-          rel="noopener"
-          className="no-underline text-current font-semibold"
-        >
-          About Us
-        </a>
-        <a
-          href="https://medium.com/ankr-network"
-          target="_blank"
-          rel="noopener"
-          className="no-underline text-current font-semibold"
-        >
-          Blog
-        </a>
-        <a
-          href="https://boards.greenhouse.io/ankrnetwork"
-          target="_blank"
-          rel="noopener"
-          className="no-underline text-current font-semibold"
-        >
-          Careers
-        </a>
-        <a
-          href="https://www.ankr.com/assets/"
-          target="_blank"
-          rel="noopener"
-          className="no-underline text-current font-semibold"
-        >
-          Brand Assets
-        </a>
-      </div>
-      <div className="flex flex-col">
-        <div className="text-current font-bold pb-3">Socials</div>
-        <a
-          href="https://twitter.com/ankr"
-          target="_blank"
-          rel="noopener"
-          className="no-underline text-current font-semibold"
-        >
-          Twitter
-        </a>
-        <a
-          href="https://t.me/ankrnetwork"
-          target="_blank"
-          rel="noopener"
-          className="no-underline text-current font-semibold"
-        >
-          Telegram
-        </a>
-        <a
-          href="https://discord.gg/ankr/"
-          target="_blank"
-          rel="noopener"
-          className="no-underline text-current font-semibold"
-        >
-          Discord
-        </a>
-        <a
-          href="https://medium.com/ankr-network"
-          target="_blank"
-          rel="noopener"
-          className="no-underline text-current font-semibold"
-        >
-          Medium
-        </a>
-        <a
-          href="https://www.reddit.com/r/Ankrofficial/"
-          target="_blank"
-          rel="noopener"
-          className="no-underline text-current font-semibold"
-        >
-          Reddit
-        </a>
-        <a
-          href="https://www.instagram.com/ankr/"
-          target="_blank"
-          rel="noopener"
-          className="no-underline text-current font-semibold"
-        >
-          Instagram
-        </a>
-      </div>
     </div>
-  ),
+  },
 };
