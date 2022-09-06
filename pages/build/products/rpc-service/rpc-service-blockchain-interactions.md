@@ -36,8 +36,8 @@ The block provides information on the means to query the blockchain, to access r
 
   * **Infrastructure**: 
 
-    * **Security**: enables creating an extra layer of security to your requests via adding allowed domains or IP addresses into the whitelist. That means that to send a request to the endpoint, your domain or IP address has to be indicated as an allowed one, and your request has to contain that allowed domain or IP address in either the `origin` or `referer` header parameters:
-      ```sh
+    * **Security**: enables creating an extra layer of security to your requests via adding allowed domains or IP addresses into the whitelist. That means that to send a request to the endpoint, your domain or IP address has to be indicated as an allowed one, and your request has to contain that allowed domain or IP address in either the `origin` or `referer` header parameters:     
+      ```shell
       origin: https://your-allowed-domain.com
       referer: https://your-allowed-domain.com
       ```

@@ -1,8 +1,8 @@
 {
-  "ac-rpc-endpoints": "RPC Endpoints",
-  "ac-validator-nodes": "Validator Nodes",
-  "ac-testnet-faucet": "TestNet Faucet",
-  "ac-block-explorer": "Block Explorer",
-  "ac-staking-ui": "Staking UI"
+  "app-chain-rpc-endpoints": "RPC Endpoints",
+  "app-chain-validator-nodes": "Validator Nodes",
+  "app-chain-testnet-faucet": "TestNet Faucet",
+  "app-chain-block-explorer": "Block Explorer",
+  "app-chain-staking-ui": "Staking UI"
 
 }

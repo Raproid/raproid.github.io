@@ -22,18 +22,14 @@ No, you can stake at your discretion, unlimited. You should know that currently 
 
 Currently, unstaking is not available, as this functionality is not yet supported by Ethereum.
 
-Unstaking will be enabled after in the [Shanghai upgrade that will follow The Merge in 6-12 months](https://ethereum.org/en/upgrades/merge/#misconceptions). 
+Unstaking will be enabled after in the Shanghai upgrade that will follow The Merge in 6-12 months. 
 
-Overall, it looks like Shanghai is going to come in ~Q2/Q3 2023. 
+Overall, it looks like Shanghai is going to come in ~Q2/Q3 2023.
 
 
 ### How long does it take to unstake my ETH?
 
-Currently, unstaking is not available, as this functionality is not yet supported by Ethereum.
-
-Unstaking will be enabled after in the [Shanghai upgrade that will follow The Merge in 6-12 months](https://ethereum.org/en/upgrades/merge/#misconceptions). 
-
-Overall, it looks like Shanghai is going to come in ~Q2/Q3 2023.
+Currently, there is no unbonding period, as there is no unstaking for ETH. This functionality is to be implemented by the Ethereum team in future updates.
 
 
 ### How do I receive rewards? 
@@ -86,4 +82,4 @@ You can also use your Liquid Staking tokens to:
 
 ### Can I get staking metrics for my integration?
 
-Yes, if you want to integrate Ankr Liquid Staking into your product, read [Liquid Staking Metrics](/stake/for-integrators/restful-api/staking-metrics/).
+Yes, if you want to integrate Ankr Liquid Staking into your product, read [Liquid Staking Metrics](https://ankr.com/docs/staking/extra/staking-metrics).

@@ -66,7 +66,7 @@ See the response parameters' data model in Swagger.
 
 #### Request
 
-```sh
+```shell
 curl --location --request POST 'https://rpc.ankr.com/multichain' \
 --header 'Content-Type: application/json' \
 --header 'X-API-KEY: {{KEY}}' \
@@ -246,7 +246,7 @@ See the response parameters' data model in Swagger.
 
 #### Request
 
-```sh
+```shell
 curl --location --request POST 'https://rpc.ankr.com/multichain' \
 --header 'Content-Type: application/json' \
 --header 'X-API-KEY: {{KEY}}' \
@@ -435,7 +435,7 @@ See the response parameters' data model in Swagger.
 
 #### Request
 
-```sh
+```shell
 curl --location --request POST 'https://rpc.ankr.com/multichain' \
 --header 'Content-Type: application/json' \
 --header 'X-API-KEY: {{KEY}}' \
@@ -548,7 +548,7 @@ See the response parameters' data model in Swagger.
 
 #### Request
 
-```sh
+```shell
 curl --location --request POST 'https://rpc.ankr.com/multichain' \
 --header 'Content-Type: application/json' \
 --header 'X-API-KEY: {{KEY}}' \
@@ -690,7 +690,7 @@ See the response parameters' data model in Swagger.
 
 #### Request
 
-```sh
+```shell
 curl --location -g --request POST 'https://rpc.ankr.com/multichain' \
 --header 'Content-Type: application/json' \
 --header 'X-API-KEY: {{KEY}}' \

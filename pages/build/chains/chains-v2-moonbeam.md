@@ -95,7 +95,7 @@ In the code samples below, use **EITHER** the public endpoint **OR** the premium
     "Ethers.js",
   ]}
 >
-  <Tab>
+  <Nextra.Tab>
 ```
 const Web3 = require('web3'); //Load Web3 library
 
@@ -106,7 +106,7 @@ const web3 = new Web3("https://rpc.ankr.com/moonbeam/YOUR-API-KEY"); // Premium 
 
 ```
   </Tab>
-  <Tab>
+  <Nextra.Tab>
 ```
 const ethers = require('ethers');
 
@@ -121,7 +121,7 @@ const provider = new ethers.providers.StaticJsonRpcProvider(providerURL, {
 });
 ```
   </Tab>
-</Tabs>
+</Nextra.Tabs>
 
 
 

@@ -2,7 +2,6 @@
 
 Check the [Stake MATIC](https://www.ankr.com/docs/staking/liquid-staking/matic/stake-matic) user guide.
 
-
 ### What is the minimum and maximum amount of MATIC I can stake?
 
 Minimum amount: 
@@ -85,4 +84,4 @@ You can also use your Liquid Staking tokens to:
 
 ### Can I get staking metrics for my integration?
 
-Yes, if you want to integrate Ankr Liquid Staking into your product, read [Liquid Staking Metrics](/stake/for-integrators/restful-api/staking-metrics/).
+Yes, if you want to integrate Ankr Liquid Staking into your product, read [Liquid Staking Metrics](https://ankr.com/docs/staking/extra/staking-metrics).

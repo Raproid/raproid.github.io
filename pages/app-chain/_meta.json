@@ -1,8 +1,8 @@
 {
-  "ac-overview": "Overview",
+  "app-chain-overview": "Overview",
   "components": "Components",
   "use-cases": "Use Cases",
   "affiliated-chain": "Affiliated Chains",
-  "ac-exchange-readiness": "Exchange-Readiness Program",
-  "ac-start-with": "Start with App Chains"
+  "app-chain-exchange-readiness": "Exchange-Readiness Program",
+  "app-chain-start-with": "Start with App Chains"
 }

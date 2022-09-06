@@ -35,37 +35,37 @@ Gets a list of NFTs (ERC721/ERC1155/ENS/POAP) associated with an account specifi
   ]}
 >
   <Tab>
-  ```json
-  {
-      "jsonrpc": "2.0",
-      "method": "ankr_getNFTsByOwner",
-      "params": {
-          "blockchain": "eth",
-          "filter": [
-          {
-            "additionalProp1": [
-              "string"
-            ],
-            "additionalProp2": [
-              "string"
-            ],
-            "additionalProp3": [
-              "string"
-            ]
-          }
-      ],
-          "walletAddress": "0x40a8396b83f84e8380f5fee85cd746fe14cb7330",
-          "pageSize": 1,
-          "pageToken": ""
-      },
-      "id": 1
-  }
-  ```
+```json
+{
+    "jsonrpc": "2.0",
+    "method": "ankr_getNFTsByOwner",
+    "params": {
+        "blockchain": "eth",
+        "filter": [
+        {
+          "additionalProp1": [
+            "string"
+          ],
+          "additionalProp2": [
+            "string"
+          ],
+          "additionalProp3": [
+            "string"
+          ]
+        }
+    ],
+        "walletAddress": "0x40a8396b83f84e8380f5fee85cd746fe14cb7330",
+        "pageSize": 1,
+        "pageToken": ""
+    },
+    "id": 1
+}
+```
   </Tab>
   <Tab>
-  ```shell
-  Content-Type: application/json
-  ```
+```sh
+Content-Type: application/json
+```
   </Tab>
 </Tabs>
 
@@ -83,7 +83,7 @@ A successful response contains the following parameters:
 
   * `blockchain` (string; required): one of the supported chains (`eth`, `bsc`, `fantom`, `avalanche`, `polygon`, `arbitrum`, `syscoin`, `optimism`).
   * `collectionName` (string): a collection name the NFT asset belongs to.
-  * `contractAddress` (string): an NFT collection's EVM-compatible contract address; supports the Ethereum Name Service (ENS).
+  * `contractAddress` (string): an NFT collection's EVM-compatible contract address.
   * `contractType` (int32): a type of the contract — either ERC721 or ERC1155.
   * `name` (string): a name of the NFT asset.
   * `tokenId` (string): an ID of the NFT asset.
@@ -99,7 +99,7 @@ A successful response contains the following parameters:
 
 #### Request
 
-```sh
+```shell
 curl --location --request POST 'https://rpc.ankr.com/multichain' \
 --header 'Content-Type: application/json' \
 --data-raw '{
@@ -380,7 +380,7 @@ A successful request returns, along with the general parameters, the `result` ob
 
 #### Request
 
-```sh
+```shell
 curl --location --request POST 'https://rpc.ankr.com/multichain' \
 --header 'Content-Type: application/json' \
 --data-raw '{
@@ -557,7 +557,7 @@ A successful request returns a list of holders for the NFT specified.
 
 #### Request
 
-```sh
+```shell
 curl --location --request POST 'https://rpc.ankr.com/multichain' \
 --header 'Content-Type: application/json' \
 --header 'x-api-key: {{KEY}} \
