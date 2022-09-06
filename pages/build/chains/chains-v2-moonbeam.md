@@ -95,35 +95,33 @@ In the code samples below, use **EITHER** the public endpoint **OR** the premium
     "Ethers.js",
   ]}
 >
-  <Nextra.Tab>
-```
-const Web3 = require('web3'); //Load Web3 library
-
-// Create local Web3 instance - set Moonbeam as provider
-const web3 = new Web3("https://rpc.ankr.com/moonbeam"); // Public RPC URL
-
-const web3 = new Web3("https://rpc.ankr.com/moonbeam/YOUR-API-KEY"); // Premium RPC URL
-
-```
+  <Tab>
+    ```
+    const Web3 = require('web3'); //Load Web3 library
+    
+    // Create local Web3 instance - set Moonbeam as provider
+    const web3 = new Web3("https://rpc.ankr.com/moonbeam"); // Public RPC URL
+    
+    const web3 = new Web3("https://rpc.ankr.com/moonbeam/YOUR-API-KEY"); // Premium RPC URL
+    
+    ```
   </Tab>
-  <Nextra.Tab>
-```
-const ethers = require('ethers');
-
-const providerURL = "https://rpc.ankr.com/moonbeam"; // Public RPC URL
-
-const providerURL = "https://rpc.ankr.com/moonbeam/YOUR-API-KEY"; // Premium RPC URL
-
-// Define Provider
-const provider = new ethers.providers.StaticJsonRpcProvider(providerURL, {
-    chainId: 1284,
-    name: 'moonbeam'
-});
-```
+  <Tab>
+    ```
+    const ethers = require('ethers');
+    
+    const providerURL = "https://rpc.ankr.com/moonbeam"; // Public RPC URL
+    
+    const providerURL = "https://rpc.ankr.com/moonbeam/YOUR-API-KEY"; // Premium RPC URL
+    
+    // Define Provider
+    const provider = new ethers.providers.StaticJsonRpcProvider(providerURL, {
+        chainId: 1284,
+        name: 'moonbeam'
+    });
+    ```
   </Tab>
-</Nextra.Tabs>
-
-
+</Tabs>
 
 ### Using Substrate API libraries
 
