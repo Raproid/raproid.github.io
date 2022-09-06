@@ -1,4 +1,4 @@
-import Callout from 'nextra-theme-docs/callout'
+import { Callout } from "nextra-theme-docs";
 import { OpenUrl, Code } from "../../components";
 
 # Welcome to Ankr Build 👋
