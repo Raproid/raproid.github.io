@@ -19,7 +19,7 @@
   resolved "https://registry.yarnpkg.com/@heroicons/react/-/react-1.0.6.tgz#35dd26987228b39ef2316db3b1245c42eb19e324"
   integrity sha512-JJCXydOFWMDpCP4q13iEplA503MQO3xLoZiKum+955ZCtHINWnx26CUxVxxFQu/uLb4LW3ge15ZpzIkXKkJ8oQ==
 
-"@mdx-js/mdx@^2.1.2":
+"@mdx-js/mdx@^2.1.3":
   version "2.1.3"
   resolved "https://registry.yarnpkg.com/@mdx-js/mdx/-/mdx-2.1.3.tgz#d5821920ebe546b45192f4c7a64dcc68a658f7f9"
   integrity sha512-ahbb47HJIJ4xnifaL06tDJiSyLEy1EhFAStO7RZIm3GTa7yGW3NGhZaj+GUCveFgl5oI54pY4BgiLmYm97y+zg==
@@ -1806,10 +1806,10 @@ next@^12.2.0:
     "@next/swc-win32-ia32-msvc" "12.2.5"
     "@next/swc-win32-x64-msvc" "12.2.5"
 
-nextra-theme-docs@^2.0.0-beta.24:
-  version "2.0.0-beta.24"
-  resolved "https://registry.yarnpkg.com/nextra-theme-docs/-/nextra-theme-docs-2.0.0-beta.24.tgz#ceca10a25bb95a3cdd5239123fe9b6e63857ef44"
-  integrity sha512-GK8cEtxHoFl/FJGOB0I22HdwzVZA2PG4ovZ287kTODmIxT5ies06T6pznZJWmMzGdo/DTpzBr3L/CPiRcpU51w==
+nextra-theme-docs@^2.0.0-beta.25:
+  version "2.0.0-beta.25"
+  resolved "https://registry.yarnpkg.com/nextra-theme-docs/-/nextra-theme-docs-2.0.0-beta.25.tgz#3d4317c7f3500f5141baf02aaee14d1c182539e2"
+  integrity sha512-fvvSuH3IGUKofE0KN94Kh7JxmbkMFh+tnPC4cyZZQCU8U1QYB4EU5WcPTVTFsRg2nw9qTqy5AUQm5aMXUfyaRw==
   dependencies:
     "@headlessui/react" "^1.6.5"
     "@mdx-js/react" "^2.1.2"
@@ -1823,25 +1823,25 @@ nextra-theme-docs@^2.0.0-beta.24:
     next-themes "^0.2.0-beta.2"
     parse-git-url "^1.0.1"
     scroll-into-view-if-needed "^2.2.29"
-    title "^3.5.1"
 
-nextra@^2.0.0-beta.24:
-  version "2.0.0-beta.24"
-  resolved "https://registry.yarnpkg.com/nextra/-/nextra-2.0.0-beta.24.tgz#de269eafa0f3cf1d151e3a2a907b4bfc6f3e6df6"
-  integrity sha512-vGIHxc84yV0igLYwOvYTAZD5CkJkipMDU6Qm0mWfANb1QiI3WbAL/LRdHj5Jl1H9h3IZ/Hz3QAEmRhjR5cXQBA==
+nextra@^2.0.0-beta.25:
+  version "2.0.0-beta.25"
+  resolved "https://registry.yarnpkg.com/nextra/-/nextra-2.0.0-beta.25.tgz#b2670742f61b0b345d5788db4b2ff6242af3bd86"
+  integrity sha512-fNAlD7+M/o5ZdvoH5YuF+Znv7n4K5kpl3tLoEQl2dkpjLZDuptKtyVV95F2//kraVqthEg5uji8ZWThbwCPkpA==
   dependencies:
-    "@mdx-js/mdx" "^2.1.2"
+    "@mdx-js/mdx" "^2.1.3"
     "@napi-rs/simple-git" "^0.1.8"
     github-slugger "^1.4.0"
     graceful-fs "^4.2.10"
     gray-matter "^4.0.3"
-    react-children-utilities "^2.8.0"
     rehype-mdx-title "^1.0.0"
     rehype-pretty-code "0.2.4"
     remark-gfm "^3.0.1"
     remark-reading-time "^2.0.1"
     shiki "0.10.1"
     slash "^3.0.0"
+    title "^3.5.3"
+    unist-util-visit "^4.1.1"
 
 node-releases@^2.0.6:
   version "2.0.6"
@@ -2053,11 +2053,6 @@ quick-lru@^5.1.1:
   version "5.1.1"
   resolved "https://registry.yarnpkg.com/quick-lru/-/quick-lru-5.1.1.tgz#366493e6b3e42a3a6885e2e99d18f80fb7a8c932"
   integrity sha512-WuyALRjWPDGtt/wzJiadO5AXY+8hZ80hVpe6MyivgraREW751X3SbhRvG3eLKOYN+8VEvqLcf3wdnt44Z4S4SA==
-
-react-children-utilities@^2.8.0:
-  version "2.8.0"
-  resolved "https://registry.yarnpkg.com/react-children-utilities/-/react-children-utilities-2.8.0.tgz#ab6866249bcf1729fe463128de5e15074f43caaa"
-  integrity sha512-g42oRsZLrFJgCcIdK1lad1CWujNH4gh1Cp1lsMQpHWdDjWQ8gUlaBebgy2iXofyPEpfJ4T/xt4qWrvDkgVCCNg==
 
 react-dom@^17.0.2:
   version "17.0.2"
@@ -2406,7 +2401,7 @@ tiny-warning@^1.0.3:
   resolved "https://registry.yarnpkg.com/tiny-warning/-/tiny-warning-1.0.3.tgz#94a30db453df4c643d0fd566060d60a875d84754"
   integrity sha512-lBN9zLN/oAf68o3zNXYrdCt1kP8WsiGW8Oo2ka41b2IM5JL/S1CTyX1rW0mb/zSuJun0ZUrDxx4sqvYS2FWzPA==
 
-title@^3.5.1:
+title@^3.5.3:
   version "3.5.3"
   resolved "https://registry.yarnpkg.com/title/-/title-3.5.3.tgz#b338d701a3d949db6b49b2c86f409f9c2f36cd91"
   integrity sha512-20JyowYglSEeCvZv3EZ0nZ046vLarO37prvV0mbtQV7C8DJPGgN967r8SJkqd3XK3K3lD3/Iyfp3avjfil8Q2Q==
@@ -2561,7 +2556,7 @@ unist-util-visit@^3.1.0:
     unist-util-is "^5.0.0"
     unist-util-visit-parents "^4.0.0"
 
-unist-util-visit@^4.0.0:
+unist-util-visit@^4.0.0, unist-util-visit@^4.1.1:
   version "4.1.1"
   resolved "https://registry.yarnpkg.com/unist-util-visit/-/unist-util-visit-4.1.1.tgz#1c4842d70bd3df6cc545276f5164f933390a9aad"
   integrity sha512-n9KN3WV9k4h1DxYR1LoajgN93wpEi/7ZplVe02IoB4gH5ctI1AaF2670BLHQYbwj+pY83gFtyeySFiyMHJklrg==
